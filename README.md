@@ -1,3 +1,7 @@
+[Matous Holinka (sika.io)](https://www.linkedin.com/in/matous-holinka/) | <bralor92@email.cz> | [go to course ->](https://engeto.com/) | [install python ->](https://docs.python.org/3/using/index.html)
+
+![](images/python.png)
+
 ## UPDATES:
     - complete the presentation
     - complete new lessons (README.md for each lesson would be great)
@@ -8,7 +12,7 @@
         - [chat](https://tlk.io/)
         - [slack](https://slack.com/intl/en-cz/)
 
-# Vitejte na Python akademii 2020
+# Python academy 2020
 
 ## Kdo jsem, co delam?
     Matous Holinka <bralor92@email.cz>
