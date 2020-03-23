@@ -3,10 +3,10 @@
 ![](images/python.png)
 
 ## UPDATES:
-Useful links:
-    - [large typing](https://large-type.com/#*hello*)
-    - [chat](https://tlk.io/)
-    - [slack](https://slack.com/intl/en-cz/)
+Useful links/ uzitecne odkazy:
+- [large typing](https://large-type.com/#*hello*)
+- [chat](https://tlk.io/)
+- [slack](https://slack.com/intl/en-cz/)
 
 # Python academy 2020
 ## EN
