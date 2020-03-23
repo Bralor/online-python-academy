@@ -1,4 +1,4 @@
-[Matous Holinka (sika.io)](https://www.linkedin.com/in/matous-holinka/) | <bralor92@email.cz> | [go to course ->](https://engeto.com/) | [install python ->](https://docs.python.org/3/using/index.html)
+[Matous Holinka](https://www.linkedin.com/in/matous-holinka/) | <bralor92@email.cz> | [go to Engeto -->](https://engeto.com/) | [install python ->](https://docs.python.org/3/using/index.html)
 
 ![](images/python.png)
 
