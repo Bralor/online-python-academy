@@ -47,4 +47,4 @@ cena = SEZNAM_CEN[por_cislo - 1]
 print("UZIVATEL: " + jmeno)
 print("DESTINACE: " + destinace)
 print("CENA(cil:" + destinace + "): " + str(cena))
-print(f"Listek posleme na Vasi emailovou adresu: {email}")
+print(f"Jizdenku posleme na Vasi emailovou adresu: {email}")
