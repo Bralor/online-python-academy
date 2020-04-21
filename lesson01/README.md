@@ -88,7 +88,6 @@ Hodnoty zapisujeme pomoci celych cisel
 ```
 
 ## Floats
-#### EN
 We write values as decimal number. The separator is dot! Decimal point is used for other purposes.
 
 #### CZ
