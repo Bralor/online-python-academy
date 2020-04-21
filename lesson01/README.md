@@ -6,7 +6,6 @@
 # Important links
 
 - [Python Academy](https://docs.google.com/presentation/d/1rz0A46HDcbyAdZMLucDNtpOg1RgB-Y_FIhyeHceTfm4/edit)
-- [Lecturer notes](https://drive.google.com/drive/folders/1uZjKkyZ-OuOPmyh_mb6yei2Akn555EKL)
 
 # Our first project
 We will create simple script named "Destinatio". This program will communicate with the user (note: input/ouput)
