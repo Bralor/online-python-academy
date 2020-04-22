@@ -5,7 +5,11 @@
 
 # Important links
 
+<<<<<<< HEAD
 - [Python Academy](https://docs.google.com/presentation/d/1rz0A46HDcbyAdZMLucDNtpOg1RgB-Y_FIhyeHceTfm4/edit)
+=======
+- [Python Academy](https://engeto.com/cs/kurz/online-python-akademie/lekce)
+>>>>>>> mh-lesson01-link
 
 # Our first project
 We will create simple script named "Destinatio". This program will communicate with the user (note: input/ouput)
