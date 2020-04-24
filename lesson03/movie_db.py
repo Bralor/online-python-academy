@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 """ Lekce #3 - Uvod do programovani, Movie dictionary """
 from pprint import pprint as pp
@@ -5,6 +6,7 @@ from pprint import pprint as pp
 # I. KROK
 # Zkopirujeme zadane slovniky
 # Vytvorim novy (prazdny) slovnik
+ODDELOVAC = '=' * 39
 film1 = {
     "JMENO": "Shawshank Redemption",
     "HODNOCENI": 93,
@@ -69,24 +71,28 @@ filmova_db = {}
 
 filmova_db[film1["JMENO"]] = film1
 filmova_db[film2["JMENO"]] = film2
-filmova_db[film3["JMENO"]] = film3
 
 # VI. KROK
 # Vytvorime pomyslneho interpreta nasi db
 # Ten predstavi nase filmy
-print()
+print(ODDELOVAC)
 print("Vitejte v nasi skromne filmove databazi")
 print(
-    f"""Mame v nabidce tyto snimky:
+    f"""{ODDELOVAC}
+Mame v nabidce tyto snimky:
 {list(filmova_db.keys())}
 """
 )
 
 # VII. KROK
 # Vyzkousime metodu slovniku .get()
+print(ODDELOVAC)
 film = input("Vyberte film: ")
 
+print(ODDELOVAC)
 pp(filmova_db.get(film, "Vami zadany film neni v db"))
 
 # VIII. KROK
 # Vyzkousime metodu slovniku .setdefault()
+# pp(filmova_db.get(film, filmova_db.setdefault(film, )))
+pp(filmova_db)
