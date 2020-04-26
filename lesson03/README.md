@@ -12,7 +12,33 @@
 # Movie_dictionary
 
 
-## Nas cil
+## Dnesni ukoly
+Vypracovani dvou kratkych ukolu, kde si vysvetlime zaklady pro praci s novymi datovymi typy. Prvni ukol "movie_db.py" je zamereny na seznameni se se slovniky (dictionaries) a druhy ukol "hogw_subj.py" nas seznami s mnozinami (sety).
+
+# Nase cile
+Nas zaverecny vystup pro prvni ulohu:
+```
+=======================================
+Vitejte v nasi skromne filmove databazi
+=======================================
+Mame v nabidce tyto snimky:
+['Shawshank Redemption', 'The Godfather']
+
+=======================================
+Vyberte film: The Godfather
+=======================================
+{'HODNOCENI': 92,
+ 'HRAJI': ['Al Pacino', 'Marlon Brando'],
+ 'JMENO': 'The Godfather',
+ 'REZISER': 'Francis Ford Coppola',
+ 'ROK': 1972,
+ 'STOPAZ': '175 min'}
+```
+
+Druha uloha:
+```
+
+```
 
 # Prerequisites
 Zkopirujeme zadane slovniky do noveho souboru:
@@ -45,3 +71,63 @@ film3 = {
 }
 ```
 
+# Postup I.
+Vytvorime si novy soubor, pojmenujeme jej "movie_db.py" a zkopirujeme nasledujici sablonu:
+```
+#!/usr/bin/env python3
+""" Lekce #3 - Uvod do programovani, Movie dictionary """
+# ~~~~~~~~~~~~~~~~~~~ZADANI ULOHA I~~~~~~~~~~~~~~~~~~~
+...
+# ~~~~~~~~~~~~~~~~~~~~KONEC ZADANI~~~~~~~~~~~~~~~~~~~~
+
+# I. KROK
+# Vytvorim novy (prazdny) slovnik + oddelovac
+
+
+# II. KROK
+# Vlozime klice (opet zatim prazdne)
+
+
+# III. KROK
+# Doplnime hodnoty klicu
+# Primo + update() metodou
+# Kombinace s input()
+
+
+# IV. KROK
+# Vytvorime dalsi dva klice s hodnotami
+# Klic *STOPAZ* odstranime pomoci metody *pop*
+# Z klice *HRAJI* odstranime pomoci funkce *del*
+
+
+# V. KROK
+# Vytvorime novy slovnik *filmova_db*
+# Nestujeme dva zbyvajici slovniky ze zadani
+
+
+# VI. KROK
+# Vytvorime pomyslneho interpreta nasi db
+# Ten predstavi nase filmy
+
+
+# VII. KROK
+# Vyzkousime metodu slovniku .get()
+
+
+# VIII. KROK
+# Vyzkousime metodu slovniku .setdefault()
+# pp(filmova_db.get(film, filmova_db.setdefault(film, )))
+
+```
+
+# Cheatsheet s priklady
+## Vytvoreni slovniku
+
+
+## Vkladani klicu
+
+## Mazani klicu
+
+## Nestovani
+
+## Metody slovniku
