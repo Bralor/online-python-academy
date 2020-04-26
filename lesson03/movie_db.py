@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 """ Lekce #3 - Uvod do programovani, Movie dictionary """
 from pprint import pprint as pp
@@ -6,7 +5,7 @@ from pprint import pprint as pp
 # I. KROK
 # Zkopirujeme zadane slovniky
 # Vytvorim novy (prazdny) slovnik
-ODDELOVAC = '=' * 39
+ODDELOVAC = "=" * 39
 film1 = {
     "JMENO": "Shawshank Redemption",
     "HODNOCENI": 93,
@@ -95,4 +94,3 @@ pp(filmova_db.get(film, "Vami zadany film neni v db"))
 # VIII. KROK
 # Vyzkousime metodu slovniku .setdefault()
 # pp(filmova_db.get(film, filmova_db.setdefault(film, )))
-pp(filmova_db)
