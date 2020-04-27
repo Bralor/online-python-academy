@@ -1,109 +1,85 @@
 #!/usr/bin/env python3
-"""
-Lekce c. 3, druhy projekt - Skolni rozvrh
--------------------------------------------------------------------------------
-SKUP_1 = ['Adam','Chelsea','Marcus','Oliver','Alex','Sandra','Ann',
-		  'Ron', 'Hermiona]
-SKUP_2 = ['Marcus','Alex','Glenn','Samuel', 'Hermiona', 'Clara','Chelsea']
-SKUP_3 = ['Hermiona', 'Adam','Tyler', 'Alex','Clara']
-SKUP_4 = ['Abraham','Marcus', 'Hermiona', 'Alex','Glenn','Clara']
-SKUP_5 = ['Alfred', 'Curt','Oliver','Tyler', 'Hermiona', 'Ann']
+"""Lekce c. 3, druhy projekt - Skolni rozvrh"""
+# -------------------------------------------------------------------------------
+# PREDMETY = ('Premenovani', 'Astronomie', 'Obrana_proti_cerne_magii',
+# 'Bylinkarstvi', 'Lektvary')
 
-PREDMETY = ['Premenovani', 'Astronomie', 'Obrana_proti_cerne_magii',
-		'Bylinkarstvi', 'Lektvary']
--------------------------------------------------------------------------------
-"""
-# Pomocny balicek, vyznam budeme probirat pozdeji
-# Zde pouzivam pouze pro lepsi output
-from pprint import pprint as pp
-
-# P11
-# Vytvorim prazdny slovnik "tridy"
+# SKUP_PREMENOVANI = ['Adam','Chelsea','Marcus','Oliver','Alex','Sandra','Ann',
+#   'Ron', 'Hermiona]
+# SKUP_ASTRONOMIE = ['Marcus','Alex','Glenn','Samuel', 'Hermiona', 'Clara','Chelsea']
+# SKUP_OBRANA = ['Hermiona', 'Adam','Tyler', 'Alex','Clara']
+# SKUP_BYLINKARSTVI = ['Abraham','Marcus', 'Hermiona', 'Alex','Glenn','Clara']
+# SKUP_LEKTVARY = ['Alfred', 'Curt','Oliver','Tyler', 'Hermiona', 'Ann']
+#
+# -------------------------------------------------------------------------------
+# I. KROK
+# Vytvorim prazdny slovnik "rozvrh"
 ROZVRH = {}
 
-# P12
-# Definujeme predmety
-PREDMETY = ('Premenovani', 'Astronomie', 'Obrana_proti_cerne_magii',
-			'Bylinkarstvi', 'Lektvary')
+# II. KROK
+# Klice slovniku budou stringy z promenne PREDMETY
+# Hodnoty klicu jsou seznamy skupin
+ROZVRH["Premenovani"] = [
+    "Adam",
+    "Chelsea",
+    "Marcus",
+    "Oliver",
+    "Alex",
+    "Sandra",
+    "Ann",
+    "Ron",
+    "Hermiona",
+]
+ROZVRH["Astronomie"] = [
+    "Marcus",
+    "Alex",
+    "Glenn",
+    "Samuel",
+    "Hermiona",
+    "Clara",
+    "Chelsea",
+]
+ROZVRH["Obrana_proti_cerne_magii"] = ["Hermiona", "Adam", "Tyler", "Alex", "Clara"]
+ROZVRH["Bylinkarstvi"] = ["Abraham", "Marcus", "Hermiona", "Alex", "Glenn", "Clara"]
+ROZVRH["Lektvary"] = ["Alfred", "Curt", "Oliver", "Tyler", "Hermiona", "Ann"]
 
-# P13
-# Propojime jmena predmetu s klici slovniku
-ROZVRH[PREDMETY[0]] = None
-ROZVRH[PREDMETY[1]] = None
-ROZVRH[PREDMETY[2]] = None
-ROZVRH[PREDMETY[3]] = None
-ROZVRH[PREDMETY[4]] = None
+# III. KROK
+# Vytvorime sety studentu v jednotlivych klicich
+set_premenovani = set(ROZVRH["Premenovani"])
+set_astronomie = set(ROZVRH["Astronomie"])
+set_obrana = set(ROZVRH["Obrana_proti_cerne_magii"])
+set_bylinkarstvi = set(ROZVRH["Bylinkarstvi"])
+set_lektvary = set(ROZVRH["Lektvary"])
 
-# Doplnime studeny po skupinach k jednotlivymi predmetum
-SKUP_1 = ['Adam','Chelsea','Marcus','Oliver','Alex','Sandra','Ann',
-		  'Ron', 'Hermiona']
-SKUP_2 = ['Marcus','Alex','Glenn','Samuel', 'Hermiona', 'Clara','Chelsea']
-SKUP_3 = ['Hermiona', 'Adam','Tyler', 'Alex','Clara']
-SKUP_4 = ['Abraham','Marcus', 'Hermiona', 'Alex','Glenn','Clara']
-SKUP_5 = ['Alfred', 'Curt','Oliver','Tyler', 'Hermiona', 'Ann']
-
-# P14
-# Priradime skupiny do jednotlivych predmetu
-ROZVRH.update(Premenovani = SKUP_1)
-ROZVRH.update(Astronomie = SKUP_2)
-ROZVRH.update(Obrana_proti_cerne_magii = SKUP_3)
-ROZVRH.update(Bylinkarstvi = SKUP_4)
-ROZVRH.update(Lektvary = SKUP_5)
-
-
-# P15
-# Vytvorime dva sety ze predmetu *Premenovani* a *Astronomie*
-prem_s = set(ROZVRH['Premenovani'])
-astr_s = set(ROZVRH['Astronomie'])
-
-# P16
-# Do *set_premenovani* pridame *Harry*
-prem_s.add('Harry')
-
+# IV. KROK
+# Do *set_premenovani* studenta se jmenem *Harry*
 # Ze setu *set_astronomie* odebereme *Samuel*
-astr_s.discard('Samuel')
+set_premenovani.add("Harry")
+set_astronomie.discard("Samuel")
 
-# P17
-# Vypiseme zmeny pred a po
-print('Predmet *' + PREDMETY[0] + '* ma tyto studenty: ')
-print(prem_s, type(prem_s))
-print('Predmet *' + PREDMETY[1] + '* ma tyto studenty: ')
-print(astr_s, type(astr_s))
+# V. KROK
+# Vypiseme zmeny po pridani/odebrani
+print(f"PRED PRIDANIM CLENA: ")
+print(ROZVRH["Premenovani"])
+print(f"PO PRIDANI CLENA: ")
+print(set_premenovani, type(set_premenovani))
 
-# P18
-# Zjistime kdo navstevuje vsechny predmety
-print('Kdo se ucastni vsech predmetu: ')
-pp(
-	prem_s &
-	astr_s &
-	(set(ROZVRH['Obrana_proti_cerne_magii'])) &
-	(set(ROZVRH['Bylinkarstvi'])) &
-	(set(ROZVRH['Lektvary']))
-	)
-
-# P19
-# Dotazovani na podmnozinu pomoci input()
+# VI. KROK
+# Zjistime, kdo navstevuje vsechny predmety
 print()
-dotaz_1 = input(
-	'Je mnoz. *OBRANA_PROTI_CERNE_MAGII* podmnozinou setu PREMENOVANI?(y/n):'
-	)
+print("Kdo se ucastni vsech predmetu: ")
+print(set_premenovani & set_astronomie & set_obrana & set_bylinkarstvi & set_lektvary)
 
-if dotaz_1 == 'y':
-	print('BOHUZEL NENI PODMNOZINOU?','>>>', \
-			set(ROZVRH['Obrana_proti_cerne_magii']).issubset(prem_s))
-
-else:
-	print('SPRAVNA ODPOVED!')
-
+# X. KROK
+# bool test na podmnoziny (S.issubset())
+# Je vsichni studenti z hodin obrany v hodine premenovani
 print()
-dotaz_2 = input(
-	'Jsou jmena *Matous* a *Monika* mimo mnoz. *ASTRONOMIE*?(y/n):'
-	)
+dotaz_1 = set(ROZVRH["Obrana_proti_cerne_magii"]).issubset(set_premenovani)
+print(f"ODPOVED PODMNOZINY --> {dotaz_1}")
 
-if dotaz_2 == 'y':
-	print('SPRAVNA ODPOVED!','>>>', \
-			set({'Matous', 'Monika'}).disjoint(astr_s))
-
-else:
-	print('BOHUZEL NENI!','>>>', \
-			set({'Matous', 'Monika'}).disjoint(astr_s))
+# XI. KROK
+# S.isdisjoint()
+# Jsou studenti v prom. *NOVI_STUDENTI* uplne odlisne hodnoty nez jsou v setu *Astronomie*
+NOVI_STUDENTI = {"Matous", "Monika", "Aneta"}
+dotaz_2 = NOVI_STUDENTI.isdisjoint(set_astronomie)
+print(f"ODPOVED ODLISTNOST --> {dotaz_2}")
