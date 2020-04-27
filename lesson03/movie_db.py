@@ -41,10 +41,10 @@ film0["HODNOCENI"] = None
 film0["ROK"] = None
 film0["REZISER"] = None
 
-# # III. KROK
-# # Doplnime hodnoty klicu
-# # Primo + update() metodou
-# # Kombinace s input()
+# III. KROK
+# Doplnime hodnoty klicu
+# Primo + update() metodou
+# Kombinace s input()
 film0["JMENO"] = "Shawshank Redemption"
 film0.update(HODNOCENI=9.3)
 film0["REZISER"] = "Frank Darabont"
