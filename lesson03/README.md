@@ -128,19 +128,19 @@ novy_slovnik2 = { 'Jmeno' : 'Marek', 'Prijmeni' : 'Janek' }
 ```
 
 ## Vkladani klicu
-Klice (jmeno klice) musi byt unikatni. Prvni metoda vytvoreni klice pomoci hranate zavorky:
+[Klice](https://engeto.com/cs/kurz/online-python-akademie/studium/ZZi66nm0QT28RFgF_YobWQ/slovniky-a-mnoziny/slovniky/pridavani-prvku-do-slovniku) (jmeno klice) musi byt unikatni. Prvni metoda vytvoreni klice pomoci hranate zavorky:
 ```
 slovnik = dict()
 slovnik["Jmeno"] = "Matous"
 ```
-Pomoci metody .update()
+Pomoci metody *.update()*
 ```
 slovnik = dict()
 slovnik.update({"Jmeno": "Matous"})
 ```
 
 ## Mazani klicu
-1. zpusob jak mazat klic
+1. Zpusob jak [mazat](https://engeto.com/cs/kurz/online-python-akademie/studium/XV4c-mozS1WSYJyQhSMSGw/slovniky-a-mnoziny/slovniky/mazani-prvku-ze-slovniku) klic
 ```
 slovnik = dict()
 slovnik["JMENO"] = "Matous"
@@ -154,7 +154,7 @@ slovnik["JMENO"] = "Matous"
 slovnik["PRIJMENI"] = "Holinka"
 slovnik.pop("PRIJMENI")
 ```
-3. Zpusob .popitem() vrati naposledy pridanou polozku (par) do slovniku a odebere jej:
+3. Zpusob *.popitem()* vrati naposledy pridanou polozku (par) do slovniku a odebere jej:
 ```
 slovnik = dict()
 slovnik["JMENO"] = "Matous"
@@ -183,10 +183,11 @@ nadrazeny_slovnik["3_slovnik"] = potomek3
 - .values()
 
 ## Metody slovniku
-- .get() Najdu klic a vratim jeho hodnotu. Pokud neni muze vracet preddefinovanou zpravu
-.setdefault() Nastavi novy klic, pokud jej nenajde uvnitr slovniku, kam promennou ukladam. Defaultni hodnota "None".
+Vypis vsech metod najdete [zde](https://engeto.com/cs/kurz/online-python-akademie/studium/yafnwwwmSxWtNz8U3AtHbw/slovniky-a-mnoziny/slovniky/souhrn-metod-pro-slovniky)
+- *.get()* Najdu klic a vratim jeho hodnotu. Pokud neni muze vracet preddefinovanou zpravu
+- *.setdefault()* Nastavi novy klic, pokud jej nenajde uvnitr slovniku, kam promennou ukladam. Defaultni hodnota "None".
 
-# Subjects in Hogwarts
+# Hogwarts Subjects
 # Nas II. cil
 Nas zaverecny vystup pro druhy ukol:
 
@@ -267,10 +268,10 @@ Vytvorime si druhy soubor, pojmenujeme jej "hogw_subj.py" a zkopirujeme nasleduj
 
 # Cheatsheet s priklady
 ## Mnozina
-Mnozinou tedy oznacujeme neusporadanou kolekci unikatnich hodnot. Nema tedy poradi a zarucuje, ze kazda promenna je v nem je jedenkrat. Do mnoziny muzeme hodnoty pridavat/odebirat. 
+[Mnozinou](https://engeto.com/cs/kurz/online-python-akademie/studium/uH6mXn-GQXGk6caOgRvExQ/slovniky-a-mnoziny/mnoziny/princip-mnozin) tedy oznacujeme neusporadanou kolekci unikatnich hodnot. Nema tedy poradi a zarucuje, ze kazda promenna je v nem je jedenkrat. Do mnoziny muzeme hodnoty pridavat/odebirat. 
 
 ## Vytvoreni
-Vytvoreni pomoci dvou zpusobu:
+[Vytvoreni](https://engeto.com/cs/kurz/online-python-akademie/studium/ArzFlswCT3qr8HS9R_oYbg/slovniky-a-mnoziny/mnoziny/vytvoreni-mnozin) pomoci dvou zpusobu:
 ```
 novy_set = set(); type(novy_set)
 ```
@@ -280,7 +281,7 @@ novy_set2 = {"Matous", "Marek", "Lukas", "Jan"}; type(novy_set2)
 ```
 
 ## Manipulace
-Udaje muzeme pridavat a odebirat:
+Udaje muzeme [pridavat](https://engeto.com/cs/kurz/online-python-akademie/studium/SE1uomotQZG03KKaRj89iA/slovniky-a-mnoziny/mnoziny/pridavani-prvku-do-setu-mnoziny) a [odebirat](https://engeto.com/cs/kurz/online-python-akademie/studium/qPGN4qZZSDe-vVti5nokXQ/slovniky-a-mnoziny/mnoziny/mazani-prvku-ze-setu):
 ```
 novy_set = set()
 novy_set.add("Matous")
@@ -294,7 +295,7 @@ print(novy_set)
 [Seznam](https://engeto.com/cs/kurz/online-python-akademie/studium/6xiZIR4FS5iG2I27YUny2A/slovniky-a-mnoziny/mnoziny/sjednoceni-union) vsech operaci, ktere s mnozinami muzete provadet.
 
 ## Podmnozina
-Jde o vracenou boolean hodnotu, ktera popisuje jestli se vsechny prvky z jednoho setu nachazeji v setu druhem.
+Jde o vracenou boolean hodnotu, ktera popisuje jestli se vsechny prvky z jednoho setu [nachazeji](https://engeto.com/cs/kurz/online-python-akademie/studium/H5LbhZMlRSmoLZ6DRfDu1w/slovniky-a-mnoziny/mnoziny/podmnozina-subset) v setu druhem.
 ```
 >>> set1 = {"a", "b", "c", "d", "e"}
 >>> set2 = {"a", "b", "c"}
@@ -308,7 +309,7 @@ False
 ```
 
 ## Disjunkce
-Opet vracena hodnota je boolean hodnota. True znamena odpoved PRAVDA, pokud dva sety (a jejich hodnoty) nemaji zadnou spolecnou hodnotu.
+Opet vracena hodnota je boolean hodnota. True znamena odpoved PRAVDA, [pokud](https://engeto.com/cs/kurz/online-python-akademie/studium/VmUzGLdlR_CBIOO75Yfduw/slovniky-a-mnoziny/mnoziny/souhrn-kombinaci-setu) dva sety (a jejich hodnoty) nemaji zadnou spolecnou hodnotu.
 
 ```
 >>> set5 = {"a", "b", "c", "d", "e"}
