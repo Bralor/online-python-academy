@@ -187,6 +187,30 @@ Vypis vsech metod najdete [zde](https://engeto.com/cs/kurz/online-python-akademi
 - *.get()* Najdu klic a vratim jeho hodnotu. Pokud neni muze vracet preddefinovanou zpravu
 - *.setdefault()* Nastavi novy klic, pokud jej nenajde uvnitr slovniku, kam promennou ukladam. Defaultni hodnota "None".
 
+Metoda *get*
+```
+>>> slovnik1 = dict()
+>>> slovnik1["JMENO"] = "Matous"
+>>> slovnik1["PRIJMENI"] = "Holinka"a
+slovnik1["EMAIL"] = "matous@matous.cz"
+>>> slovnik1
+{'JMENO': 'Matous', 'PRIJMENI': 'Holinka', 'EMAIL': 'matous@matous.cz'}
+>>> slovnik1.get("EMAIL")
+'matous@matous.cz'
+>>> slovnik1.get("ADRESA", "Tento klic neni k dispozici")
+'Tento klic neni k dispozici'
+```
+Metoda setdefault
+```
+# pokracovani predchozi prikladu
+>>> slovnik1.setdefault("VEK")
+>>> slovnik1.setdefault("JMENO")
+'Matous'
+>>> slovnik1
+{'JMENO': 'Matous', 'PRIJMENI': 'Holinka', 'EMAIL': 'matous@matous.cz', 'VEK': None}
+
+```
+
 # Hogwarts Subjects
 # Nas II. cil
 Nas zaverecny vystup pro druhy ukol:
@@ -215,7 +239,7 @@ PREDMETY = (
     'Lektvary'
 )
 
-SKUP_PREMENOVANI = ['Adam','Chelsea','Marcus','Oliver','Alex','Sandra','Ann', 'Ron', 'Hermiona]
+SKUP_PREMENOVANI = ['Adam','Chelsea','Marcus','Oliver','Alex','Sandra','Ann', 'Ron', 'Hermiona']
 SKUP_ASTRONOMIE = ['Marcus','Alex','Glenn','Samuel', 'Hermiona', 'Clara','Chelsea']
 SKUP_OBRANA = ['Hermiona', 'Adam','Tyler', 'Alex','Clara']
 SKUP_BYLINKARSTVI = ['Abraham','Marcus', 'Hermiona', 'Alex','Glenn','Clara']
