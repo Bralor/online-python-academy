@@ -37,37 +37,43 @@ directly reserved packages you. Winter an silent favour of am tended mutual.
 jednotlive_slova = TEXT.split()
 
 # IV. KROK
-# Zakomentuj krok 1.
+# Zakomentuj krok 2.
 # Prochazime znovu
+# for slovo in jednotlive_slova:
+# V. KROK
+# Ocistime slova, ktera obsahuji interpunkci
+# ciste_slovo = slovo.strip(",.")
+# print(ciste_slovo)
+
 # Zkusime napsat pomoci *while* cyklu
 # while jednotlive_slova:
 #     slovo = jednotlive_slova.pop()
 #     print(slovo)
 
-for slovo in jednotlive_slova:
-
-    # V. KROK
-    # Ocistime slova, ktera obsahuji interpunkci
-    ciste_slovo = slovo.strip(".")
 
 # VI. KROK
+# Zakomentujeme krok 4.
+# Vyzkousime seznamovou komprehenci
 # Utridime slova do slovniku podle vyskytu
-uloziste_slov = {}
-cistic_slov = [slovo.strip(".") for slovo in jednotlive_slova]
-
-for ciste_slovo in cistic_slov:
-    uloziste_slov[ciste_slovo] = uloziste_slov.setdefault(ciste_slovo, 0) + 1
+vycistena_slova = [slovo.strip(".,") for slovo in jednotlive_slova]
 
 # VII. KROK
-# Vybere 5 nejcastejsich slov
-nejvic_vyskytu = max(uloziste_slov.values())
-pomocna_promenna = nejvic_vyskytu
+# Vytvorim pomocnou promennou *vyskyt_slov*
+# Pocitam vyskyt slov
+vyskyt_slov = {}
 
-for delka in range(nejvic_vyskytu, 0, -1):
-    print("=" * 30)
-    for item in uloziste_slov.items():
-        if item[1] == delka:
-            print(f"SLOVO: *{item[0]}*, VYSKYT: {item[1]}")
+for ciste_slovo in vycistena_slova:
+    vyskyt_slov[ciste_slovo] = vyskyt_slov.setdefault(ciste_slovo, 0) + 1
 
 # VIII. KROK
-# Hledame konkretni slovo a jeho poradi
+# Vybere 5 nejcastejsich slov
+nejcastejsi = sorted(vyskyt_slov, key=vyskyt_slov.get, reverse=True)[:5]
+
+# IX. KROK
+# Upravit vystup abych mel hodnoty rozdelene
+for cislo in range(len(nejcastejsi), 0, -1):
+    print("=" * 23)
+    for item in nejcastejsi:
+        print(f"SLOVO: *{item}*, VYSKYT: {vyskyt_slov[item]}x")
+        nejcastejsi.remove(item)
+        break
