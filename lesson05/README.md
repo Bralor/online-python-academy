@@ -7,12 +7,13 @@
 # Important links
 - [Python Academy](https://engeto.com/cs/kurz/online-python-akademie/studium/jZRrTgDlSMyRKeVTUD6vDA/range-a-smycka-for/obsah-a-prerekvizity)
 - [Sorted()](https://docs.python.org/3/library/functions.html#sorted)
+- [Seznamova komprehence](http://howto.py.cz/cap08.htm#10)
 
 # Dnesni ukol
 V ramci dnesni lekce budeme chtit dokoncit teorii o smyckach v Pythonu. Rekneme si obecne o jejich pouziti, doplnujici zpusob prace s nimi. Nakonec bychom si jeste ve zkratce ukazali praci s gitem.
 
 # Hledani nejcastejsich slov
-Na uvod mame nahodny text, s nimz dnes budeme pracovat. Cilem bude zjistit pet nejcastejsich slov, ktere se v textu vyskytuji.
+Spolecne si zadame nahodny text, s nimz dnes budeme pracovat. Cilem bude zjistit pet nejcastejsich slov, ktere se v textu vyskytuji.
 
 # Nas cil
 Vystup by na konci lekce mohl vypadat nasledovne:
@@ -75,7 +76,7 @@ XXXXXX
 ```
 
 # Cheatsheet s priklady
-# For cyklus
+## For cyklus
 Jde o dalsi zpusob, kterym v Pythonu muzu opakovat casti kodu. Zatim co *while* se opakoval, pokud byla explicitne zadana podminka vyhodnocena jako *True*, for cyklus bezi, dokud neprojde celou zadanou sadu udaju. Pripadne, pokud jej jinak neukoncime.
 
 Teorie:
@@ -98,7 +99,7 @@ Hammet
 Hetfield
 ```
 
-# Metoda stringu split()
+## Metoda stringu split()
 Metoda *.split(sep=None, maxsplit=-1)* vraci seznam ze zadane promenne. Tuto zadanou promennou rozdeli podle zadaneho oddelovace.
 
 Priklad:
@@ -109,7 +110,7 @@ print(VETA1.split("."))
 print(VETA1.split(".", maxsplit=1))
 ```
 
-# Metoda stringu strip()
+## Metoda stringu strip()
 Tato metoda vraci kopii zadaneho retezce (promenne), kdy z puvodniho udaje odstrani explicitne definovane symboly na zacatku/konci zadane promenne
 
 Priklad:
@@ -120,7 +121,7 @@ print(VETA2.strip())  # odstranime uvodni a zaverecne mezery
 print(VETA3.strip(".,"))  # odstranime uvodni a zaverecne carky/tecky
 ```
 
-# Seznamova komprehence
+## Seznamova komprehence
 Jde o skladebni predpis na vytvoreni seznamu. Je to dalsi zpusob jak pouzit *for cyklus* ve zkracenem zapisu (nemusi byt prehlednejsi a pouzitelny vzdy).
 
 Priklad:
@@ -129,7 +130,7 @@ VETA2 = "   Není trapnější hloupost, než dutý zvuk krásných a vznešený
 vycisteny_seznam = [slovo.strip(",.") for slovo in VETA2.split()]
 print(vycisteny_seznam)
 ```
-# Trideni
+## Trideni
 Pomoci zabudovane funkce *sorted()* muzeme docilit serazeni definovane promenne.
 
 Priklad:
@@ -140,8 +141,8 @@ print(sorted(HODNOTY))
 VYSKYT = {"A": 3, "B": 6, "C": 1, "D": 10}
 print(sorted(VYSKYT), key=VYSKYT.get, reversed=True)
 ```
-# Nestovane smycky for
-Princip nestovani, zanorovani je v podstate vkladani jedne smycky (vnitrni) do nejake jine (vnejsi).
+## Nestovane smycky for
+Princip [nestovani](https://engeto.com/cs/kurz/online-python-akademie/studium/HX7RYlaNSk2AjSbGAM_kXw/range-a-smycka-for/smycka-for/vnorene-smycky), zanorovani je v podstate vkladani jedne smycky (vnitrni) do nejake jine (vnejsi).
 
 Priklad:
 ```
@@ -190,7 +191,47 @@ BUNKA cislo 3
 BUNKA cislo 4
 
 ```
-# Range()
+## Range()
+Je v podstate [nezmenitelny datovy typ](https://engeto.com/cs/kurz/online-python-akademie/studium/PHnlRhS8RQK7xyKhRoEGlA/range-a-smycka-for/datovy-typ-range/range-vytvareni-a-princip), podobne jako string nebo tuple. Jde o interval hodnot, ktery se velice casto pouziva prave u for cyklu.
 
-# Enumerate()
+Priklad:
+```
+# range(pocatek, konec-1, krok)
+# 1. zpusob
+print(list(range(10)))
 
+# 2. zpusob
+print(list(range(1, 10)))
+
+# 3. zpusob
+print(list(range(1, 10, 2)))
+```
+
+## Enumerate()
+Opet zabudovana funkce slouzici jako nejake [pocitadlo](https://engeto.com/cs/kurz/online-python-akademie/studium/wU-iRPKaQluG8Jz2HRA82A/range-a-smycka-for/smycka-for/for-loop-enumerate). Vraci nam tuply, ve kterych je v paru ulozeno cislo (poradove) a hodnota.
+
+Priklad:
+```
+JMENA = ["Helmut", "Helga", "Harold", "Hammet", "Hetfield"]
+ocislovane = enumerate(JMENA, 1)
+print(list(ocislovane))
+
+for cislo, jmeno in enumerate(JMENA, 1):
+    print(f"{cislo}.: {jmeno}")
+```
+
+# Cheatsheet, Git
+## Co to je Git?
+Open-source [verzovaci system](https://engeto.com/cs/kurz/git-zaklady-pro-uzivatele/studium/FlBFHaGbRGaeMDpPH9S4Yw/rychlokurz/ide-vs-terminal). Umoznuje verzovat zmeny naseho projektu, zaznamenava historii, umoznuje kolaboraci atd.
+
+## Jak zacit?
+1. Vytvorit si vlastni GitHub ucet [zde](https://github.com/)
+2. Vytvorit novy repozitar (pravy horni roh obrazovky)
+3. Vytvarim VZDALENY repozitar
+4. Download zip/ Pycharm --> VCS --> Get from version control
+5. Nova pracovni vetev
+6. Commit --> popis lokalnich zmen + push
+7. Zmena na vzdalenem repozitari
+8. git pull
+9. Zmenim, co je nutne opravit --> add + commit + push
+10. Vytvorim zadost o spojeni s hlavni master vetvi
