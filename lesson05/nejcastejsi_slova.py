@@ -72,8 +72,8 @@ nejcastejsi = sorted(vyskyt_slov, key=vyskyt_slov.get, reverse=True)[:5]
 # IX. KROK
 # Upravit vystup abych mel hodnoty rozdelene
 for cislo in range(len(nejcastejsi), 0, -1):
-    print("+" * 40)
+    print("=" * 23)
     for item in nejcastejsi:
-        print(f"SLOVO: {item}, VYSKYT: {vyskyt_slov[item]}")
+        print(f"SLOVO: *{item}*, VYSKYT: {vyskyt_slov[item]}x")
         nejcastejsi.remove(item)
         break
