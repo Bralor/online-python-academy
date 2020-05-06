@@ -18,16 +18,16 @@ Spolecne si zadame nahodny text, s nimz dnes budeme pracovat. Cilem bude zjistit
 # Nas cil
 Vystup by na konci lekce mohl vypadat nasledovne:
 ```
-=======================
-SLOVO: *he*, VYSKYT: 6x
-=======================
-SLOVO: *in*, VYSKYT: 5x
-=======================
-SLOVO: *up*, VYSKYT: 4x
-=======================
-SLOVO: *of*, VYSKYT: 3x
-=======================
-SLOVO: *ye*, VYSKYT: 3x
+==========================
+1, SLOVO: *he*, VYSKYT: 6x
+==========================
+2, SLOVO: *in*, VYSKYT: 5x
+==========================
+3, SLOVO: *up*, VYSKYT: 4x
+==========================
+4, SLOVO: *of*, VYSKYT: 3x
+==========================
+5, SLOVO: *ye*, VYSKYT: 3x
 ```
 # Prerequisites
 - python 3.6.9+
