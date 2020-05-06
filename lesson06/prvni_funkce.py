@@ -81,10 +81,13 @@ rozdelene_radky = [radek for radek in UDAJE.split("\n") if radek != ""]
 
 # V. KROK
 # Potrebujeme promennou *udaje* rozdelit
-# ukazka vicenasobneho prirazeni
+# Ukazka vicenasobneho prirazeni
+# Rozsirene prirazovani
 rozdelene_udaje = list()
+pocet_zmen = 0
 
 for cislo, radek in enumerate(rozdelene_radky, 1):
+    pocet_zmen += 1
     # VI. KROK
     # Chybne prirazeni
     # print(f"RADEK {cislo}: {radek}")
@@ -119,9 +122,15 @@ def zamenovac_oznaceni(typ, prevodnik):
 
 # XI. KROK
 # Doplnime smycku s nasi novou funkci
+aktualizovane = list()
 
 for radek in rozdelene_udaje:
     puvodni_id, *zbytek = radek
     prevod = zamenovac_oznaceni(puvodni_id, prevod_udaju)
-    aktualizovane = prevod, *zbytek[:-1]
-    print(aktualizovane)
+    aktualizovane.append([prevod, *zbytek[:-1]])
+
+# XII. KROK
+# moduly!
+from pprint import pprint
+
+print(aktualizovane)
