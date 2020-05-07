@@ -26,7 +26,7 @@ Vystup by na konci lekce mohl vypadat nasledovne:
 # Prerequisites
 - python 3.6.9+
 - text. editor
-Potrebne promenne:
+- potrebne promenne:
 ```
 UDAJE = """
 byt 0001,55 m2,Olomouc,ul.Heyrovského,
@@ -102,6 +102,7 @@ XXXX
 # V. KROK
 # Potrebujeme promennou *udaje* rozdelit
 # ukazka vicenasobneho prirazeni
+# Zkracene prirazovani
     # VI. KROK
     # Chybne prirazeni
 
@@ -123,6 +124,9 @@ XXXX
 
 # XI. KROK
 # Doplnime smycku s nasi novou funkci
+
+# XII. KROK
+# Uvod k modulum
 ```
 
 # Cheatsheet s priklady

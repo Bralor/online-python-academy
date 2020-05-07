@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
-"""Lekce #6 - Uvod do programovani, nase prvni funkce"""
+"""Lekce #5 - Uvod do programovani, prevadec"""
 
 # I. KROK
-# Zadani nasi ulohy
+# Importovani + promenne
+from pprint import pprint
+
 UDAJE = """
 byt 0001,55 m2,Olomouc,ul.Heyrovského,
 byt 0003,65 m2,Olomouc,ul.Novosadský dvůr,
-byt 0004,75 m2,Olomouc,ul.Wolkerova,
-byt 0004,68 m2,Olomouc,ul.Zikova,
+byt 0004,75 m2,Olomouc,ul.Wolkerova,
+byt 0004,68 m2,Olomouc,ul.Zikova,
 byt 0001,36 m2,Olomouc,ul.Nová Ulice,
 byt 0003,46 m2,Olomouc,ul.Nové sady,
 byt 0004,75 m2,Olomouc,ul.Nová Ulice,
@@ -53,13 +55,12 @@ byt 0004,90 m2,Olomouc,ul.Dvořákova,
 byt 0004,86 m2,Olomouc,ul.Nová Ulice,
 byt 0003,75 m2,Olomouc,ul.Nešverova,
 byt 0001,45 m2,Olomouc,ul.Zirmova,
-byt 0006,114 m2,Olomouc,ul.Přichystalová,
+byt 0010,114 m2,Olomouc,ul.Přichystalová,
 """
 
 # II. KROK
-# Definujeme vzor, jak chceme UDAJE prevest
-# Vzor prevadeni:
-prevod_udaju = {
+# Definovat podle ceho je vhodne prevadet
+PREVOD_UDAJU = {
     "byt 0001": "1+1",
     "byt 0002": "2+1",
     "byt 0003": "2+kk",
@@ -70,67 +71,29 @@ prevod_udaju = {
 }
 
 # III. KROK
-# Prochazime promennou *udaj* jeden radek za druhym
-# for radek in UDAJE.split("\n"):
-# print(radek)  # ukazat prazdne retezce na zacatku/ konci
+# Funkce, uvod definice
+def prevod_ic(typ_bytu: str, prevodnik: dict) -> str():
+    return prevodnik.get(typ_bytu, None)
+
 
 # IV. KROK
-# Napiseme seznamovou komprehenci s podminkou
+# Rozebrani promenne *udaje*
 rozdelene_radky = [radek for radek in UDAJE.split("\n") if radek != ""]
-# print(rozdelene_radky)
 
 # V. KROK
-# Potrebujeme promennou *udaje* rozdelit
-# Ukazka vicenasobneho prirazeni
-# Rozsirene prirazovani
-rozdelene_udaje = list()
+# Hlavni smycka, ve ktere aplikuji funkci prevod()
+aktualizovane_udaje = list()
 pocet_zmen = 0
 
-for cislo, radek in enumerate(rozdelene_radky, 1):
-    pocet_zmen += 1
+for radek in rozdelene_radky:
     # VI. KROK
-    # Chybne prirazeni
-    # print(f"RADEK {cislo}: {radek}")
-    # break
+    # Vicenasobne prirazeni
+    # Rozbalovaci operator
+    # Zkraceny zapis
+    puvodni_ic, *zbytek = radek.split(",")
+    prevedene_ic = prevod_ic(puvodni_ic, PREVOD_UDAJU)
+    aktualizovane_udaje.append([prevedene_ic, *zbytek[:-1]])
 
-    # VII. KROK
-    # Spravne prirazeni
-    ic_bytu, plocha, mesto, ulice, zbytek = radek.split(",")
-
-    # VIII. KROK
-    # chceme pouze ic a zbytek
-    # rozbalovaci operator
-    ic_bytu, *zbytek_informaci = radek.split(",")
-    rozdelene_udaje.append([ic_bytu, *zbytek_informaci])
-
-
-# IX. KROK
-# Potrebujeme menit oznaceni bytu za typ bytu
-# Uvod do funkci
-# def zamenovac_oznaceni(typ):
-#     if typ == "byt 0001":
-#         return "1+1"
-
-
-# Definice moji prvni funkce
-# vstupy do funkci
-# vystupy funkce
-# X. KROK
-def zamenovac_oznaceni(typ, prevodnik):
-    return prevodnik.get(typ, None)
-
-
-# XI. KROK
-# Doplnime smycku s nasi novou funkci
-aktualizovane = list()
-
-for radek in rozdelene_udaje:
-    puvodni_id, *zbytek = radek
-    prevod = zamenovac_oznaceni(puvodni_id, prevod_udaju)
-    aktualizovane.append([prevod, *zbytek[:-1]])
-
-# XII. KROK
-# moduly!
-from pprint import pprint
-
-print(aktualizovane)
+# VII. KROK
+# Aplikujeme importovany modul *pprint*
+pprint(aktualizovane_udaje)
