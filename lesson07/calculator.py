@@ -3,78 +3,84 @@
 
 # I. KROK
 # Zadame pomocne promenne
-COM = 'DOSTUPNE OPERACE: '
-OPS = '+', '-', '*', '/', 'AVR', 'PWR'
-SEP = '-' * 19
+NABIDKA = "DOSTUPNE OPERACE: "
+OPERACE = "+", "-", "*", "/", "prum", "^"
+ODDELOVAC = "-" * 25
 
 # II. KROK
+# Vytvorit hlavni ridici funkci
 def main():
-    """
-    Hlavni funkce, ma na starost komunikaci s uzivatelem + predavat data
-    dalsim funkcim
-    """
-    print(COM, SEP, '|'.join(OPS), SEP, sep='\n')
-    swi = True
-
-    while swi:
-        ops_input = input('OPERACE (\'q\'- konec): ')
-
-        # III. KROK
-        # Zakladni aritmeticke operace
-        if ops_input in OPS[:4]:
-            x1 = int(input('CISLO 1: '))
-            x2 = int(input('CISLO 2: '))
-
-            op_result = math_op(ops_input, x1, x2)
-            print(SEP, f'{x1} {ops_input} {x2} = {op_result}', SEP, sep='\n')
-        
-        # IV. KROK
-        # Umocnovani cisel
-        elif ops_input.upper() == 'PWR':
-            x1 = int(input('CISLO: '))
-            exp = int(input('EXPONENT: '))
-            
-            pow_result = power_OP(x1, exp)
-            print(SEP, f'{x1}^{exp} = {pow_result}', SEP, sep='\n')
-
-        # V. KROK
-        # Prumerna hodnota
-        elif ops_input.upper() == 'AVR':
-            nums = input('VLOZTE CISLA ODDELENA CARKOU: ')
-            conv_nums = [int(num) for num in nums.split(',')]
-
-            avg_result = average_op(conv_nums)
-            txt = 'CISLA: {} PRUMER: {}' .format(str(conv_nums)[1:-1], avg_result)  # budeme resit metody formatovani
-            print(SEP, txt, SEP, sep='\n')
-
-        # VII. KROK
-        # Pokud bude vstup "stop", chceme ukoncit smycku
-        elif ops_input == 'q':
-            swi = False
-            print('Doufam, ze se Vam kalkulacka libila! ^^')
-
-# P9
-def math_op(ops, x1, x2):
-    """Jednoduche matematicke operace"""
-    return {
-            '+': x1 + x2,
-            '-': x1 - x2,
-            '*': x1 * x2,
-            '/': x1 / x2
-            }.get(ops)
+    while True:
+        uvadec()
+        vybrana_operace = input("OPERACE ('q'- konec): ")
+        vyber_funkci(vybrana_operace)
 
 
-# P10
-def average_op(nums):
-    """Funkce na pocitani prumerne hodnoty"""
-    return round(sum(nums) / len(nums), 2)
+# III. KROK
+# Uvadeci funkce
+def uvadec():
+    print(NABIDKA, ODDELOVAC, "|".join(OPERACE), ODDELOVAC, sep="\n")
 
 
-# P11
-def power_OP(cislo, exp):
-	"""Vstupni hodnoty jsou cela cisla. Vraci cislo umocnene hodnotou exp"""
-    return cislo ** exp
+# IV. KROK
+# Rozcestnik funkci
+def vyber_funkci(operace):
+    if operace in OPERACE[:4]:
+        x1, x2, text = vezmi_dve_cisla(operace)
+        vysledek = zakladni_operace(operace, x1, x2)
+        print(ODDELOVAC, f"{text} {vysledek}", ODDELOVAC, sep="\n")
+
+    elif operace == "prum":
+        rada, text = vezmi_radu_cisel()
+        vysledek = prumer(rada)
+        print(ODDELOVAC, f"{text}, PRUMER = {vysledek}", ODDELOVAC, sep="\n")
+
+    elif operace == "^":
+        x1, x2, text = vezmi_dve_cisla(operace)
+        vysledek = umocnovani(x1, x2)
+        print(ODDELOVAC, f"{text} {vysledek}", ODDELOVAC, sep="\n")
+
+    elif operace == "q":
+        print("Doufam, ze se Vam kalkulacka libila! ^.^")
+        exit()
 
 
-# P12
+# V. KROK
+# Potrebujeme dva vstupy
+def vezmi_dve_cisla(operace):
+    cislo1 = int(input("CISLO 1: "))
+    cislo2 = int(input("CISLO 2: "))
+    odpoved = f"{cislo1} {operace} {cislo2} ="
+    return cislo1, cislo2, odpoved
+
+
+# VI. KROK
+# Resime zakladni aritmeticke operatory
+def zakladni_operace(operace, x1, x2):
+    return {"+": x1 + x2, "-": x1 - x2, "*": x1 * x2, "/": x1 / x2}.get(operace)
+
+
+# VII. KROK
+# Potrebujeme radu cisel pro prumer
+def vezmi_radu_cisel():
+    rada_cisel = input("VLOZTE CISLA ODDELENA CARKOU: ")
+    prevedene = [int(cislo) for cislo in rada_cisel.split(",")]
+    odpoved = f"CISLA: {rada_cisel}"
+    return prevedene, odpoved
+
+
+# VIII. KROK
+# Pocitam prumer z pomocne promenne
+def prumer(rada_cisel):
+    return round(sum(rada_cisel) / len(rada_cisel), 2)
+
+
+# IX. KROK
+# Umocnim cislo, exponentem
+def umocnovani(cislo, exponent):
+    return cislo ** exponent
+
+
+# ad. II. KROK
+# Volam svoji hlavni funkci
 main()
