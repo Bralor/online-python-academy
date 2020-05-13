@@ -11,7 +11,8 @@ def hlavni():
     postup, zbyvajici_tahy = schovej_slovo(hadane_slovo)
 
     while zbyvajici_tahy:
-        zbyvajici_tahy = hraci_kolo(hrac, hadane_slovo, postup, zbyvajici_tahy)
+        vypis_stav_hry(hrac, postup, zbyvajici_tahy)
+        zbyvajici_tahy = hraci_kolo(hadane_slovo, postup, zbyvajici_tahy)
         posouzeni_stavu(postup, hrac, zbyvajici_tahy)
 
 
@@ -26,7 +27,7 @@ def pridej_hrace():
 def vyber_hadane_slovo():
     with open("slova.txt", "r") as txt:
         obsazena_slova = txt.read().split("\n")
-        return random.choice(obsazena_slova)
+    return random.choice(obsazena_slova)
 
 
 # IV. KROK
@@ -38,8 +39,7 @@ def schovej_slovo(slovo):
 # V. KROK
 # Vypisujeme stav hry
 def vypis_stav_hry(hr, post, zbyvajici_tahy):
-    join_met = " ".join(post)
-    zprava = f"HRAC: {hr} | STAV: {join_met} | ZBYVA: {zbyvajici_tahy} |"
+    zprava = f"HRAC: {hr} | STAV: {' '.join(post)} | ZBYVA: {zbyvajici_tahy} |"
     oddelovac = len(zprava) * "-"
     print(oddelovac, zprava, oddelovac, sep="\n")
 
@@ -60,8 +60,7 @@ def posouzeni_hadani(pism, slovo, prog):
 
 # VIII. KROK
 # Prubeh kazdeho kola
-def hraci_kolo(hrac, hadane_slovo, postup, zbyvajici_tahy):
-    vypis_stav_hry(hrac, postup, zbyvajici_tahy)
+def hraci_kolo(hadane_slovo, postup, zbyvajici_tahy):
     hadane_pismeno = hrac_hada()
     posouzeni_hadani(hadane_pismeno, hadane_slovo, postup)
     zbyvajici_tahy -= 1
