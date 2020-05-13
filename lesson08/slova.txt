@@ -15,4 +15,3 @@ boruvka
 ananas
 mango
 pomelo
-
