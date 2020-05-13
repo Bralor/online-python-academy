@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Lekce #7 - Uvod do programovani, obesenec"""
+"""Lekce #8 - Uvod do programovani, obesenec"""
 
 import random
 
