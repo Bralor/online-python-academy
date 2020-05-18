@@ -8,12 +8,10 @@
 - [Python Academy](https://engeto.com/cs/kurz/online-python-akademie/studium/5wIl0U-rRCSiJvbvBTPRUA/zachyceni-chyb/uvod-do-kurzu)
 - [Formatovani retezcu](https://realpython.com/python-f-strings/)
 
-
 # Dnesni ukol
 V dnesni lekci se budeme bavit o potencialnich chybach uvnitr naseho kodu.
 
-
-# Kontroluj spravny datovy typ
+# Zkontroluj vstupni data
 Nas dnesni program bude mit za ukol kontrolat datove typy, ktere do nej nacteme. Budeme chtit vedet, jestli vstupni udaje obsahuji pouze hodnoty, ktere lze prevadet na celociselne udaje (integer), prip. jestli data neobsahuji nejake nezadouci typy (nelze prevest na integer).
 
 # Nas cil
@@ -92,7 +90,7 @@ SyntaxError: invalid syntax
 
 ## Co s nimi?
 1. Syntakticke chyby je nutne odstranit --> debugovat
-2. Logicke chyby (+ behova) je mozne hlidat --> error handling
+2. Logicke chyby (+ behove chyby) je mozne hlidat --> error handling
 
 ## Debugovani
 Povime si o nem a jeho metodach vice ve stredu
@@ -106,7 +104,7 @@ try:
     <neco_co_chceme_vyzkouset>
 
 except <jmeno_vyjimky>:
-    <toto_se_stane_pokud_dostaneme_FALSE>
+    <toto_se_stane_pokud_dostaneme_vyjimku>
 ```
 
 Priklad:
@@ -124,25 +122,49 @@ print(f"\nZADALI JSTE CISLO: {input_int()} ")
 ```
 
 ## Vice vetvi *except*
-Chyby muzeme specifikovat pomoci vice vyjimek
+Chyby muzeme specifikovat pomoci vice vyjimek (pripadne doplnit/zkratit aliasem)
 
 Priklad:
 ```
-// doplnit priklad
+try:
+    <neco_co_chceme_vyzkouset>
+
+except <jmeno_vyjimky1>:
+    <toto_se_stane_pokud_dostaneme_vyjimku1>
+
+except <jmeno_vyjimky2>:
+    <toto_se_stane_pokud_dostaneme_vyjimku2>
 ```
 
 ## Vetev *else*
-Pokud nedojde k vyhodnoceni ve vetvi _try_ jako False. Proved vetev *else*
+Pokud nedojde k vyhodnoceni ve vetvi _try_ s vyjimkou. Proved vetev *else*
 
 Priklad:
 ```
-// doplnit priklad
+try:
+    <neco_co_chceme_vyzkouset>
+
+except <jmeno_vyjimky1>:
+    <toto_se_stane_pokud_dostaneme_vyjimku1>
+
+except <jmeno_vyjimky2>:
+    <toto_se_stane_pokud_dostaneme_vyjimku2>
+
+else:
+    <toto_proved_pokud_nedostaneme_vyjimku>
 ```
 
 ## Vetev *finally*
-At uz vyhodnoceni bude True/False, proved to, co obsahuje vetev *finally*.
+At uz vyhodnoceni bude s vyjimkou ci bez ni, proved to, co obsahuje vetev *finally*.
 
 Priklad:
 ```
-// doplnit priklad
+try:
+    <neco_co_chceme_vyzkouset>
+
+except <jmeno_vyjimky>:
+    <toto_se_stane_pokud_dostaneme_vyjimku>
+
+finally:
+    <toto_proved_pokazde>
 ```
