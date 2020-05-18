@@ -4,7 +4,7 @@
 # I. KROK
 # Vytvoreni hlavni funkce
 def hlavni():
-    nactena_cisla = nacitani_udaju("nezkontrolovane.txt")
+    nactena_cisla = nacitani_udaju("numbers.txt")
     ostripovana_data = ocisti_ciselne_udaje(nactena_cisla)
     zkontroluj_typ_udaje(ostripovana_data)
 
