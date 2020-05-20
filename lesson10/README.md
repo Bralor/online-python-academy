@@ -9,7 +9,7 @@
 - [Vice o pdb](https://docs.python.org/3/library/pdb.html)
 
 # Dnesni ukol
-Budeme pokracovat v nasi cesta za porozumeni chybam, vyjimkam a debugovani.
+Budeme pokracovat v nasi cesta za porozumeni chybam. V predchozi lekci jsme mluvili o tom jak chybam muzeme predchazet, dneska si povime jak porozumet chybovym hlaseni a jak je resit.
 
 # Debugujeme udaje
 Predstavme si situaci. Nas vedouci nam zada ukol, zpracovat textovy soubor s udaji. Chceme jej cely projit a naformatovat vystup jako _Udaj1, Udaj2_ (pocatecni pismeno velke, zbytek malym pismem a oba udaje oddelene carkou). Udaju je hromada a rekne, ze chce zpracovat jen cast, proto byl do nasich dat predem umisteny retezec *quit*, ktery ukonci cast dat pro upraveni.
@@ -32,15 +32,25 @@ Zimbabwe,Harare
 ```
 
 # Prerequisites
-- python 3.6.9+
+- python 3.6+
 - text. editor
 - [handlovani chyb](https://github.com/Bralor/python_academy/tree/master/lesson09#zachazeni-s-chybami)
 
 
 # Postup
-Opet si otevreme novy soubor *check_type.py* a nakopirujeme sablonu nize:
+Do pracovniho adresare si nakopirujeme vstupni textovy soubor, se kterym budeme chtit pracovat. Dale si otevreme novy soubor *cities_debug.py* a nakopirujeme sablonu nize:
 ```
-#!usr/bin/env python3
+#!/usr/local/bin/python3.8
+"""Lekce #10 - Uvod do programovani, debugging"""
+
+# I. KROK - Prochazime soubor radek po radku
+# II. KROK - Nacteme radek
+# III. KROK - Ostripujeme jej
+# IV. KROK - Pomoci podminky zastavime ("quit")
+# V. KROK - Rozdelit stat/mesto
+# VI. KROK - Ostripovat
+# VII. KROK - Prevest na zadany format
+# VIII. KROK - Vypsat spravny vysledek
 
 ```
 

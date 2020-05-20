@@ -1,4 +1,4 @@
-#!usr/bin/env python3
+#!/usr/local/bin/python3.8
 """Lekce #10 - Uvod do programovani, debugging"""
 
 # I. KROK - Prochazime soubor radek po radku
@@ -9,6 +9,7 @@
 # VI. KROK - Ostripovat
 # VII. KROK - Prevest na zadany format
 # VIII. KROK - Vypsat spravny vysledek
+from typing import List
 
 
 def zpracuj_udaje() -> None:
@@ -16,14 +17,17 @@ def zpracuj_udaje() -> None:
     projdi_soubor(obsah_souboru)
 
 
-def nacti_udaje(jmeno_souboru) -> list():
-    # Doplnit nejake *try/except*
-    with open(jmeno_souboru, "rt") as soubor:
-        obsah = soubor.read().split("\n")
-        return obsah
+def nacti_udaje(jmeno_souboru) -> List[str]:
+    try:
+        with open(jmeno_souboru, "rt") as soubor:
+            obsah = soubor.read().split("\n")
+            return obsah
+
+    except FileNotFoundError:
+        print("Tady neni zadny takovy soubor, spatna cesta")
 
 
-def projdi_soubor(soubor: list) -> None:
+def projdi_soubor(soubor: List[str]) -> None:
     for radek in soubor:
         radek = radek.strip()
         if "quit" in radek.lower():
