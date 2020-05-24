@@ -16,7 +16,7 @@ jobs:
           command: |
             sudo git clone https://github.com/Bralor/python_academy
             cd python_academy
-            pip install -r tests/requirements.txt
+            pip install -r requirements.txt
 
       - run:
           name: test
