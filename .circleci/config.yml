@@ -1,0 +1,31 @@
+version: 2.1
+
+jobs:
+  build-and-test:
+    docker:
+      - image: circleci/python:latest
+    steps:
+      - checkout
+      - repository
+      - test
+      - run:
+          name: checkout
+          command: |
+            sudo apt-get -y update
+            sudo apt-get -y upgrade
+
+      - run:
+          name: repository
+          command: |
+            sudo git clone https://github.com/Bralor/python_academy
+            cd python_academy
+
+      - run:
+          name: test
+          command: |
+            pytest tests -v
+
+workflows:
+  main:
+    jobs:
+      - build-and-test
