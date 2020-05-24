@@ -21,6 +21,7 @@ jobs:
       - run:
           name: test
           command: |
+            cd python_academy
             pytest -v tests/test_content.py
 
 workflows:
