@@ -21,7 +21,7 @@ jobs:
       - run:
           name: test
           command: |
-            pytest tests -v
+            pytest -v tests/test_content.py
 
 workflows:
   version: 2.1
