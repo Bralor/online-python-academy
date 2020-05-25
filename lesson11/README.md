@@ -147,7 +147,7 @@ matous@matous:~/projects/python_academy$        # -> jmena prostredi nevidim
 3. Najdu modul, ktery se mi hodi
 4. Stahuji + instaluji (pomoci [pip](#important-links) -> package installer)
 ```
-pip install requests-html       # instalatce
+pip install requests-html       # instalace
 pip uninstall requests-html     # odstraneni
 ```
 
