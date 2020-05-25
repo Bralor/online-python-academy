@@ -3,8 +3,9 @@
 import os
 from typing import List
 
-
-def zkontroluj_cestu(abs_cesta):
+# ad. III. KROK
+# Funkce zkontroluje jestli je cesta validni
+def zkontroluj_cestu(abs_cesta: str) -> bool:
     try:
         vytvor_adresar(abs_cesta)
         print(f"VYTVARIM ...({os.path.basename(abs_cesta)})")
@@ -19,11 +20,15 @@ def zkontroluj_cestu(abs_cesta):
         return False
 
 
-def vytvor_adresar(abs_cesta):
+# ad. III. KROK
+# Funkce vytvori prazdny adresar
+def vytvor_adresar(abs_cesta: str) -> None:
     return os.mkdir(abs_cesta)
 
 
-def nacti_soubor(soubor):
+# ad IV. KROK
+# Funkce najde soubor, otevre jej a precte jeho obsah
+def nacti_soubor(soubor: str) -> List[str]:
     try:
         with open(soubor, "r") as txt:
             obsah = [jmeno.strip() for jmeno in txt.readlines()]
@@ -33,7 +38,9 @@ def nacti_soubor(soubor):
         print(f"SOUBOR NEEXISTUJE ({os.path.abspath(soubor)})")
 
 
-def vytvor_soubory(obsah, abs_cesta):
+# ad V. KROK
+# Funkce se pokus vytvorit jednotlive soubory
+def vytvor_soubory(obsah: List[str], abs_cesta: str) -> None:
     try:
         for jmeno in obsah:
             novy_soubor = os.path.join(abs_cesta, jmeno)
