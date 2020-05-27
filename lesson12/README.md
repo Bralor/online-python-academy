@@ -5,9 +5,9 @@
     +420 776 857 619
 
 # Important links
-- [Python Academy](https://engeto.com/cs/kurz/online-python-akademie/studium/n9fgfnBHTk63vJN6caNang/formaty-souboru/csv)
-- [Minula lekce](https://github.com/Bralor/python_academy/tree/master/lesson11)
-- [Textove soubory](https://github.com/Bralor/python_academy/tree/master/lesson08#prace-se-soubory-pomoci-pythonu)
+- [Python Academy, lekce 12](https://engeto.com/cs/kurz/online-python-akademie/studium/n9fgfnBHTk63vJN6caNang/formaty-souboru/csv)
+- [Minula lekce, repo](https://github.com/Bralor/python_academy/tree/master/lesson11)
+- [Textove soubory, repo](https://github.com/Bralor/python_academy/tree/master/lesson08#prace-se-soubory-pomoci-pythonu)
 - [JSON, obecne](https://www.json.org/json-en.html)
 - [CSV, obecne](https://en.wikipedia.org/wiki/Comma-separated_values)
 
