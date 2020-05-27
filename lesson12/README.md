@@ -13,7 +13,7 @@
 - [Mockaroo, generator dat](https://www.mockaroo.com)
 
 # Dnesni ukol
-V dnesnim, uz 12 webinari si budeme povidat o dalsich typech [textovych souboru](#important-links), se kterymi muzeme v ramci Pythonu pracovat. Povime si neco o formatu, jehoz hlavnim ucelem je snadny prenos dat (tedy [JSON](#important-links)) a tabulkovem formatu (tedy [CSV](#important-links)).
+V dnesnim, uz 12. webinari si budeme povidat o dalsich typech [textovych souboru](#important-links), se kterymi muzeme v ramci Pythonu pracovat. Povime si neco o formatu, jehoz hlavnim ucelem je snadny prenos dat (tedy [JSON](#important-links)) a tabulkovem formatu (tedy [CSV](#important-links)).
 
 
 # Prevodnik JSON -> CSV -> JSON
