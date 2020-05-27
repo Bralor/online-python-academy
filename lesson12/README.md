@@ -5,11 +5,12 @@
     +420 776 857 619
 
 # Important links
-- [Python Academy](https://engeto.com/cs/kurz/online-python-akademie/studium/n9fgfnBHTk63vJN6caNang/formaty-souboru/csv)
-- [Minula lekce](https://github.com/Bralor/python_academy/tree/master/lesson11)
-- [Textove soubory](https://github.com/Bralor/python_academy/tree/master/lesson08#prace-se-soubory-pomoci-pythonu)
+- [Python Academy, lekce 12](https://engeto.com/cs/kurz/online-python-akademie/studium/n9fgfnBHTk63vJN6caNang/formaty-souboru/csv)
+- [Minula lekce, repo](https://github.com/Bralor/python_academy/tree/master/lesson11)
+- [Textove soubory, repo](https://github.com/Bralor/python_academy/tree/master/lesson08#prace-se-soubory-pomoci-pythonu)
 - [JSON, obecne](https://www.json.org/json-en.html)
 - [CSV, obecne](https://en.wikipedia.org/wiki/Comma-separated_values)
+- [Mockaroo, generator dat](https://www.mockaroo.com)
 
 # Dnesni ukol
 V dnesnim, uz 12 webinari si budeme povidat o dalsich typech [textovych souboru](#important-links), se kterymi muzeme v ramci Pythonu pracovat. Povime si neco o formatu, jehoz hlavnim ucelem je snadny prenos dat (tedy [JSON](#important-links)) a tabulkovem formatu (tedy [CSV](#important-links)).
@@ -90,7 +91,7 @@ SPOLECNE:
 # Cheatsheet s priklady
 ## JSON
 1. "lightweight" format urceny pro prenos dat (zkratka JavaScript Object Notation). Snadno citelny, lehce formatovatelny.
-2. Kolece paru __nazev__ + __hodnota_
+2. Kolece paru __nazev__ + __hodnota__
 3. V Pythonu vypada jako slovnik
 4. Muzeme zapisovat (*.dump()*) & nacitat (*.load()*)
 
