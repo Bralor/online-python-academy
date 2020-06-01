@@ -1,1 +1,8 @@
-print("Huaaa!")
+
+def main():
+    """Hlavni ridici funkce"""
+    print("Huaaa!")
+
+
+main()
+    
