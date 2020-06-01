@@ -2,4 +2,11 @@
 
 
 def hlavni():
-    pass
+    vedlejsi()
+
+
+def vedlejsi():
+    print("Spoustim novou pro cow-bulls")
+
+
+hlavni()
