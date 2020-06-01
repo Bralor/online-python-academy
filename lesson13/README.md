@@ -88,31 +88,6 @@ Teorie:
 suda_licha = ["Suda" if cislo % 2 == 0 else "Licha" for cislo in range(1, 21)]                      # konkretni priklad
 ```
 
-## Pro srovnani
-```python
-import random
-import timeit
-TAX_RATE = .08
-txns = [random.randrange(100) for _ in range(100000)]
-def get_price(txn):
-    return txn * (1 + TAX_RATE)
-def get_prices_with_map():
-    return list(map(get_price, txns))
-def get_prices_with_comprehension():
-    return [get_price(txn) for txn in txns]
-def get_prices_with_loop():
-    prices = []
-    for txn in txns:
-        prices.append(get_price(txn))
-    return prices
-
->>> timeit.timeit(get_prices_with_map, number=100)
-2.0554370979998566
->>> timeit.timeit(get_prices_with_comprehension, number=100)
-2.3982384680002724
->>> timeit.timeit(get_prices_with_loop, number=100)
-3.0531821520007725
-```
 # Anonymni funkce
 ## Standarni definovane funkce
 1. [Zahlavi](#important-links)
@@ -153,8 +128,8 @@ list(map(lambda zvire: zvire.upper(), ZVIRATA))
 Ukol:
 ```python
 FAHRENHEIT = [("Berlin", 84.2), ("Cairo", 96.8), ("Buenos Aires", 66.2), ("Los Angeles", 78), ("Tokyo", 80.6), ("new York", 82.4), ("London", 71.6), ("Beijing", 89.6)]
-F2C = lambda data: (data[0], round((5/9)*data[1] - 32, 2))
-list(map(F2C, FAHRENHEIT))
+# Prevedeme fahrenheity na celsiovy stupne a vytvorime nove ntice
+# Cels = (5/9)*Fahr - 32
 ```
 
 ## Funkce filter()
@@ -165,6 +140,26 @@ Priklad:
 jen_suda = lambda cislo: cislo % 2 == 0
 list(filter(jen_suda, range(0, 21)))
 ```
+
+Ukol:
+```python
+ZEME = [
+    "",
+    "Argentina",
+    "",
+    "Brazil",
+    "Chile",
+    "",
+    "Colombia",
+    "",
+    "Ecuador",
+    "",
+    "",
+    "Venezuela"
+]
+# Zobrazime pomoci funkce filter() jenom seznam bez prazdnych retezcu
+```
+
 ## Funkce reduce()
 Tato funkce od verze Python3 neni mezi standartnimi built-in funkcemi. Tudiz je nutne ji importovat.
 
@@ -189,4 +184,30 @@ Priklad3:
 vysledek = 1
 for cislo in PRVOCISLA:
     vysledek *= cislo
+```
+
+## Pro srovnani
+```python
+import random
+import timeit
+TAX_RATE = .08
+txns = [random.randrange(100) for _ in range(100000)]
+def get_price(txn):
+    return txn * (1 + TAX_RATE)
+def get_prices_with_map():
+    return list(map(get_price, txns))
+def get_prices_with_comprehension():
+    return [get_price(txn) for txn in txns]
+def get_prices_with_loop():
+    prices = []
+    for txn in txns:
+        prices.append(get_price(txn))
+    return prices
+
+>>> timeit.timeit(get_prices_with_map, number=100)
+2.0554370979998566
+>>> timeit.timeit(get_prices_with_comprehension, number=100)
+2.3982384680002724
+>>> timeit.timeit(get_prices_with_loop, number=100)
+3.0531821520007725
 ```
