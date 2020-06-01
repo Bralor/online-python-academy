@@ -12,34 +12,7 @@
 - [Funkce map()](https://www.geeksforgeeks.org/python-map-function/)
 
 # Dnesni ukol
-1. Komprehence
-2. Lambda
-3. map()
-4. filter()
-5. reduce()
-6. functools(?)
-
-# <Nejspis_nebude>
-Nase ukoly:
-```
-hlavni.py           # spousti cely kod
-csv_funkce.py       # obsahuje funkce s csv
-...
-```
-
-# <nejspis_nebude>
-
-```
-XXX
-```
-
-```
-XXX
-```
-
-```
-XXX
-```
+Ukolem dnesniho webinare bude podrobnejsi prace pomoci komprehenci. Uz jsme je pouzili v predchozich seancich, ale nijak podrobne jsme si o nich nepovidali. Podrobneji je vysvetlime, naucime se je doplnit o jednoduche i slozitejsi podminky. Druhou casti dnesniho webinare bude povidani a prakticke ulohy souvisejici s anonymnimi funkcemi.
 
 # Prerequisites
 - python 3.6+
@@ -49,9 +22,10 @@ XXX
 - [importovani](https://github.com/Bralor/python_academy/tree/master/lesson11#importovani-obecne)
 - [Funkce v Pythonu](https://github.com/Bralor/python_academy/tree/master/lesson06#funkce)
 
-
 # Cheatsheet s priklady
 ## Komprehence
+V Pythonu spis chapano jako zkracovani zapisu _for_ smycky a soucasneho vytvoreni seznamu, slovniku nebo mnoziny.
+
 ### Uvodem
 Teorie:
 ```python
@@ -88,6 +62,12 @@ Teorie:
 suda_licha = ["Suda" if cislo % 2 == 0 else "Licha" for cislo in range(1, 21)]                      # konkretni priklad
 ```
 
+Ukol:
+```
+# V lekci 11, jsme vytvorili slozku se soubory
+# Roztridime soubory podle pripon
+```
+
 # Anonymni funkce
 ## Standarni definovane funkce
 1. [Zahlavi](#important-links)
@@ -104,19 +84,17 @@ def vrat_zbytek(cislo1: int, cislo2: int) -> int:
 
 >>> vrat_zbytek(5, 2)
 1
-
 # Pomoci anonymni funkce
 zbytek = lambda cislo1, cislo2: cislo1 % cislo2
 >>> print(zbytek(5, 2))
 1
 ```
-
 Teorie:
 ```python
 lambda <argumenty>: <vyraz>     # obecne
 lambda x, y: x ** y             # priklad
 ```
-## Funkce map()
+## Funkce __map()__
 Specialni funkce, typicka pro funkcionalni programovani je funkce [_map()_](#important-links). Tato funkce potrebuje dva argumenty. Prvni, ktery rekne, na jakou funkci chci pomoci _map()_ aplikovat, druhy, ktery obsahuje iterovatelnou promennou.
 
 Priklad:
@@ -132,7 +110,7 @@ FAHRENHEIT = [("Berlin", 84.2), ("Cairo", 96.8), ("Buenos Aires", 66.2), ("Los A
 # Cels = (5/9)*Fahr - 32
 ```
 
-## Funkce filter()
+## Funkce __filter()__
 Dalsi funkce, ktera potrebuje nejakou funkci jako prvni argument a iterovatelnou promennou jako druhy argument.
 
 Priklad:
@@ -159,8 +137,7 @@ ZEME = [
 ]
 # Zobrazime pomoci funkce filter() jenom seznam bez prazdnych retezcu
 ```
-
-## Funkce reduce()
+## Funkce __reduce()__
 Tato funkce od verze Python3 neni mezi standartnimi built-in funkcemi. Tudiz je nutne ji importovat.
 
 Priklad:
@@ -192,22 +169,26 @@ import random
 import timeit
 TAX_RATE = .08
 txns = [random.randrange(100) for _ in range(100000)]
+
 def get_price(txn):
     return txn * (1 + TAX_RATE)
+
 def get_prices_with_map():
     return list(map(get_price, txns))
+
 def get_prices_with_comprehension():
     return [get_price(txn) for txn in txns]
+
 def get_prices_with_loop():
     prices = []
     for txn in txns:
         prices.append(get_price(txn))
     return prices
 
->>> timeit.timeit(get_prices_with_map, number=100)
-2.0554370979998566
->>> timeit.timeit(get_prices_with_comprehension, number=100)
-2.3982384680002724
 >>> timeit.timeit(get_prices_with_loop, number=100)
 3.0531821520007725
+>>> timeit.timeit(get_prices_with_comprehension, number=100)
+2.3982384680002724
+>>> timeit.timeit(get_prices_with_map, number=100)
+2.0554370979998566
 ```
