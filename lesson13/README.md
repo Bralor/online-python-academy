@@ -62,6 +62,12 @@ Teorie:
 suda_licha = ["Suda" if cislo % 2 == 0 else "Licha" for cislo in range(1, 21)]                      # konkretni priklad
 ```
 
+Ukol:
+```
+# V lekci 11, jsme vytvorili slozku se soubory
+# Roztridime soubory podle pripon
+```
+
 # Anonymni funkce
 ## Standarni definovane funkce
 1. [Zahlavi](#important-links)
