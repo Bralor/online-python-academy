@@ -1,0 +1,22 @@
+#!/home/mholinka/projects/python_academy/env/bin/python
+"""Lekce #14 - Uvod do programovani, generatory"""
+
+import time
+from gameworld import Animal, draw_grid
+
+
+def kocky():
+    """Generator pro pozici kocky v mrizce"""
+    for i in range(0, 10):
+        yield Animal(row=i, col=2)
+
+
+def mysi():
+    """Generator pro pozici mysi v mrizce"""
+    for i in range(0, 10):
+        yield Animal(row=i, col=8)
+
+
+for kocka, mys in zip(kocky(), mysi()):
+    draw_grid(kocka, mys)
+    time.sleep(0.4)
