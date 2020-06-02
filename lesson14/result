@@ -1,0 +1,62 @@
+#!/home/mholinka/projects/python_academy/env/bin/python
+"""Lekce #14 - Uvod do programovani, generatory, hotove"""
+
+import time
+import random
+
+from gameworld import move
+from gameworld import Animal
+from gameworld import draw_grid
+
+
+def kocky():
+    kocka = Animal(row=2, col=2)
+    while True:
+        mys = yield kocka
+        if mys.row > kocka.row:
+            kocka = move(kocka, row=1)
+        elif mys.row < kocka.row:
+            kocka = move(kocka, row=-1)
+        if mys.col > kocka.col:
+            kocka = move(kocka, col=1)
+        elif mys.col < kocka.col:
+            kocka = move(kocka, col=-1)
+
+
+def mysi():
+
+    mys = Animal(row=7, col=7)
+    while True:
+        kocka = yield mys
+        
+        if mys.col == kocka.col and mys.row == kocka.row:
+            raise StopIteration()
+
+        if mys.row > kocka.row:
+            mys = move(mys, row=1)
+        elif mys.row < kocka.row:
+            mys = move(mys, row=-1)
+        else:
+            mys = move(mys, row=random.choice([-1, 1]))
+
+        if mys.col > kocka.col:
+            mys = move(mys, col=1)
+        elif mys.col < kocka.col:
+            mys = move(mys, col=-1)
+        else:
+            mys = move(mys, col=random.choice([-1, 1]))
+
+
+icat = kocky()
+imouse = mysi()
+kocka = icat.send(None)
+mys = imouse.send(None)
+while True:
+    draw_grid(kocka, mys)
+    time.sleep(.4)
+    try:
+        kocka = icat.send(mys)
+        mys = imouse.send(kocka)
+    except StopIteration:
+        break
+draw_grid(kocka, mys)
