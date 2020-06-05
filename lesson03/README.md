@@ -1,8 +1,4 @@
-# Python academy, lesson 03
-
-    Matous Holinka <bralor92@email.cz>
-    +420 776 857 619
-
+# Python academy, lekce 03
 # Important links
 
 - [Python Academy](https://engeto.com/cs/kurz/online-python-akademie/studium/O6aWKNU3QmWpnO5PKd1orw/slovniky-a-mnoziny/co-te-ceka-v-teto-lekci)
