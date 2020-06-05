@@ -4,9 +4,6 @@
 
 # Python academy, lekce 14
 
-    Matous Holinka <bralor92@email.cz>
-    +420 776 857 619
-
 # Dulezite odkazy
 - [Python Academy, lekce 14](https://engeto.com/cs/kurz/python-6/studium/FVHvYkaDTFahfXyiR8UNYQ/generatory-regex/generatory/generatorove-funkce)
 - [Minula lekce, repozitar](https://github.com/Bralor/python_academy/tree/master/lesson13)
