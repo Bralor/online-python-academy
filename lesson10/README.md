@@ -1,9 +1,6 @@
 ![](../images/engeto.png)
 # Python academy, lesson 10
 
-    Matous Holinka <bralor92@email.cz>
-    +420 776 857 619
-
 # Important links
 - [Python Academy](https://engeto.com/cs/kurz/online-python-akademie/studium/JPMWQwarTtuOMOKnEQo-CA/debugovani/debugging)
 - [Vice o pdb](https://docs.python.org/3/library/pdb.html)
