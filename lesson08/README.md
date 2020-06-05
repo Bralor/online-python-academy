@@ -1,9 +1,6 @@
 ![](../images/engeto.png)
 # Python academy, lesson 08
 
-    Matous Holinka <bralor92@email.cz>
-    +420 776 857 619
-
 # Important links
 - [Python Academy](https://engeto.com/cs/kurz/online-python-akademie/studium/5BmOjpMWQXetDW5lEWZVlw/formatovani-stringu-a-textove-soubory/prehled-lekce)
 - [Formatovani retezcu](https://realpython.com/python-f-strings/)
