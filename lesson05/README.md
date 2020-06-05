@@ -1,9 +1,6 @@
 ![](../images/engeto.png)
 # Python academy, lesson 05
 
-    Matous Holinka <bralor92@email.cz>
-    +420 776 857 619
-
 # Important links
 - [Python Academy](https://engeto.com/cs/kurz/online-python-akademie/studium/jZRrTgDlSMyRKeVTUD6vDA/range-a-smycka-for/obsah-a-prerekvizity)
 - [Sorted()](https://docs.python.org/3/library/functions.html#sorted)
