@@ -1,9 +1,6 @@
 ![](../images/engeto.png)
 # Python academy, lesson 07
 
-    Matous Holinka <bralor92@email.cz>
-    +420 776 857 619
-
 # Important links
 - [Python Academy](https://engeto.com/cs/kurz/online-python-akademie/studium/bVSNtM2eT7uxBrBeS8n14w/funkcni-ramce-a-vstupy/prehled-lekce)
 
