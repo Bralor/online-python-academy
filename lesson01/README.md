@@ -1,8 +1,4 @@
-# Python academy, lesson 01
-
-    Matous Holinka <bralor92@email.cz>
-    +420 776 857 619
-
+# Python academy, lekce 01
 # Important links
 
 - [Python Academy](https://engeto.com/cs/kurz/online-python-akademie/lekce)
