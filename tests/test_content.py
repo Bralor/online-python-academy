@@ -13,6 +13,10 @@ EXPECTED_LESSONS = [
     "lesson09",
     "lesson10",
     "lesson11",
+    "lesson12",
+    "lesson13",
+    "lesson14",
+    "lesson15",
 ]
 
 
