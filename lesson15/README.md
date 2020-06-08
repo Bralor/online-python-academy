@@ -10,7 +10,10 @@
 - [heroes III - cesko-slovenska liga](http://heroes3.cz/)
 
 # Co nas ceka?
-V ramci dnesniho webinare se budeme snazit _scrapovat_, tzn. ze za pomoci Pythonu se budeme snazit shromazdovat nejake informace umistene ve formatu html nekde na webu. Povime si o tom, jak tyto s temito udaji zachazet, jak je vyhledavat a jak je rozlisovat. Ve druhe casti lekce si ukazeme take praktickou ulohu s timto zamerenim.
+V ramci dnesniho webinare se budeme snazit _scrapovat_, tzn. ze za pomoci Pythonu se budeme snazit shromazdovat nejake informace umistene ve formatu HTML nekde na webu. Povime si o tom, jak s temito udaji zachazet, jak je vyhledavat a jak je rozlisovat. Soubezne s obecnym vykladem teorie se budeme snazit vyresit dnesni ukol.
+
+# Screjpuj tabulku hracu
+Cilem bude extrahovat data z webu a ulozit je lokalne do nejakeho textoveho souboru (optimalni CSV).
 
 # Prerequisites
 - python 3.6+
@@ -20,13 +23,13 @@ V ramci dnesniho webinare se budeme snazit _scrapovat_, tzn. ze za pomoci Python
 - [importovani](https://github.com/Bralor/python_academy/tree/master/lesson11#importovani-obecne)
 - [Csv](https://github.com/Bralor/python_academy/tree/master/lesson12)
 
-# Teoreticke materialy
+# Teoreticke materialy & ukol
 ## Co bychom radi ukladali?
 Vyhledam zamysleny web. Najdu co me zajima. Sledujme [odkaz](http://heroes3.cz/)
 
 
 ## V cem jsou nase udaje?
-Data jsme nasly, jak je cist. Pravym tlacitkem mysi si rozbalime nabidku a v ni (Mozilla) najdeme __view page source__. Nyni koukame na zdrojovy kod. Vidime, ze jde o HTMLko.
+Data jsme nasly. Ted jak je cist? Pravym tlacitkem mysi si rozbalime nabidku a v ni najdeme __view page source__(Mozilla). Nyni koukame na zdrojovy kod. Vidime, ze jde o format typu HTML.
 
 ```html
 <!DOCTYPE html>
@@ -37,7 +40,7 @@ Data jsme nasly, jak je cist. Pravym tlacitkem mysi si rozbalime nabidku a v ni 
 ```
 
 ## HyperText Markup Language
-Tvori strukturu webovych stranek. Je to hierarchicky usporadana struktura tvorena pomoci tagu. Z nasledujiciho vzoru muzeme rict, ktere tagy jsou rodicovske a ktere jejich potomci. My tuto strukturu na pozadi casto nevnimame. Prohlizec nam casteji zprostredkuje vyrenderovanou grafickou podobu.
+Tvori strukturu webovych stranek. Je to hierarchicky usporadana struktura tvorena pomoci tagu. Z nasledujiciho vzoru muzeme rict, ktere tagy jsou rodicovske, a ktere jejich potomci. My tuto strukturu na pozadi casto nevnimame. Prohlizec nam casteji zprostredkuje vyrenderovanou grafickou podobu.
 
 Ukazka:
 ```html
@@ -60,10 +63,10 @@ Krome jejich strukturniho vyznamu (Markup) mohou mit doplnujici/upresnujici atri
 Vidime, ze format se hodne podoba slovnikum v Pythonu. Tedy __klic__= __"hodnota"__.
 
 ## Jak tedy ziskat potrebne udaje?
-Abychom mohli s udaji, ktere jsou k dispozici na webu pracovat, je potreba ziskat a zpracovat konkretni HTML soubor.
+Abychom mohli s udaji, ktere jsou k dispozici na webu, pracovat, je potreba stahnout konkretni _HTML_ soubor.
 
 ## Stahujeme HTML pomoci Pythonu
-Nejprve musime pomoci Pythonu vyslat __pozadavek__ na server, aby nam HTML konkretni format poskytl. Za timto ucelem budeme pracovat s modulem __requests__. Ve svem aktivovanem prostredi nainstalujeme balicek _requests_
+Nejprve musime pomoci Pythonu vyslat __pozadavek__ na server, aby nam _HTML_ konkretni format poskytl. Za timto ucelem budeme pracovat s modulem __requests__. Ve svem aktivovanem prostredi nainstalujeme balicek _requests_
 
 Bud prikazem:
 ```bash
@@ -84,7 +87,7 @@ import requests
 
 
 ### GET
-Pouziti metody __.get()__ zavisi na jedinem povinnem parametru. Tim bude tedy _uniform resource locator_ (URL). Je mozne pouzit jeste dalsi parametry (nepovinne).
+Pouziti metody __.get()__ zavisi na jedinem povinnem parametru. Tim bude _uniform resource locator_ (URL). Je mozne pouzit jeste dalsi parametry (nepovinne).
 
 ```python
 URL = "http://heroes3.cz/hraci/"
@@ -96,210 +99,207 @@ odpoved_serveru.headers  # zobrazim zahlavi z odpovedi serveru
 ```
 
 ### POST
+Metoda __.post()__ je velice podobna metode __.get()__. Mrkneme se spolecne do naseho virtualniho prostredi, kde tuto metodu nalezneme. Potrebujeme zase zapsat kam (url), chceme nami vyplnene udaje odeslat. Dale potrebujeme __parametry__. Tyto parametry maji specifikovat serveru, o jaky konkretni udaj mame zajem.
 
-
-
-
-3. __Generator__ - je v podstate funkce, ktera vraci iterator
-
-# Generatory
-## Proc je pouzivat?
-V nasich pocitacich mame urcity konecny pocet pameti. Kdyz nas program spoustime, nacitame jej do teto pameti. Tzn. vsechno ukladani, promenne aj. ukladame v nasi pameti.
-
-Priklad:
+Nahrajeme modul:
 ```python
-pokus = [cislo**2 for cislo in range(1000000000)]
-
-for cislo in pokus
-    print(cislo)
-
-MemoryError/Killed
+import requests
 ```
 
-V vyse nachystane uloze totiz rozsah s hodnotami pouze neprochazim, ale soucasne umocnuji a ukladam. Hromadu ukonu v kazdem kroce.
-
-## Generatorova funkce
-Resenim techto narocnejsich procesu byva prave generatorova funkce.
+Zadane konkretni adresu:
 ```python
-def generator(cislo: int) -> int:
-    for cislo in range(cislo):
-        yield i**2
-
-g = generator(1000000000)
-
-for i in g:
-    print(i)
+url = "XXX"
 ```
-Podobne jako v vyse zmineme [prikladu](##-proc-je-pouzivat?) tu mame smycku. Novy je klicovy vyraz __yield__. Tento vyraz funguje podobne jako __return__ tak, ze nam "poda" hodnotu. Nicmene neukonci funkci tak, jako __return__. Spis ji docasne pozastavi.
-
-## Vysledek?
-Hlavni vyhoda generatorove funkce je tedy fakt, ze jakmile jej "nakrmime" cisly, okamzite nam poda vysledne hodnoty. Ale __NEUKLADA__ je. Sledujme rozdil ve vyuziti pameti v nasledujici uloze.
-
-Priklad:
+Ukazeme si, kde najit parametry:
 ```python
-def seznam_lidi(pocet_lidi: int) -> List[dict]:
-    vysledek = []
-    for i in range(pocet_lidi):
-        osoba = {
-                    'id': i,
-                    'jmeno': random.choice(JMENA),
-                    'predmet': random.choice(PREDMETY)
-                }
-        vysledek.append(osoba)
-    return vysledek
-
-def generator_lidi(pocet_lidi: int) -> Generator[dict]:
-    for i in range(pocet_lidi):
-        osoba = {
-                    'id': i,
-                    'jmeno': random.choice(JMENA),
-                    'predmet': random.choice(PREDMETY)
-                }
-        yield osoba
+params = {
+    'kraj': -1,
+    'okres': -1,
+    'razeni': 1, 'archiv': 0,
+    'typ_polozky': -1,
+    'page': 1
+}
 ```
 
-# Prakticka uloha
-## Hon na mys
-Praktickou ulohou, bude spise graficky vystup. V nem se budeme nejprve snazit popsat pouziti generatoru. Nasledne zdanlive jednoduchou ulohu zkomplikuje o prvek nahody.
-
-## Importujeme moduly
-Nasim pomocnym modulem bude mimo jine modul _gameworld.py_ (autor: Sebastiaan Mathôt). Pomocny modul vykresluje mrizku a emoji pro kocku a mys.
-
+Odesleme pozadavek pomoci metody _post_ na server, ktery jej vyhodnoti a zpracuje:
 ```python
-#!/home/mholinka/projects/python_academy/env/bin/python
-"""Lekce #14 - Uvod do programovani, generatory"""
-
-import time
-from gameworld import Animal, draw_grid
+odpoved_serveru = requests.post(url, params=params)
+odpoved_serveru.status_code
+odpoved_serveru.text
 ```
 
-## Pomoci generatorovych funkci
-Nejprve vytvorime gen. funkce _kocky_ a _mysi_, ktere nam umozni vykreslovat pozici obou zvirat.
+## Mame zdroj!
+Jakmile se nam konecne podari udaje nashromazdit. Musime se nimi probrat.
 
 ```python
-def kocky():
-    """Generator pro pozici kocky v mrizce"""
-
-def mysi():
-    """Generator pro pozici mysi v mrizce"""    
+odpoved_serveru = requests.get(URL)
+odpoved_serveru.text  # metoda text nam umozni prohlednout obsah
 ```
 
-## Built-in zip()
-Funkce [zip()](#-dulezite-odkazy) umoznuje sbirat udaje ze dvou iterovatelnych objektu a spojovat je k sobe (vraci iterator).
-
+## Aplikujeme v nasi uloze
 ```python
->>> x = [1, 2, 3]
->>> y = [4, 5, 6]
->>> zipped = zip(x, y)
->>> list(zipped)
-[(1, 4), (2, 5), (3, 6)]
+"""Lekce #15 - Uvod do programovani, web scraping"""
+
+import csv
+from typing import List
+
+import requests
+from bs4 import BeautifulSoup
+
+URL = "http://heroes3.cz/hraci"
+
+
+def hlavni() -> None:
+    pass
+
+if __name__ == "__main__":
+    hlavni()
 ```
-
-## Vyzkousime prvni cast
-Pojdme nas program spustit a rekapitulovat, co jsme dosud zapsali.
-
-## Jdeme dal!
-Budeme chtit pridat do naseho programu prvek nahody! Aby si mohla mys bezet kam se jit zachce. Chceme dosahnout toho, aby generator pro mys pochopil, ze se jej kocka snazi pronasledovat a soucasne rict mysi, aby se od kocky snazila vzdalovat. Jinymi slovy, nase prvni cast generuje pozici kocky a mysi a vysledek vykreslujeme. My, chceme program upravit tak, abychom vysledek vykreslili a vratili jej zpet do generatoru, ktery vyhodnoti dalsi krok.
-
+Pomocna funkce:
 ```python
-...
-import random
-...
+def ziskej_odpoved():
+    return requests.get(URL)
 ```
-## Nova smycka
-Komunikace mezi generatory pomoci for loops probihat nebude. Naopak chceme se spise spolehnout na nekonecnou smycku.
 
+## Jak jej prochazet?
+Zkusime z naseho zdroje neco dohledat:
 ```python
-while True:
-    ...
-    break
+odpoved_serveru.text[0]  # ...
+odpoved_serveru.text[1]  # ...
+odpoved_serveru.text.split()  # ...
 ```
+Nami zname zpusoby, kterymi muzeme text [parsovat](https://en.wikipedia.org/wiki/Parsing)(prochazet) tady nejsou moc platne. Budeme potrebovat silnejsi kalibr.
 
-## Jak zavolame prislusne gen. funkce?
-Vytvorim promenou, ktera obsahuje iterator, ktery nam podava zvirata.
+## Beautiful Soup
+Nainstalujeme si do naseho prostredi dalsi [balicek](https://www.crummy.com/software/BeautifulSoup/bs4/doc/).
 
-```python
-iterator_kocky = kocky()
-iterator_mysi = mysi()
-```
-
-## Jake spustime generatory?
-Jak teda dostanu konkretni zvire a jeho polohu pomoci nasich iteratoru? Pomoci metody generatoru __send()__.
-
-```python
-...
-kocka = iterator_kocky.send(None)
-mys = iterator_mysi.send(None)
-
-while True:
-    ...
-```
-
-## Metoda generatoru send()
-Tato metoda slouzi k predani hodnoty do generatorove funkce.
-
-Priklad:
 ```bash
-def zdvojnasob():
-    while True:
-        x = yield
-        yield x * 2
->>> generator = zdvojnasob()
->>> next(generator)     # dobehne az k prvni yieldu
->>> generator.send(10)  # dosadi 10 jako x = 10
-20
->>> next(generator)     # dobehne k dalsim yieldu
->>> generator.send(5)   # dosadi 5 jako x = 5    
-10
+(env) matous@matous:~/projects/$ pip install beautifulsoup4
+```
+
+Modul BeautifulSoup se postara, abychom vytahli ze ziskaneho HTML (dale podporuje i XMLka) strom, skrze ktery je mozne snadno navigovat a vyhledavat.
+
+Nacteme z balicku modul:
+```python
+from bs4 import BeautifulSoup
+```
+
+Pouziti obsahuje aplikaci dvou parametru. Prvnim je objekt, kde se syrove HTML nachazi, druhy je typ parseru:
+```python
+naparsovane = BeautifulSoup(odpoved_serveru.text, "html.parser")
+```
+
+## Aplikujeme v uloze
+Doplnime dalsi pomocnou funkci a dopiseme hlavni():
+```python
+def vytahni_udaje(resp):
+    return BeautifulSoup(resp.text, "html.parser")
+```
+## Musime najit konkretni tag!
+Musime se zorientovat v nasem HTML-ku a uvedomit si, ve kterem elementu hledat. V prohlizeci, pomoci rezimu _inspect_ zjistime, o ktery jde.
+
+```html
+    <table class="tab_top">
+        <tr></tr>
+    </table>
+```
+
+## Mame vybrano, jak hledat?
+Vyhledavat budeme zejmena pomoci typu elementu (_div_,_table_,..) v kombinaci s metodou __.find()__.  Pomocne pro nas mohou byt zejmena attributy (_"tab\_top"_). 
+
+```python
+...
+naparsovane.find("table", {"class": "tab_top"})
 ...
 ```
-
-Pokud tedy potrebujeme spustit nas generator. Muzeme pouzit metodu _send()_. Jako argument dosadime hodnotu, kterou chceme uplatnit v prvnim __yield__ ohlaseni. V nasem prikladum, chceme generator jen spustit a proto vlozime __None__.
-
-## StopIteration
-Vypada, ze v tomto okamziku dostavame chybu... Nas generator vycerpal hodnoty a skoncil.
-
+## Opet aplikujeme
 ```python
-except StopIteration:
-    break
+def hledej_tabulku(cont):
+    return cont.find("table", {"class": "tab_top"})
 ```
 
-## Vedi o sobe?
-Zatim muzeme rict, ze kocka i mys drzi smer, ktery jsme jim predepsali. Tzn. zatim v podstate pouze zobrazujeme souradnice z obou generatoru. Abychom donutili generatory k cinnosti staci jim poslat __None__. Nicmene, aby dostali pozadovany stav (tedy, ze mys utika a kocka jde za ni), musime predchystat situaci, kdy budou generatory [komunikovat](##-metoda-generatoru-send()).
+Timto nase puvodni HTML orezeme a dostaneme pouze obsah <table></table>
+
+## Jak ziskat info o hraci?
+Vidime, ze na kazdem radku mame jednoho hrace. Takze se musime probrat k jednotlivym radkum. Takze musime prochazet promennou, kam jsme ulozili tabulku a znovu projit. Muzeme si vsimnout, ze radku je tu hodne a proto nam klasicke __.find()__ nepomuze. To, totiz vrati pouze prvni nalezenou hodnotu.
 
 ```python
-try:
-    kocka = iterator_kocky.send(mys)
-    mys = iterator_mysi.send(kocka)
+radky = tabulka.find("tr")  # nelze pouzit, pokud je vice radku
 ```
 
-## Vytvorime pocatecni bod
-Zacneme u kocky. Zatim definice tohoto generatoru umoznuje, pouze pohyb ve smeru vertikalnim. Aby se mohla vykreslovat, tedy "pohybovat" v ruznych smerech, potrebujeme lepsi smycku.
+Pouzijeme __.find\_all()__, ktera nam vrati vsechny elementy v zadanem objektu.
 
 ```python
-kocka = Animal(row=2, col=2)
+radky = tabulka.find_all("tr")
+radky[0]; radky[1]  # muzeme vytahovat pomoci indexu
 ```
-## Upresnime pohyb lovce
-Kocka, jako lovec, musi pronasledovat mys. Tudiz pokud mys unika smerem dolu (zvetsujeme hodnotu __row__), potom musime zvetsit hodnotu __row__ i u kocky a obracene. Obdobne to bude platit po __col__.
+## Aplikujeme...
+Opatrne na zahlavi v _HTML_. To muze komplikovat situaci:
+```python
+def hledej_radky(tabl) -> list:
+    return tabl.find_all("tr")[1:]
+```
+
+## Ziskejme konkretni bunku!
+Podobne jako u radku v tabulce musime premyslet o bunce v radku. Opet je pro ni typicky konkretni element a na nej se musim zamerit.
 
 ```python
-if mys.row > kocka.row:
-    kocka = move(kocka, row=1)
+hrac_1 = radky.find_all("td")[1]
 ```
 
-## Upresnime pohyb mysi
-Krome startovni pozice plati vse, co u generatorove funkce s kockou. Pokud se dostane kocka na stejny radek jako mys (__row__), pouzijeme random.choice(), at za nas rozhodne, kam se ma mys vydat.
+Nami vyfiltrovane HTML nyni obsahuje udaje, patrici prvnimu hraci tabulky. Jak se ale dostaneme ke konkretnimu textovemu udaji?
 
-## Konec lovu
-Doplnim ukoncuji podminku, ktera zakonceni generovani jednotlivych pozic v nasi mrizce. Tedy, pokud si budou souradnice kocky a mysi odpovidat musim nejak cely proces ukoncit.
+## Jake bunky tabulky?
+V tabulce je porad spousta udaju. Potrebujeme nas vyber jeste malicko zuzit. Rekneme, ze mame zajem pouze o poradi, nickname, body a uspesnost.
+
+## Vrat hodnotu elementu
+Pomuze nam metoda __.text__, ktera vraci pouze hodnotu elementu.
 
 ```python
-if mys.row == kocka.row and mys.col == kocka.col:
-    draw_grid(kocka, mys)
-    raise RuntimeError
+hrac_1 = radky.find_all("td")[0]  # poradi
+hrac_1 = radky.find_all("td")[2]  # nickname
+hrac_1 = radky.find_all("td")[3]  # body
+hrac_1 = radky.find_all("td")[7]  # uspesnost
 ```
 
-# Souhrn ke generatorum
-1. Je rozumne pouzivat generator pro snizeni naroku na pamet
-2. Muzeme zuzitkovat rozumne nekonecne smycky s while
-3. Muzeme pouzivat pomoci zkraceneho zapisu
+## Doplnime...
+Doplnujici funkce. Opet musime doplnit i funkci hlavni:
+```python
+def hraci_info(tr) -> dict:
+    try:
+        poradi = tr.find_all("td")[0].text
+        ...
+
+    except AttributeError:
+        print("Indexy u jednotlivych bunek v radku nejsou v poradku")
+```
+## Ukladani do souboru
+Vytvorime si doplnujici funkce. S pomoci modulu __csv__:
+```python
+def uloz_csv(data: List[dict]):
+    with open("players.csv", "a", newline="") as csv_f:
+        zahlavi = ["PORADI", "UZIVATEL", "BODY", "USPESNOST"]
+        writer = csv.DictWriter(csv_f, fieldnames=zahlavi)
+        writer.writeheader()
+
+        for index, _ in enumerate(data):
+            writer.writerow(
+                {
+                    "PORADI": data[index]["poradi"],
+                    "UZIVATEL": data[index]["hrac"],
+                    "BODY": data[index]["body"],
+                    "USPESNOST": data[index]["uspesnost"],
+                }
+            )
+```
+
+## Generator nebo seznam?
+Na zacatku, ve funkce _hlavni()_ se nabizi otazka. Je lepsi pouzit seznamovou komprehenci nebo generator?
+```python
+konecne_udaje = (hraci_info(row) for row in radky)  # generator
+konecne_udaje = [hraci_info(row) for row in radky]  # seznam
+```
+## Dulezite na zaver!
+1. Nez se doopravdy pustite do scrapovani udaju, prectete si sekci _pravidla&podminky_, abyste vedeli jak legalne data pouzivat. Ve vetsine pripadu je zakazano pouzivat udaje pro komercni ucely.
+2. Ujistete se, ze udaje nestahujete ve velkem meritku(dlouho a velke mnozstvi). To muze mit za nasledek pad serveru a prinejmensim Vase zablokovani.
+
