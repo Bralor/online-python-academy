@@ -1,0 +1,1925 @@
+﻿Gray---Muži-jsou-z-Marsu,-ženy-z-Venuše (Unknown)
+- Your Bookmark on page 3 | location 32 | Added on Tuesday, 24 April 2018 10:13:28
+
+
+==========
+Kindle Paperwhite User’s Guide, 8th Edition (Amazon)
+- Your Highlight at location 44-46 | Added on Wednesday, 30 May 2018 16:45:15
+
+Device. If you have enabled Sign-In Approval, you will need to enter your passcode followed by the security code sent to your phone when you register the device.
+==========
+Kindle Paperwhite User’s Guide, 8th Edition (Amazon)
+- Your Note at location 46 | Added on Wednesday, 30 May 2018 16:45:52
+
+Pokus01
+==========
+Elon Musk (Ashlee Vance)
+- Your Note on page 127 | location 1944 | Added on Thursday, 31 May 2018 19:38:29
+
+Rovnik
+==========
+Elon Musk (Ashlee Vance)
+- Your Highlight on page 127 | location 1943-1944 | Added on Thursday, 31 May 2018 19:38:29
+
+v oblasti rovníku, kde se planeta otáčí rychleji a pomáhá raketám v letu.
+==========
+automatetheboringstuffwithpython (Unknown)
+- Your Bookmark at location 1388 | Added on Monday, 11 June 2018 21:58:31
+
+
+==========
+Elon Musk (Ashlee Vance)
+- Your Bookmark on page 157 | location 2401 | Added on Tuesday, 26 June 2018 19:33:09
+
+
+==========
+Elon Musk (Ashlee Vance)
+- Your Bookmark on page 161 | location 2466 | Added on Wednesday, 27 June 2018 13:48:08
+
+
+==========
+automatetheboringstuffwithpython (Unknown)
+- Your Bookmark at location 1571 | Added on Wednesday, 27 June 2018 13:59:34
+
+
+==========
+automatetheboringstuffwithpython (Unknown)
+- Your Bookmark at location 1635 | Added on Thursday, 28 June 2018 15:07:07
+
+
+==========
+Elon Musk (Ashlee Vance)
+- Your Bookmark on page 167 | location 2547 | Added on Saturday, 30 June 2018 06:36:26
+
+
+==========
+Elon Musk (Ashlee Vance)
+- Your Bookmark on page 182 | location 2780 | Added on Wednesday, 4 July 2018 07:08:15
+
+
+==========
+Elon Musk (Ashlee Vance)
+- Your Bookmark on page 294 | location 4495 | Added on Wednesday, 8 August 2018 11:41:59
+
+
+==========
+Elon Musk (Ashlee Vance)
+- Your Bookmark on page 302 | location 4621 | Added on Thursday, 9 August 2018 15:32:02
+
+
+==========
+Uvod do Linuxu - Unknown  
+- Your Bookmark on page 4 | Added on Thursday, 9 August 2018 15:42:41
+
+
+==========
+Elon Musk (Ashlee Vance)
+- Your Bookmark on page 318 | location 4865 | Added on Sunday, 12 August 2018 11:47:30
+
+
+==========
+Elon Musk (Ashlee Vance)
+- Your Bookmark on page 328 | location 5024 | Added on Wednesday, 22 August 2018 11:44:53
+
+
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Bookmark at location 581 | Added on Friday, 11 January 2019 17:55:08
+
+
+==========
+Python Interviews  
+- Your Bookmark at location 53 | Added on Friday, 11 January 2019 17:57:42
+
+
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Bookmark at location 73 | Added on Friday, 11 January 2019 18:19:20
+
+
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Bookmark at location 640 | Added on Sunday, 13 January 2019 19:02:05
+
+
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Bookmark at location 724 | Added on Monday, 14 January 2019 08:15:40
+
+
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Bookmark at location 736 | Added on Monday, 14 January 2019 13:34:03
+
+
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Bookmark at location 770 | Added on Monday, 14 January 2019 13:53:32
+
+
+==========
+Python Interviews  
+- Your Bookmark at location 97 | Added on Monday, 14 January 2019 17:04:15
+
+
+==========
+Python Interviews  
+- Your Bookmark at location 121 | Added on Wednesday, 16 January 2019 17:10:49
+
+
+==========
+Python Interviews  
+- Your Bookmark on Location 159 | Added on Wednesday, January 23, 2019 5:29:06 PM
+
+
+==========
+Django 2 Web Development Cookbook -Third Edition (Jake Kronika)
+- Your Highlight on Location 545-546 | Added on Wednesday, January 23, 2019 5:48:30 PM
+
+mapping, templating, form validation, sessions, authentication, security, cookie management, internationalization, basic administration, and an interface
+==========
+Django 2 Web Development Cookbook -Third Edition (Jake Kronika)
+- Your Note on Location 544 | Added on Wednesday, January 23, 2019 6:03:37 PM
+
+Drina
+==========
+Django 2 Web Development Cookbook -Third Edition (Jake Kronika)
+- Your Highlight on Location 544-544 | Added on Wednesday, January 23, 2019 6:03:37 PM
+
+drudgery
+==========
+Django 2 Web Development Cookbook -Third Edition (Jake Kronika)
+- Your Highlight on Location 545-545 | Added on Wednesday, January 23, 2019 6:04:02 PM
+
+templating,
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 755-756 | Added on Wednesday, January 23, 2019 8:12:51 PM
+
+Beware when running a text editor in a screen window. screen will capture all your control-A keystrokes, even if they are intended as editing commands. Type ^Aa to send a true control-A to your application.
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Note on Location 756 | Added on Wednesday, January 23, 2019 8:13:11 PM
+
+Usefull block
+==========
+Django 2 Web Development Cookbook -Third Edition (Jake Kronika)
+- Your Highlight on Location 544-546 | Added on Thursday, January 24, 2019 9:03:02 AM
+
+powerful web applications quickly and efficiently. It takes much of the drudgery and repetition out of the process, solving questions such as project structure, database object-relational mapping, templating, form validation, sessions, authentication, security, cookie management, internationalization, basic administration, and an interface to access data from scripts.
+==========
+Django 2 Web Development Cookbook -Third Edition (Jake Kronika)
+- Your Note on Location 546 | Added on Thursday, January 24, 2019 9:03:37 AM
+
+Best introductiin I've ever seen
+==========
+Django 2 Web Development Cookbook -Third Edition (Jake Kronika)
+- Your Highlight on Location 566-567 | Added on Thursday, January 24, 2019 9:17:12 AM
+
+We cover virtual environments and Docker, project settings across environments, and multiple version control systems.
+==========
+Django 2 Web Development Cookbook -Third Edition (Jake Kronika)
+- Your Note on Location 567 | Added on Thursday, January 24, 2019 9:17:38 AM
+
+Important part how to start
+==========
+Django 2 Web Development Cookbook -Third Edition (Jake Kronika)
+- Your Highlight on Location 636-636 | Added on Thursday, January 24, 2019 9:32:21 AM
+
+preliminary settings required for the recipe.
+==========
+Django 2 Web Development Cookbook -Third Edition (Jake Kronika)
+- Your Bookmark on Location 683 | Added on Thursday, January 24, 2019 10:13:28 AM
+
+
+==========
+Django 2 Web Development Cookbook -Third Edition (Jake Kronika)
+- Your Highlight on Location 690-694 | Added on Thursday, January 24, 2019 10:38:11 AM
+
+Let's install the shared Python modules, Pillow and MySQLdb, and the virtualenv utility, using the following commands: $ sudo pip3 install Pillow~=5.2.0 $ sudo pip3 install mysqlclient~=1.3.0 $ sudo pip3 install virtualenv~=16.0.0 How to do it...
+==========
+Django 2 Web Development Cookbook -Third Edition (Jake Kronika)
+- Your Highlight on Location 690-693 | Added on Thursday, January 24, 2019 10:38:29 AM
+
+Let's install the shared Python modules, Pillow and MySQLdb, and the virtualenv utility, using the following commands: $ sudo pip3 install Pillow~=5.2.0 $ sudo pip3 install mysqlclient~=1.3.0 $ sudo pip3 install virtualenv~=16.0.0
+==========
+Django 2 Web Development Cookbook -Third Edition (Jake Kronika)
+- Your Note on Location 693 | Added on Thursday, January 24, 2019 10:38:37 AM
+
+Packages
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Bookmark on Location 770 | Added on Friday, February 1, 2019 3:19:18 PM
+
+
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 1316-1316 | Added on Friday, February 1, 2019 5:56:58 PM
+
+Similarly for directories, 0002 NOT AND 0777 yields
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 1316-1316 | Added on Friday, February 1, 2019 5:57:12 PM
+
+Similarly for directories, 0002 NOT AND 0777 yields
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 1316-1316 | Added on Friday, February 1, 2019 5:57:16 PM
+
+Similarly for directories, 0002 NOT AND 0777 yields
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 1316-1316 | Added on Friday, February 1, 2019 5:57:19 PM
+
+directories, 0002 NOT AND 0777 yields
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Bookmark on Location 1363 | Added on Friday, February 1, 2019 6:02:52 PM
+
+
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 1734-1735 | Added on Thursday, February 7, 2019 10:19:49 PM
+
+The uniq command operates on consecutive,
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 1734-1735 | Added on Thursday, February 7, 2019 10:19:55 PM
+
+The uniq command operates on consecutive,
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 1734-1735 | Added on Thursday, February 7, 2019 10:19:59 PM
+
+The uniq command operates on consecutive,
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 1734-1735 | Added on Thursday, February 7, 2019 10:20:06 PM
+
+The uniq command operates on consecutive,
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 1734-1735 | Added on Thursday, February 7, 2019 10:20:48 PM
+
+The uniq command operates on consecutive,
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 1772-1772 | Added on Thursday, February 7, 2019 10:24:30 PM
+
+sed Like AWK, sed is a pattern-matching engine
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 1772-1772 | Added on Thursday, February 7, 2019 10:24:35 PM
+
+Like AWK, sed is a pattern-matching engine
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 1772-1772 | Added on Thursday, February 7, 2019 10:24:37 PM
+
+Like AWK, sed is a pattern-matching engine
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 1772-1772 | Added on Thursday, February 7, 2019 10:24:42 PM
+
+Like AWK, sed is a pattern-matching engine that
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 1772-1772 | Added on Thursday, February 7, 2019 10:24:53 PM
+
+Like AWK, sed is a pattern-matching engine
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 1785-1785 | Added on Thursday, February 7, 2019 10:26:46 PM
+
+Perl, PHP, Python, and Ruby are full-fledged
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 1785-1785 | Added on Thursday, February 7, 2019 10:26:57 PM
+
+Perl, PHP, Python, and Ruby are full-fledged
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Bookmark on Location 1900 | Added on Thursday, February 7, 2019 10:33:22 PM
+
+
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 2057-2057 | Added on Sunday, February 17, 2019 5:40:03 PM
+
+They consist of one or more page ranges with qualifiers.
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 2057-2057 | Added on Sunday, February 17, 2019 5:40:15 PM
+
+They consist of one or more page ranges with qualifiers.
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 2079-2080 | Added on Sunday, February 17, 2019 5:44:28 PM
+
+/etc/cups/printers.conf or /etc/printcap. Nowadays,
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 2104-2104 | Added on Sunday, February 17, 2019 5:49:41 PM
+
+Linux has several spellcheckers built in. If you’re accustomed
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Note on Location 2134 | Added on Sunday, February 17, 2019 5:54:28 PM
+
+Disk usage
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 2130-2134 | Added on Sunday, February 17, 2019 5:54:28 PM
+
+Disks and Filesystems df Display available space on mounted filesystems. mount Make a disk partition accessible. umount Unmount a disk partition (make it inaccessible). fsck Check a disk partition for errors. eject Eject a CD, DVD, or other removable disk.
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 2134-2134 | Added on Sunday, February 17, 2019 5:54:37 PM
+
+Linux systems can have multiple disks or disk partitions.
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 2210-2210 | Added on Sunday, February 17, 2019 6:12:34 PM
+
+The fsck (filesystem check) command validates
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 2210-2210 | Added on Sunday, February 17, 2019 6:12:37 PM
+
+The fsck (filesystem check) command validates
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 2210-2210 | Added on Sunday, February 17, 2019 6:12:41 PM
+
+The fsck (filesystem check) command validates
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Bookmark on Location 2248 | Added on Sunday, February 17, 2019 6:20:24 PM
+
+
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 2310-2314 | Added on Monday, February 18, 2019 10:09:26 AM
+
+Viewing Processes ps List process. uptime View the system load. w List active processes for all users. top Monitor resource-intensive processes interactively. free Display free memory.
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Note on Location 2314 | Added on Monday, February 18, 2019 10:09:39 AM
+
+Processes
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 2380-2380 | Added on Monday, February 18, 2019 10:27:34 AM
+
+Linux kernel reserves as much memory as possible for caching
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Bookmark on Location 2506 | Added on Monday, February 18, 2019 10:55:23 AM
+
+
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Bookmark on Location 2530 | Added on Thursday, February 21, 2019 3:31:28 PM
+
+
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Bookmark on Location 2720 | Added on Friday, March 15, 2019 4:10:30 PM
+
+
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Bookmark on Location 539 | Added on Friday, March 29, 2019 6:19:27 AM
+
+
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Bookmark on Location 601 | Added on Friday, March 29, 2019 3:44:04 PM
+
+
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Bookmark on Location 729 | Added on Monday, April 1, 2019 3:08:59 PM
+
+
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Bookmark on Location 739 | Added on Monday, April 1, 2019 7:29:11 PM
+
+
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Bookmark on Location 448 | Added on Tuesday, April 2, 2019 6:11:41 AM
+
+
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Bookmark on Location 820 | Added on Tuesday, April 2, 2019 6:25:09 AM
+
+
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Highlight on Location 823-825 | Added on Tuesday, April 2, 2019 11:09:39 AM
+
+Jsem naprosto seriózní „posibilista“. To slovo v mém pojetí označuje člověka, který nedoufá bez důvodu, ani se nebojí bez důvodu; člověka, který neustále odolává zdramatizovanému pohledu na svět.
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Note on Location 825 | Added on Tuesday, April 2, 2019 11:09:55 AM
+
+Great definition
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Bookmark on Location 883 | Added on Tuesday, April 2, 2019 11:17:24 AM
+
+
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Bookmark on Location 1028 | Added on Wednesday, April 3, 2019 6:18:44 AM
+
+
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Bookmark on Location 1098 | Added on Thursday, April 4, 2019 6:19:36 AM
+
+
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Bookmark on Location 1176 | Added on Thursday, April 4, 2019 3:29:53 PM
+
+
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 3460-3461 | Added on Tuesday, April 16, 2019 3:33:26 PM
+
+The dc (desk calculator) command is a reverse-polish notation
+==========
+Linux Pocket Guide, 3E (Daniel J. Barrett)
+- Your Highlight on Location 3782-3783 | Added on Friday, April 19, 2019 5:51:01 PM
+
+packages The APT (Advanced Packaging Tool) suite
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 29 | Added on Tuesday, May 7, 2019 12:07:59 PM
+
+Such wau
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 28-29 | Added on Tuesday, May 7, 2019 12:07:59 PM
+
+which is good to know when the “batteries included” with Python don’t fit your application.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 111-112 | Added on Friday, May 10, 2019 6:20:28 AM
+
+Please address comments and questions concerning
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 223-224 | Added on Friday, May 10, 2019 3:50:03 PM
+
+site) When I ran this in a terminal window, I typed a site
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 228-229 | Added on Monday, May 13, 2019 6:26:38 AM
+
+This little Python program did a lot in a few fairly
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 349-349 | Added on Monday, May 13, 2019 3:48:28 PM
+
+Python is the most popular language for introductory
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 349-349 | Added on Monday, May 13, 2019 3:48:32 PM
+
+Python is the most popular language for introductory
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 349-349 | Added on Monday, May 13, 2019 3:48:39 PM
+
+important. Python is the most popular language for introductory
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 349-349 | Added on Monday, May 13, 2019 3:48:42 PM
+
+important. Python is the most popular language for introductory
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 621-622 | Added on Wednesday, May 15, 2019 6:34:39 AM
+
+z All of the preceding examples used literal
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 622-622 | Added on Wednesday, May 15, 2019 6:34:42 AM
+
+All of the preceding examples used literal
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 622-622 | Added on Wednesday, May 15, 2019 6:34:46 AM
+
+All of the preceding examples used literal
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 621-622 | Added on Wednesday, May 15, 2019 6:34:49 AM
+
+z All of the preceding examples used literal
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 622-622 | Added on Wednesday, May 15, 2019 6:35:01 AM
+
+All of the preceding examples used literal
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 834-834 | Added on Friday, May 17, 2019 6:39:38 AM
+
+from other strings, and you need to start with a blank slate.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 886-888 | Added on Friday, May 17, 2019 1:55:05 PM
+
+Python does not add spaces for you when concatenating strings, so in the preceding example, we needed to include spaces explicitly. It does add a space between each argument to a print() statement, and a newline at the end:
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 888 | Added on Friday, May 17, 2019 1:55:26 PM
+
+Concatenation or print
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 920-925 | Added on Friday, May 17, 2019 1:57:57 PM
+
+Because strings are immutable, you can’t insert a character directly into one or change the character at a specific index. Let’s try to change 'Henny' to 'Penny' and see what happens: >>> name = 'Henny' >>> name[0] = 'P' Traceback (most recent call last): File "<stdin>", line 1, in <module> TypeError: 'str' object does not support item assignment
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 925 | Added on Friday, May 17, 2019 1:58:17 PM
+
+immutabe string
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 972-972 | Added on Friday, May 17, 2019 2:00:42 PM
+
+Slices are more forgiving of bad
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 972-972 | Added on Friday, May 17, 2019 2:01:01 PM
+
+'zyxwvutsrqponmlkjihgfedcba' Slices are more forgiving
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 1296-1297 | Added on Monday, May 20, 2019 3:50:41 PM
+
+del is a Python statement, not a list method — you don’t say marxes[-2].del(). It’s sort of the reverse of assignment (=): it detaches a name from a Python object and can free up the object’s memory if that name was the last reference to it.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 1297 | Added on Monday, May 20, 2019 3:50:52 PM
+
+Del()
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 1320-1326 | Added on Monday, May 20, 2019 3:52:33 PM
+
+It’s computing jargon time! Don’t worry, these won’t be on the final exam. If you use append() to add new items to the end and pop() to remove them from the same end, you’ve implemented a data structure known as a LIFO (last in, first out) queue. This is more commonly known as a stack. pop(0) would create a FIFO (first in, first out) queue. These are useful when you want to collect data as they arrive and work with either the oldest first (FIFO) or the newest first (LIFO).
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 1326 | Added on Monday, May 20, 2019 3:52:42 PM
+
+LIFO
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 1448-1448 | Added on Tuesday, May 21, 2019 6:22:51 AM
+
+The syntax to make tuples is a little inconsistent,
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 1458-1458 | Added on Tuesday, May 21, 2019 6:24:24 AM
+
+when echoing a tuple. You don’t need them — it’s the trailing
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 1724-1726 | Added on Tuesday, May 21, 2019 12:54:15 PM
+
+Because [] creates an empty list, you might expect {} to create an empty set. Instead, {} creates an empty dictionary. That’s also why the interpreter prints an empty set as set() instead of {}. Why? Dictionaries were in Python first and took possession of the curly brackets.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 1726 | Added on Tuesday, May 21, 2019 12:54:33 PM
+
+Dict or set
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 1957-1957 | Added on Wednesday, May 22, 2019 6:23:52 AM
+
+Line continuation is also needed if a Python expression spans
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 2157-2158 | Added on Wednesday, May 22, 2019 5:14:18 PM
+
+Note This use of else might seem nonintuitive.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 2367-2367 | Added on Thursday, May 23, 2019 3:04:24 PM
+
+Comprehensions Not to be outdone
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 2373-2384 | Added on Thursday, May 23, 2019 3:06:01 PM
+
+letter_counts = {letter: word.count(letter) for letter in word} >>> letter_counts {'l': 1, 'e': 2, 't': 2, 'r': 1, 's': 1} We are running a loop over each of the seven letters in the string 'letters' and counting how many times that letter appears. Two of our uses of word.count(letter) are a waste of time because we have to count all the e’s twice and all the t’s twice. But, when we count the e’s the second time, we do no harm because we just replace the entry in the dictionary that was already there; the same goes for counting the t’s. So, the following would have been a teeny bit more Pythonic: >>> word = 'letters' >>> letter_counts = {letter: word.count(letter) for letter in set(word)} >>> letter_counts {'t': 2, 'l': 1, 'e': 2, 'r': 1, 's': 1}
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 2384 | Added on Thursday, May 23, 2019 3:06:31 PM
+
+How to count occurences
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 2708-2709 | Added on Tuesday, May 28, 2019 2:45:38 PM
+
+That’s a closure: a dynamically created function that remembers where it came from.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 2709 | Added on Tuesday, May 28, 2019 2:45:44 PM
+
+Closure
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 2721-2723 | Added on Tuesday, May 28, 2019 2:46:47 PM
+
+Python, a lambda function is an anonymous function expressed as a single statement. You can use it instead of a normal tiny function.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 2721-2723 | Added on Tuesday, May 28, 2019 2:46:53 PM
+
+In Python, a lambda function is an anonymous function expressed as a single statement. You can use it instead of a normal tiny function.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 2723 | Added on Tuesday, May 28, 2019 2:47:07 PM
+
+Lambda functions
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 2749-2752 | Added on Tuesday, May 28, 2019 2:51:22 PM
+
+A generator is a Python sequence creation object. With it, you can iterate through potentially huge sequences without creating and storing the entire sequence in memory at once. Generators are often the source of data for iterators.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 2752 | Added on Tuesday, May 28, 2019 2:51:35 PM
+
+Generators
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 2774-2776 | Added on Tuesday, May 28, 2019 3:52:38 PM
+
+Sometimes, you want to modify an existing function without changing its source code. A common example is adding a debugging statement to see what arguments were passed in.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 2776 | Added on Tuesday, May 28, 2019 3:52:49 PM
+
+Decorators
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 2921-2922 | Added on Wednesday, May 29, 2019 3:56:53 PM
+
+No one forces you to do this; you can use a bare except to catch all exceptions, but your treatment of them would probably be generic (something akin to printing Some error occurred).
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 2922 | Added on Wednesday, May 29, 2019 3:57:08 PM
+
+Exceptions
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 3016-3018 | Added on Saturday, June 1, 2019 6:15:22 AM
+
+referring to code in another module. We refer
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 3067-3067 | Added on Saturday, June 1, 2019 6:22:29 AM
+
+same name or want to use a name that is more mnemonic
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 3350-3350 | Added on Sunday, June 2, 2019 5:46:35 PM
+
+However, Python hides most of the object machinery by means
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 3655-3655 | Added on Wednesday, June 5, 2019 6:35:47 AM
+
+the name to make it unlikely for external code to stumble
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 3655-3655 | Added on Wednesday, June 5, 2019 6:35:51 AM
+
+the name to make it unlikely for external code to stumble
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 3795-3809 | Added on Wednesday, June 5, 2019 10:06:16 AM
+
+methods for comparison __eq__( self, other ) self == other __ne__( self, other ) self != other __lt__( self, other ) self < other __gt__( self, other ) self > other __le__( self, other ) self <= other __ge__( self, other ) self >= other Table 6-2. Magic methods for math __add__( self, other ) self + other __sub__( self, other ) self - other __mul__( self, other ) self * other __floordiv__( self, other ) self // other __truediv__( self, other ) self / other __mod__( self, other ) self % other __pow__( self, other ) self ** other
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 3795-3809 | Added on Wednesday, June 5, 2019 10:06:21 AM
+
+Table 6-1. Magic methods for comparison __eq__( self, other ) self == other __ne__( self, other ) self != other __lt__( self, other ) self < other __gt__( self, other ) self > other __le__( self, other ) self <= other __ge__( self, other ) self >= other Table 6-2. Magic methods for math __add__( self, other ) self + other __sub__( self, other ) self - other __mul__( self, other ) self * other __floordiv__( self, other ) self // other __truediv__( self, other ) self / other __mod__( self, other ) self % other __pow__( self, other ) self ** other
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 3809 | Added on Wednesday, June 5, 2019 10:06:33 AM
+
+Magic methods
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 3865-3866 | Added on Wednesday, June 5, 2019 1:44:38 PM
+
+Aggregation expresses relationships, but is a little looser:
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 3865-3866 | Added on Wednesday, June 5, 2019 1:44:51 PM
+
+Aggregation expresses relationships, but is a little looser:
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 3865-3866 | Added on Wednesday, June 5, 2019 1:44:55 PM
+
+Aggregation expresses relationships, but is a little looser:
+==========
+Introducing Python (Bill Lubanovic)
+- Your Bookmark on Location 3865 | Added on Wednesday, June 5, 2019 1:46:08 PM
+
+
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 3868-3868 | Added on Wednesday, June 5, 2019 1:46:32 PM
+
+Modules Here are some guidelines for deciding whether
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 3868-3868 | Added on Wednesday, June 5, 2019 1:46:36 PM
+
+Here are some guidelines for deciding whether
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 3868-3868 | Added on Wednesday, June 5, 2019 1:46:42 PM
+
+Here are some guidelines for deciding whether
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 3868-3868 | Added on Wednesday, June 5, 2019 1:46:46 PM
+
+Here are some guidelines for deciding whether
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 3868-3868 | Added on Wednesday, June 5, 2019 1:46:49 PM
+
+Here are some guidelines for deciding whether to
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 3871-3871 | Added on Wednesday, June 5, 2019 1:47:03 PM
+
+module: Objects are most useful when you need a number
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 4253-4257 | Added on Thursday, June 6, 2019 2:23:16 PM
+
+match() is not the only way to compare the pattern and source. Here are several other methods you can use: search() returns the first match, if any. findall() returns a list of all non-overlapping matches, if any. split() splits source at matches with pattern and returns a list of the string pieces. sub() takes another replacement argument, and changes all parts of source that are matched by pattern to replacement.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 4257 | Added on Thursday, June 6, 2019 2:23:28 PM
+
+Regex basics
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 4331-4331 | Added on Thursday, June 6, 2019 2:32:48 PM
+
+much punctuation that they look like cartoon characters swearing.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 4358-4358 | Added on Thursday, June 6, 2019 2:38:18 PM
+
+Regular expressions are not confined
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 4369-4389 | Added on Thursday, June 6, 2019 2:41:59 PM
+
+In the table, expr and the other italicized words mean any valid regular expression. Table 7-4. Pattern specifiers Pattern Matches abc literal abc ( expr ) expr expr1 | expr2 expr1 or expr2 . any character except \n ^ start of source string $ end of source string prev ? zero or one prev prev * zero or more prev, as many as possible prev *? zero or more prev, as few as possible prev + one or more prev, as many as possible prev +? one or more prev, as few as possible prev { m } m consecutive prev prev { m, n } m to n consecutive prev, as many as possible prev { m, n }? m to n consecutive prev, as few as possible [ abc ] a or b or c (same as a|b|c) [^ abc ] not (a or b or c) prev (?= next ) prev if followed by next prev (?! next ) prev if not followed by next (?<= prev ) next next if preceded by prev (?<! prev ) next next if not preceded by prev
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 4389 | Added on Thursday, June 6, 2019 2:42:18 PM
+
+Regex special signs
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 4472-4473 | Added on Thursday, June 6, 2019 3:47:35 PM
+
+But a bytearray variable is mellow
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 4490-4491 | Added on Thursday, June 6, 2019 3:49:28 PM
+
+xff' This can be confusing, because they’re bytes (teeny
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 4601-4609 | Added on Friday, June 7, 2019 9:56:48 AM
+
+Table 7-7. Bit-level integer operators Operator Description Example Decimal result Binary result & and a & b 1 0b0001 | or a | b 5 0b0101 ^ exclusive or a ^ b 4 0b0100 ~ flip bits ~a -6 binary representation depends on int size << left shift a << 1 10 0b1010 >> right shift a >> 1 2 0b0010
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 4609 | Added on Friday, June 7, 2019 9:56:58 AM
+
+Bit operators
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 4663-4663 | Added on Friday, June 7, 2019 10:00:37 AM
+
+This chapter is all about the different flavors
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 4663-4663 | Added on Friday, June 7, 2019 10:00:45 AM
+
+This chapter is all about the different flavors of data storage,
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 4675-4682 | Added on Friday, June 7, 2019 10:03:10 AM
+
+fileobj = open( filename, mode ) Here’s a brief explanation of the pieces of this call: fileobj is the file object returned by open() filename is the string name of the file mode is a string indicating the file’s type and what you want to do with it The first letter of mode indicates the operation: r means read. w means write. If the file doesn’t exist, it’s created. If the file does exist, it’s overwritten. x means write, but only if the file does not already exist. a means append (write after the end) if the file exists. The second letter of mode is the file’s type: t (or nothing) means text. b means binary.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 4682 | Added on Friday, June 7, 2019 10:03:33 AM
+
+Working with files in Python
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 4710-4718 | Added on Friday, June 7, 2019 1:10:11 PM
+
+fout = open('relativity', 'wt') >>> size = len(poem) >>> offset = 0 >>> chunk = 100 >>> while True: ... if offset > size: ... break ... fout.write(poem[offset:offset+chunk]) ... offset += chunk ... 100 50 >>> fout.close()
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 4718 | Added on Friday, June 7, 2019 1:10:45 PM
+
+How to write big chunk of file
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 4809-4814 | Added on Friday, June 7, 2019 1:22:52 PM
+
+Close Files Automatically by Using with If you forget to close a file that you’ve opened, it will be closed by Python after it’s no longer referenced. This means that if you open a file within a function and don’t close it explicitly, it will be closed automatically when the function ends. But you might have opened the file in a long-running function or the main section of the program. The file should be closed to force any remaining writes to be completed.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 4814 | Added on Friday, June 7, 2019 1:23:03 PM
+
+Closing files
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 5194-5195 | Added on Monday, June 10, 2019 3:58:24 PM
+
+HDF5 is a binary data format for multidimensional
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 5194-5195 | Added on Monday, June 10, 2019 3:58:28 PM
+
+HDF5 is a binary data format for multidimensional
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 5242-5243 | Added on Tuesday, June 11, 2019 6:40:11 AM
+
+language) Handles creation, deletion, constraints,
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 5247-5254 | Added on Tuesday, June 11, 2019 6:44:42 AM
+
+Table 8-1. Basic SQL DDL commands Operation SQL pattern SQL example Create a database CREATE DATABASE dbname CREATE DATABASE d Select current database USE dbname USE d Delete a database and its tables DROP DATABASE dbname DROP DATABASE d Create a table CREATE TABLE tbname ( coldefs ) CREATE TABLE t (id INT, count INT) Delete a table DROP TABLE tbname DROP TABLE t Remove all rows from a table TRUNCATE TABLE tbname TRUNCATE TABLE t
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 5254 | Added on Tuesday, June 11, 2019 6:44:54 AM
+
+Db commands
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 5260-5269 | Added on Tuesday, June 11, 2019 6:46:25 AM
+
+8-2. Basic SQL DML commands Operation SQL pattern SQL example Add a row INSERT INTO tbname VALUES( … ) INSERT INTO t VALUES(7, 40) Select all rows and columns SELECT * FROM tbname SELECT * FROM t Select all rows, some columns SELECT cols FROM tbname SELECT id, count FROM t Select some rows, some columns SELECT cols FROM tbname WHERE condition SELECT id, count from t WHERE count > 5 AND id = 9 Change some rows in a column UPDATE tbname SET col = value WHERE condition UPDATE t SET count=3 WHERE id=5 Delete some rows DELETE FROM tbname WHERE condition DELETE FROM t WHERE count <= 10 OR id = 16
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 5269 | Added on Tuesday, June 11, 2019 6:46:41 AM
+
+Db commands 2
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 5951-5960 | Added on Monday, June 24, 2019 11:37:06 AM
+
+There are dozens of HTTP status codes, grouped into five ranges by their first (hundreds) digit: 1xx (information) The server received the request but has some extra information for the client. 2xx (success) It worked; every success code other than 200 conveys extra details. 3xx (redirection) The resource moved, so the response returns the new URL to the client. 4xx (client error) Some problem from the client side, such as the famous 404 (not found). 418 (I’m a teapot) was an April Fool’s joke. 5xx (server error) 500 is the generic whoops; you might see a 502 (bad gateway) if there’s some disconnect between a web server and a backend application server.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 5960 | Added on Monday, June 24, 2019 11:37:29 AM
+
+Http status codes
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 6141-6143 | Added on Wednesday, June 26, 2019 10:09:09 AM
+
+a good initial web framework. If you need a few more cowbells
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 6141-6143 | Added on Wednesday, June 26, 2019 10:09:17 AM
+
+initial web framework. If you need a few more cowbells and whistles,
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 6170-6171 | Added on Wednesday, June 26, 2019 10:18:02 AM
+
+Do not set debug = True in production web servers. It exposes too much information about your server to potential intruders.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 6171 | Added on Wednesday, June 26, 2019 10:18:18 AM
+
+Debug=false
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 6273-6273 | Added on Wednesday, June 26, 2019 10:38:03 AM
+
+uWSGI is a large system, with many levers and knobs to adjust.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 6328-6330 | Added on Wednesday, June 26, 2019 10:54:13 AM
+
+Instead of publishing web pages, you can provide data through a web application programming interface (API). Clients access your service by making requests to URLs and getting back responses containing status and data.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 6330 | Added on Wednesday, June 26, 2019 10:54:25 AM
+
+API definition
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 6360-6364 | Added on Friday, June 28, 2019 12:05:44 PM
+
+Scrape HTML with BeautifulSoup If you already have the HTML data from a website and just want to extract data from it, BeautifulSoup is a good choice. HTML parsing is harder than it sounds. This is because much of the HTML on public web pages is technically invalid: unclosed tags, incorrect nesting, and other complications. If you try to write your own HTML parser by using regular expressions (discussed in Chapter 7) you’ll soon encounter these messes.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 6364 | Added on Friday, June 28, 2019 12:06:02 PM
+
+Beautifulsoup introduction
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Highlight on Location 1491-1494 | Added on Tuesday, July 9, 2019 8:29:48 PM
+
+Postupně jsme zde probrali události, jichž se instinktivně nejvíc obáváme: přírodní katastrofy (0,1 procenta všech úmrtí na světě), letecké havárie (0,001 procenta), vraždy (0,7 procenta), nukleární ozáření (0 procent), a terorismus (0,05 procenta). Žádná z nich tedy nezpůsobila smrt více než jednoho procenta lidí, kteří každoročně zemřou – a přesto jim média věnují enormní pozornost.
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Note on Location 1494 | Added on Tuesday, July 9, 2019 8:30:02 PM
+
+Paradox umrti
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Highlight on Location 1509-1510 | Added on Tuesday, July 9, 2019 8:32:02 PM
+
+Než začnete jednat, uklidněte se. Když vás ovládá strach, vidíte svět jinak. Dokud vás panika nepřejde, snažte se udělat co nejméně rozhodnutí.
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Note on Location 1510 | Added on Tuesday, July 9, 2019 8:32:14 PM
+
+Ironie zivota
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Highlight on Location 1563-1564 | Added on Tuesday, July 9, 2019 8:38:45 PM
+
+„V nejhlubší chudobě bys nikdy neměl dělat věci perfektně. Pokud bys to dělal, budeš krást prostředky místům, kde by byly vynaloženy užitečněji.“
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Note on Location 1564 | Added on Tuesday, July 9, 2019 8:39:02 PM
+
+Prostredky x chudoba
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Highlight on Location 1870-1873 | Added on Friday, July 12, 2019 8:47:30 PM
+
+Na pomoc mi přichází manažer nemocnice. Vysvětluje, že nevymalované stěny mohou být v zemích na úrovni 2 a 3 strategické rozhodnutí. Ne že by na vymalování neměli peníze. Ale omšelé stěny odrazují bohatší pacienty s jejich požadavky na časově a finančně náročnou léčbu. Nemocnice tak může své omezené prostředky použít k léčbě více osob cenově efektivnějším způsobem.
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Note on Location 1873 | Added on Friday, July 12, 2019 8:47:58 PM
+
+Chudy neznamena hloupy
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Bookmark on Location 1899 | Added on Saturday, July 13, 2019 7:53:26 AM
+
+
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Bookmark on Location 100 | Added on Saturday, July 13, 2019 3:08:06 PM
+
+
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Highlight on Location 2724-2728 | Added on Wednesday, July 24, 2019 8:41:27 AM
+
+Největším orgánem našeho těla je kůže. Před objevem moderních léků patřila k nejhorším kožním nemocem syfilis. Začínala jako svědivé vřídky a pak si prokousala cestu do kostí, až postihla celou kostru. Nemoc způsobující ohavný vzhled a nesnesitelnou bolest měla v různých zemích různá jména. V Rusku chorobě říkali „polská nemoc“. V Polsku to byla „německá nemoc“, v Německu „francouzská nemoc“ a ve Francii „italská nemoc“. Italové vinu házeli zpátky a nazývali ji „francouzská nemoc“.
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Note on Location 2728 | Added on Wednesday, July 24, 2019 8:41:51 AM
+
+Instinkt obvinovani
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Highlight on Location 2815-2817 | Added on Wednesday, July 24, 2019 7:29:07 PM
+
+pamatovat si, že hodíme-li vinu na konkrétní osoby, přehlédneme další možná vysvětlení a příčiny a nebudeme schopni zabránit podobným problémům v budoucnu. Chcete-li kontrolovat instinkt obviňování, odolejte pokušení najít obětního beránka.
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Note on Location 2816 | Added on Wednesday, July 24, 2019 7:29:32 PM
+
+Obvinovani, zaver
+==========
+Faktomluva (Hans Rosling;Ola Rosling;Anna Roslingová Rönnlundová)
+- Your Highlight on Location 2889-2891 | Added on Wednesday, July 24, 2019 7:44:18 PM
+
+Instinkt urgentnosti nás v reakci na domnělé bezprostřední nebezpečí tlačí do okamžité akce. V dávné minulosti určitě lidem sloužil dobře. Pokud jsme tušili, že by se v trávě za námi mohl skrývat lev, nebylo rozumné příliš situaci analyzovat. Ti, kteří se zastavili a podrobněji zkoumali možnosti, nejsou našimi předky.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 6571-6576 | Added on Wednesday, July 31, 2019 9:05:30 AM
+
+When you run an individual program, your operating system creates a single process. It uses system resources (CPU, memory, disk space) and data structures in the operating system’s kernel (file and network connections, usage statistics, and so on). A process is isolated from other processes — it can’t see what other processes are doing or interfere with them.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 6576 | Added on Wednesday, July 31, 2019 9:05:42 AM
+
+How Os works
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 6690-6698 | Added on Thursday, August 1, 2019 1:47:16 PM
+
+Here’s code to test various years for leapiness: >>> import calendar >>> calendar.isleap(1900) False >>> calendar.isleap(1996) True >>> calendar.isleap(1999) False >>> calendar.isleap(2000) True >>> calendar.isleap(2002) False >>> calendar.isleap(2004) True
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 6698 | Added on Thursday, August 1, 2019 1:47:37 PM
+
+How to get leap year
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 6744-6744 | Added on Thursday, August 1, 2019 1:53:50 PM
+
+includes both the date and time of day. You can create one directly,
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 6799-6800 | Added on Thursday, August 1, 2019 1:58:11 PM
+
+Some advice: wherever possible, use UTC instead of time zones. UTC is an absolute time, independent of time zones. If you have a server, set its time to UTC; do not use local time.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 6800 | Added on Thursday, August 1, 2019 1:58:24 PM
+
+Server time utc
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 6804-6804 | Added on Thursday, August 1, 2019 1:59:14 PM
+
+Remember, your friends are UTC for times, and UTF-8 for strings (for
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 6804-6805 | Added on Thursday, August 1, 2019 1:59:20 PM
+
+Remember, your friends are UTC for times, and UTF-8 for strings (for more about UTF-8, see Chapter 7).
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 6805 | Added on Thursday, August 1, 2019 1:59:38 PM
+
+Tiny hint with time
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 19-20 | Added on Thursday, August 8, 2019 11:40:00 AM
+
+lulls us with unprecedented comforts, but also tweaks
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 27-27 | Added on Thursday, August 8, 2019 11:43:30 AM
+
+complex and baffling. Expectations and external pressures blur
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 28-29 | Added on Thursday, August 8, 2019 11:47:39 AM
+
+though, we create the lives we live. This is our greatest burden
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 31-31 | Added on Thursday, August 8, 2019 11:49:21 AM
+
+satisfaction? In our dealings with others, will we meekly
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 38-38 | Added on Thursday, August 8, 2019 11:51:58 AM
+
+of the draw—what my father calls “winning the Ovarian
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 64-64 | Added on Friday, August 9, 2019 2:06:46 PM
+
+But how? How do we repay the gifts that came to us unbidden
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 85-86 | Added on Friday, August 9, 2019 2:16:08 PM
+
+“trust.” Taken in the very widest sense, trust is the belief
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 87-88 | Added on Friday, August 9, 2019 2:17:16 PM
+
+If you want to function effectively in the world—not to mention stay in a good mood—this is a very useful thing to believe!
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Note on Location 88 | Added on Friday, August 9, 2019 2:17:33 PM
+
+Good mood irony
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 94-95 | Added on Friday, August 9, 2019 2:20:23 PM
+
+The belief—the faith—that people are basically good is one of the core values that allow us to feel at home in the world.
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Note on Location 95 | Added on Friday, August 9, 2019 2:20:43 PM
+
+Home, sweet home
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 113-115 | Added on Friday, August 9, 2019 2:30:18 PM
+
+If trust is the core value that allows us to meet the world in a cheerful stance, then tolerance is the equally important quality that allows us to deal with the realities of differences and conflict.
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Note on Location 115 | Added on Friday, August 9, 2019 2:30:30 PM
+
+Tolerance
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 128-129 | Added on Friday, August 9, 2019 2:38:27 PM
+
+television news reports. But this was Omaha—supposedly
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 134-134 | Added on Friday, August 9, 2019 2:41:11 PM
+
+My mother was also determined to imbue
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 135-135 | Added on Friday, August 9, 2019 2:41:39 PM
+
+went to a Southern Baptist church in which a minister
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 135-135 | Added on Friday, August 9, 2019 2:41:47 PM
+
+a Southern Baptist church in which a minister stirred
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 136-137 | Added on Friday, August 9, 2019 2:42:37 PM
+
+from ecstasy. We went to a synagogue whose unfamiliar
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 148-149 | Added on Sunday, August 11, 2019 2:38:34 PM
+
+In our family discussions, he always seemed more nimble,
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 164-164 | Added on Sunday, August 11, 2019 2:46:15 PM
+
+teeth, as likely as not, in a glass at his side! He was the scholar
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 168-169 | Added on Sunday, August 11, 2019 2:48:03 PM
+
+I think of education, ultimately, as the fulfillment of curiosity.
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Note on Location 169 | Added on Sunday, August 11, 2019 2:48:11 PM
+
+Education
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 191-192 | Added on Sunday, August 11, 2019 3:47:31 PM
+
+That kind of education doesn’t come from encyclopedias or dusty old magazines or even Google. It comes from respectful engagement with a wide range of other people. It comes from careful listening.
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Note on Location 192 | Added on Sunday, August 11, 2019 3:47:47 PM
+
+Part of the education
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 204-205 | Added on Sunday, August 11, 2019 3:57:54 PM
+
+Some people believe that having a good work ethic equates with a willingness to slave away for sixty or eighty hours a week, at a job for which one has no passion or even actively hates.
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Note on Location 205 | Added on Sunday, August 11, 2019 3:58:05 PM
+
+Sad but true
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 206-206 | Added on Sunday, August 11, 2019 3:58:34 PM
+
+self-denial, and time logged on the clock are somehow intrinsically
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 219-220 | Added on Sunday, August 11, 2019 4:03:10 PM
+
+make time seem to slow down, and give rise to a blissful
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 219-220 | Added on Sunday, August 11, 2019 4:03:13 PM
+
+make time seem to slow down, and give rise to a blissful
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 219-220 | Added on Sunday, August 11, 2019 4:03:16 PM
+
+make time seem to slow down, and give rise to a blissful
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 233-234 | Added on Monday, August 19, 2019 2:07:48 PM
+
+The problem with honoring the rewards of work rather than the work itself is that the rewards can always be taken away.
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Note on Location 234 | Added on Monday, August 19, 2019 2:07:54 PM
+
+Reward
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 243-244 | Added on Monday, August 19, 2019 2:10:19 PM
+
+comfortable bedroom in an American suburb or on a straw mat
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 252-253 | Added on Monday, August 19, 2019 2:13:48 PM
+
+be rich or poor, privileged or oppressed, healthy or challenged.
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 265-266 | Added on Monday, August 19, 2019 2:18:09 PM
+
+century. Its dictionary definition is as follows: “To merit,
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 269-270 | Added on Monday, August 19, 2019 2:24:58 PM
+
+in conversation. I didn’t really understand why it irked
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 280-280 | Added on Tuesday, August 20, 2019 2:24:06 PM
+
+Remember the Calvinist idea of “grace made manifest”?
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 283-283 | Added on Tuesday, August 20, 2019 2:26:46 PM
+
+special grace all along. The logic may have been circular,
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 312-312 | Added on Friday, August 23, 2019 6:03:21 PM
+
+Self-respect can come only from earning your own reward.
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Note on Location 312 | Added on Friday, August 23, 2019 6:03:36 PM
+
+Self-respect
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 6987-6987 | Added on Sunday, August 25, 2019 6:32:22 PM
+
+(dishes are stacked between workers with different paces).
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 7017-7017 | Added on Sunday, August 25, 2019 6:39:18 PM
+
+everything in the process, similar to a multiple personality.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Highlight on Location 7061-7062 | Added on Sunday, August 25, 2019 6:45:49 PM
+
+In the preceding example code, the threads didn’t share any global variables, so they could run independently without breaking anything.
+==========
+Introducing Python (Bill Lubanovic)
+- Your Note on Location 7062 | Added on Sunday, August 25, 2019 6:46:14 PM
+
+Thread-safe
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Bookmark on Location 327 | Added on Monday, September 16, 2019 4:48:21 PM
+
+
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Bookmark on Location 327 | Added on Monday, September 16, 2019 4:48:29 PM
+
+
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 400-401 | Added on Monday, September 16, 2019 4:53:05 PM
+
+Politicians
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Highlight on Location 401-404 | Added on Monday, September 16, 2019 4:53:22 PM
+
+Economic opportunity should be level. Political power should be level. Access to health care should be level, as should chances of fulfillment in the pursuit of happiness. In an ideal world, everything should be level. But we don’t live in an ideal world.
+==========
+Life Is What You Make It (Peter Buffett)
+- Your Note on Location 404 | Added on Monday, September 16, 2019 4:54:37 PM
+
+Test note
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 1450-1452 | Added on Thursday, November 14, 2019 6:37:59 PM
+
+The idea behind error handling is to gracefully respond to these expected errors in an attempt to either continue our program execution or decide to fail if the error turns out to be insurmountable.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 1451 | Added on Thursday, November 14, 2019 6:38:12 PM
+
+Handling
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 1495-1497 | Added on Thursday, November 14, 2019 6:52:06 PM
+
+not use exceptions as a go-to mechanism for business logic. Raise exceptions when there is actually something wrong with the code that callers need to be aware of.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 1497 | Added on Thursday, November 14, 2019 6:52:15 PM
+
+Exceptions
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 1569-1572 | Added on Wednesday, November 20, 2019 11:55:08 AM
+
+If you choose to let exceptions propagate, make sure not to disclose any sensitive information. Also, if you have to notify users about a problem, choose generic messages (such as Something went wrong, or Page not found). This is a common technique used in web applications that display generic informative messages when an HTTP error occurs.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 1572 | Added on Wednesday, November 20, 2019 11:55:30 AM
+
+Propagation
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 1604-1605 | Added on Wednesday, November 20, 2019 12:33:18 PM
+
+Always use the raise <e> from <o> syntax when changing the type of the exception.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 1605 | Added on Wednesday, November 20, 2019 12:33:27 PM
+
+Exceptions
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 1608-1609 | Added on Wednesday, November 20, 2019 12:35:19 PM
+
+In contrast with the error handling approach, here there is (or should not be) a possibility of continuing the program. If such an error occurs, the program must stop.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 1609 | Added on Wednesday, November 20, 2019 12:35:31 PM
+
+Assertionts
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 2055-2055 | Added on Tuesday, November 26, 2019 6:19:58 PM
+
+Work with immutable objects, and avoid side-effects as much as possible.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 2055 | Added on Tuesday, November 26, 2019 6:20:14 PM
+
+Immutable obj
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 2334-2335 | Added on Friday, November 29, 2019 1:48:25 PM
+
+when something new appears on the domain problem, we only want to add new code, not modify existing code.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 2335 | Added on Friday, November 29, 2019 1:48:42 PM
+
+Extending class
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 2619-2620 | Added on Wednesday, December 4, 2019 12:05:49 PM
+
+This means that decorators are just syntax sugar for calling whatever is after the decorator as a first parameter of the decorator itself, and the result would be whatever the decorator returns.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 2620 | Added on Wednesday, December 4, 2019 12:05:56 PM
+
+Decorator
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 2642-2643 | Added on Wednesday, December 4, 2019 12:08:05 PM
+
+(it's a common idiom in Python to name _ values that are ignored).
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 2643 | Added on Wednesday, December 4, 2019 12:08:21 PM
+
+Ignored values
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 2871-2873 | Added on Tuesday, December 10, 2019 10:12:32 PM
+
+Always use functools.wraps applied over the wrapped function, when creating a decorator, as shown in the preceding formula.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 2872 | Added on Tuesday, December 10, 2019 10:12:44 PM
+
+Decorator
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 3029-3030 | Added on Saturday, December 14, 2019 4:45:34 PM
+
+Do not create the decorator in the first place from scratch. Wait until the pattern emerges and the abstraction for the decorator becomes clear, and then refactor.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 3030 | Added on Saturday, December 14, 2019 4:45:43 PM
+
+Decorators
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 3030-3031 | Added on Saturday, December 14, 2019 4:45:59 PM
+
+Consider that the decorator has to be applied several times (at least three times) before implementing it. Keep the code in the decorators to a minimum.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 3031 | Added on Saturday, December 14, 2019 4:46:18 PM
+
+Decorators 2
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 3153-3154 | Added on Monday, December 16, 2019 7:33:09 PM
+
+Always place the descriptor object as a class attribute!
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 3154 | Added on Monday, December 16, 2019 7:33:19 PM
+
+Descriptot
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 3480-3481 | Added on Monday, January 13, 2020 9:27:38 PM
+
+Do not implement a descriptor unless there is actual evidence of the repetition we are trying
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 3480-3481 | Added on Monday, January 13, 2020 9:27:51 PM
+
+Do not implement a descriptor unless there is actual evidence of the repetition we are trying to solve, and the complexity is proven to have paid off.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 3481 | Added on Monday, January 13, 2020 9:28:04 PM
+
+Descriptors
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 3571-3572 | Added on Tuesday, January 14, 2020 9:09:12 AM
+
+class has a reference to the descriptor, and now the
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 3566-3570 | Added on Tuesday, January 14, 2020 9:09:17 AM
+
+Always store and return the data from the __dict__ attribute of the instance. Using weak references Another alternative (if we don't want to use __dict__) is to make the descriptor object keep track of the values for each instance itself, in an internal mapping, and return values from this mapping as well.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 3566-3567 | Added on Tuesday, January 14, 2020 9:09:29 AM
+
+Always store and return the data from the __dict__ attribute of the instance.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 3567 | Added on Tuesday, January 14, 2020 9:09:50 AM
+
+Dictionary of the object
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 3612-3613 | Added on Tuesday, January 14, 2020 9:29:16 AM
+
+In general, descriptors will contain implementation logic, and not so much business logic.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 3613 | Added on Tuesday, January 14, 2020 9:29:36 AM
+
+Descriptors, business logic
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 3695-3695 | Added on Monday, January 20, 2020 9:50:40 PM
+
+Methods are just functions that take an extra argument.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 3695 | Added on Monday, January 20, 2020 9:50:50 PM
+
+Methods
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 3695-3696 | Added on Monday, January 20, 2020 9:51:04 PM
+
+By convention, the first argument of a method is named "self", and it represents an instance of the class that the method is being defined in.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 3696 | Added on Monday, January 20, 2020 9:51:15 PM
+
+Methods 2
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 3704 | Added on Monday, January 20, 2020 9:53:26 PM
+
+Methods 3
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 3704-3705 | Added on Monday, January 20, 2020 9:53:26 PM
+
+instance = MyClass() instance.method(...)
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 3805-3806 | Added on Tuesday, January 21, 2020 9:48:05 PM
+
+Use a decorator class when defining a decorator that we want to apply to class methods, and implement the __get__() method on it.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 3806 | Added on Tuesday, January 21, 2020 9:48:18 PM
+
+Decorator class
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 3846-3847 | Added on Wednesday, January 22, 2020 2:54:40 PM
+
+The idea of a generator is to create an object that is iterable, and, while it's being iterated, will produce the elements it contains, one at a time.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 3847 | Added on Wednesday, January 22, 2020 2:54:49 PM
+
+Generators
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 3900-3902 | Added on Wednesday, January 22, 2020 3:05:41 PM
+
+In Python, the mere presence of the keyword yield in any function makes it a generator, and, as a result, when calling it, nothing other than creating an instance of the generator will happen:
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 3902 | Added on Wednesday, January 22, 2020 3:06:00 PM
+
+Example of the generator
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 3920-3922 | Added on Wednesday, January 22, 2020 5:10:43 PM
+
+Always pass a generator expression, instead of a list comprehension, to functions that expect iterables, such as min(), max(), and sum(). This is more efficient and pythonic.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 3922 | Added on Wednesday, January 22, 2020 5:11:18 PM
+
+Generator expression 
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 3984-3985 | Added on Thursday, January 23, 2020 9:51:49 AM
+
+it's perfectly fine to create an infinite loop like this, because, when this generator function is called, it will run all the code until the next yield statement is reached.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 3985 | Added on Thursday, January 23, 2020 9:52:15 AM
+
+Generator Usage 
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 4000-4000 | Added on Thursday, January 23, 2020 9:55:05 AM
+
+is a trait that denotes bad code). It doesn't handle
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 4030-4031 | Added on Thursday, January 23, 2020 9:34:27 PM
+
+you are thinking about running a loop over the same object more than one time,
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 4030-4033 | Added on Thursday, January 23, 2020 9:34:36 PM
+
+If you are thinking about running a loop over the same object more than one time, stop and think if itertools.tee can be of any help. Nested loops In some situations, we need to iterate over more than one dimension, looking for a value, and nested loops come as the first idea.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 4030-4031 | Added on Thursday, January 23, 2020 9:34:48 PM
+
+If you are thinking about running a loop over the same object more than one time, stop and think if itertools.tee can be of any help.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 4031 | Added on Thursday, January 23, 2020 9:35:01 PM
+
+Itertools.tee
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 4057-4058 | Added on Saturday, January 25, 2020 12:48:33 PM
+
+Try to simplify the iteration as much as possible with as many abstractions as are required, flatting the loops whenever possible.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 4058 | Added on Saturday, January 25, 2020 12:48:56 PM
+
+Simplify iteration
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 4162-4163 | Added on Saturday, January 25, 2020 1:07:58 PM
+
+Use the close() method on generators to perform finishing-up tasks when needed.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 4163 | Added on Saturday, January 25, 2020 1:08:15 PM
+
+Coroutines
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 4206-4208 | Added on Tuesday, January 28, 2020 2:22:25 PM
+
+In coroutines, we generally find the yield keyword to be used in the following form: receive = yield produced
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 4208 | Added on Tuesday, January 28, 2020 2:22:38 PM
+
+Coroutines
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 4221-4222 | Added on Tuesday, January 28, 2020 2:42:42 PM
+
+Always remember to advance a coroutine by calling next() before sending any values to it.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 4222 | Added on Tuesday, January 28, 2020 2:43:00 PM
+
+Coroutines,how to
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 4268-4269 | Added on Wednesday, January 29, 2020 6:08:45 PM
+
+coroutines have a different idea; even though they are technically generators, they weren't conceived with the idea of iteration in mind, but with the goal of suspending the execution of a code until it's resumed later on.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 4269 | Added on Wednesday, January 29, 2020 6:09:12 PM
+
+Coroutines, definition 
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 4351-4352 | Added on Thursday, January 30, 2020 9:12:31 AM
+
+We can use yield from to capture the last value
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 4351-4352 | Added on Thursday, January 30, 2020 9:12:36 AM
+
+We can use yield from to capture the last value of a coroutine after it has finished its processing.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 4352 | Added on Thursday, January 30, 2020 9:12:54 AM
+
+Coroutines, last value
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 4403-4404 | Added on Thursday, January 30, 2020 9:27:56 AM
+
+We create generators when we want to achieve efficient iteration. We typically create coroutines with the goal of running non-blocking I/O operations.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 4404 | Added on Thursday, January 30, 2020 9:28:12 AM
+
+Generators/coroutines
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 4492-4493 | Added on Thursday, January 30, 2020 9:46:31 AM
+
+Unit tests are intended to verify very small units, for example a function, or a method. We want from our unit tests to reach a very detailed level of granularity, testing as much code as possible.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 4493 | Added on Thursday, January 30, 2020 9:46:42 AM
+
+Unit testing
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 4493-4494 | Added on Thursday, January 30, 2020 9:46:50 AM
+
+To test a class we would not want to use a unit tests, but rather a test suite, which is a collection of unit tests.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 4493-4495 | Added on Thursday, January 30, 2020 9:47:13 AM
+
+To test a class we would not want to use a unit tests, but rather a test suite, which is a collection of unit tests. Each one of them will be testing something more specific, like a method of that class.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 4494 | Added on Thursday, January 30, 2020 9:47:27 AM
+
+Class testing
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 4496-4498 | Added on Thursday, January 30, 2020 9:49:04 AM
+
+In an integration test, we will want to test multiple components at once. In this case we want to validate if collectively, they work as expected. In this case is acceptable (more than that, desirable) to have side-effects, and to forget about isolation, meaning that we will want to issue HTTP requests, connect to databases, and so on.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 4498 | Added on Thursday, January 30, 2020 9:49:19 AM
+
+Integration testing
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 4505-4505 | Added on Thursday, January 30, 2020 9:53:12 AM
+
+we want to run unit tests all the time, and less frequently those test that take longer.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 4505 | Added on Thursday, January 30, 2020 9:53:33 AM
+
+Unitesting runtime
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 4686-4688 | Added on Saturday, February 1, 2020 11:18:41 AM
+
+Try to check for the error message, as not only will the exception, as an extra check, be more accurate and ensure that it is actually the exception we want that is being triggered, it will check whether another one of the same types got there by chance.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 4688 | Added on Saturday, February 1, 2020 11:18:50 AM
+
+Unittesting
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 4740-4742 | Added on Saturday, February 1, 2020 11:38:30 AM
+
+nice feature is that the command pytests will run all the tests that it can discover, even if they were written with unittest.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 4741 | Added on Saturday, February 1, 2020 11:38:45 AM
+
+Pytest+unittest
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 4781-4783 | Added on Saturday, February 1, 2020 11:44:42 AM
+
+@pytest.mark.parametrize to eliminate repetition, keep the body of the test as cohesive as possible, and make the parameters (test inputs or scenarios) that the code must support explicitly.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 4781-4783 | Added on Saturday, February 1, 2020 11:44:48 AM
+
+Use @pytest.mark.parametrize to eliminate repetition, keep the body of the test as cohesive as possible, and make the parameters (test inputs or scenarios) that the code must support explicitly.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 4783 | Added on Saturday, February 1, 2020 11:45:14 AM
+
+Pytest,parametrize
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 4839-4840 | Added on Tuesday, February 4, 2020 2:22:43 PM
+
+Use coverage as a tool to find blind spots in the code, but not as a metric or target goal.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 4839 | Added on Tuesday, February 4, 2020 2:22:55 PM
+
+Testing coverage
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 5403-5404 | Added on Friday, February 14, 2020 2:31:10 PM
+
+The pattern is applied where there is a relation of many-to-many among several objects, and we want them to interact.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 5404 | Added on Friday, February 14, 2020 2:31:31 PM
+
+Design pattern, facade
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 5474-5474 | Added on Sunday, February 16, 2020 4:20:44 PM
+
+And what if we wanted that order of precedence
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 5493-5493 | Added on Sunday, February 16, 2020 4:34:12 PM
+
+pattern. For the rest of the logic, the template
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 5762-5762 | Added on Thursday, February 20, 2020 7:56:46 PM
+
+For Python projects, a component could be a package, but a service can also be a component.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 5762 | Added on Thursday, February 20, 2020 7:56:56 PM
+
+Component
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 5821-5822 | Added on Thursday, February 20, 2020 9:08:31 PM
+
+idioms as provided by it, because doing
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 5879-5879 | Added on Thursday, February 20, 2020 9:24:12 PM
+
+taking into account the considerations in the previous
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Highlight on Location 6122-6123 | Added on Monday, February 24, 2020 4:19:42 PM
+
+But that is probably the best piece of advice the reader should take from the book—they are just principles, not laws.
+==========
+Clean Code in Python (Mariano Anaya)
+- Your Note on Location 6123 | Added on Monday, February 24, 2020 4:19:49 PM
+
+Summary
+==========
+Effective DevOps (Jennifer Davis and Katherine Daniels)
+- Your Highlight on Location 83-83 | Added on Sunday, May 24, 2020 6:40:40 AM
+
+information flow and trust is a key component
+==========
+Effective DevOps (Jennifer Davis and Katherine Daniels)
+- Your Highlight on Location 100-100 | Added on Sunday, May 24, 2020 6:48:21 AM
+
+V on scalability is particularly relevant
+==========
+Effective DevOps (Jennifer Davis and Katherine Daniels)
+- Your Highlight on Location 366-368 | Added on Wednesday, May 27, 2020 6:52:18 AM
+
+Buy-in from management, freedom to experiment and work on non-customer-facing code, and trust across various teams all allowed these tools to be developed and along with them, a culture of tooling, sharing, and collaboration.
+==========
+Effective DevOps (Jennifer Davis and Katherine Daniels)
+- Your Note on Location 368 | Added on Wednesday, May 27, 2020 6:52:33 AM
+
+Tip nr.1
+==========
+Effective DevOps (Jennifer Davis and Katherine Daniels)
+- Your Highlight on Location 443-444 | Added on Thursday, May 28, 2020 7:56:38 AM
+
+Failure sucks but instructs. Bob Sutton, Stanford Management Instructor
+==========
+Effective DevOps (Jennifer Davis and Katherine Daniels)
+- Your Note on Location 444 | Added on Thursday, May 28, 2020 7:56:55 AM
+
+Great advice
+==========
+Effective DevOps (Jennifer Davis and Katherine Daniels)
+- Your Highlight on Location 497-498 | Added on Friday, May 29, 2020 6:36:00 AM
+
+In the field of cognitive science, a folk
+==========
+Effective DevOps (Jennifer Davis and Katherine Daniels)
+- Your Highlight on Location 540-540 | Added on Friday, May 29, 2020 6:49:50 AM
+
+with the climber asking “on belay?”
+==========
+Effective DevOps (Jennifer Davis and Katherine Daniels)
+- Your Highlight on Location 585-586 | Added on Tuesday, June 2, 2020 6:41:11 AM
+
+The programmers felt the pain of managing and operating these systems as they had to replace fuses and cables and remove literal bugs in the system.
+==========
+Effective DevOps (Jennifer Davis and Katherine Daniels)
+- Your Note on Location 585 | Added on Tuesday, June 2, 2020 6:41:19 AM
+
+Bugs
+==========
+Effective DevOps (Jennifer Davis and Katherine Daniels)
+- Your Highlight on Location 594-595 | Added on Tuesday, June 2, 2020 6:43:46 AM
+
+recalls: Coming up with new ideas was an adventure. Dedication and commitment were a given. Mutual respect was across the board. Because software was a
+==========
+Effective DevOps (Jennifer Davis and Katherine Daniels)
+- Your Highlight on Location 606-607 | Added on Tuesday, June 2, 2020 6:49:00 AM
+
+team members, led to software that facilitated
+==========
+Effective DevOps (Jennifer Davis and Katherine Daniels)
+- Your Highlight on Location 612-612 | Added on Tuesday, June 2, 2020 6:50:53 AM
+
+The growth rate of systems and the emerging
+==========
+Effective DevOps (Jennifer Davis and Katherine Daniels)
+- Your Highlight on Location 635-635 | Added on Wednesday, June 3, 2020 6:19:14 AM
+
+software had suddenly acquired significant monetary
+==========
+Effective DevOps (Jennifer Davis and Katherine Daniels)
+- Your Highlight on Location 685-686 | Added on Wednesday, June 3, 2020 6:37:29 AM
+
+Information that is not generally known to the public that is sufficiently secret to confer economic or business advantage is considered a trade secret.
+==========
+Effective DevOps (Jennifer Davis and Katherine Daniels)
+- Your Note on Location 686 | Added on Wednesday, June 3, 2020 6:37:39 AM
+
+Trade secret
+==========
+Effective DevOps (Jennifer Davis and Katherine Daniels)
+- Your Highlight on Location 687-688 | Added on Wednesday, June 3, 2020 6:37:52 AM
+
+Software, processes, methods, salary structure, organizational structure and customer lists are examples of items that can be considered a company’s proprietary information.
+==========
+Effective DevOps (Jennifer Davis and Katherine Daniels)
+- Your Note on Location 688 | Added on Wednesday, June 3, 2020 6:38:09 AM
+
+Secrets II
+==========
+Effective DevOps (Jennifer Davis and Katherine Daniels)
+- Your Highlight on Location 703-704 | Added on Wednesday, June 3, 2020 6:41:22 AM
+
+generated content than before. Given the ease
+==========
+Effective DevOps (Jennifer Davis and Katherine Daniels)
+- Your Highlight on Location 702-704 | Added on Wednesday, June 3, 2020 6:41:57 AM
+
+MySQL, a relational database first released in 1995, combined with the server-side scripting capabilities of PHP, allowed developers to create dynamic websites and applications, with more rapidly updated or dynamically generated content than before.
+==========
+Effective DevOps (Jennifer Davis and Katherine Daniels)
+- Your Note on Location 704 | Added on Wednesday, June 3, 2020 6:42:24 AM
+
+Lamp stack, beginning
+==========
