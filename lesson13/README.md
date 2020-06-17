@@ -1,8 +1,6 @@
 ![](../images/engeto.png)
 # Python academy, lesson 13
 
-    Matous Holinka <bralor92@email.cz>
-    +420 776 857 619
 
 # Important links
 - [Python Academy, lekce 13](https://engeto.com/cs/kurz/python-5/studium/Fefwhy-AQ3WsXPnmjsUH5A/iteracni-protokol-comprehensions/iteracni-protokol/co-je-to-protokol)

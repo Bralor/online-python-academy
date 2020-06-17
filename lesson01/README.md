@@ -338,4 +338,9 @@ Nahradime hodnotu promenne __ODDELOVAC__:
 ODDELOVAC = "=" * 35
 ```
 
+<<<<<<< HEAD
 [POKRACOVAT NA LEKCI#02](https://github.com/Bralor/python-academy/blob/master/README.md)
+=======
+#### CZ
+Tento [proces](https://engeto.com/cs/kurz/python-academy/studium/QnEydRFvSu2qmTCPIVEW0Q/1-intro-to-programming/sequence-data-types/repetition) se sklada ze sekvence, kterou budeme opakovat, operatoru pro opakovani "*" a za nim cele cislo, ktere specifikuje pocet opakovani.
+>>>>>>> 0b78176353f413bf0ceb14cea25ddc545a90a08b

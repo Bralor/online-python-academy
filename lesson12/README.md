@@ -1,9 +1,6 @@
 ![](../images/engeto.png)
 # Python academy, lesson 12
 
-    Matous Holinka <bralor92@email.cz>
-    +420 776 857 619
-
 # Important links
 - [Python Academy, lekce 12](https://engeto.com/cs/kurz/online-python-akademie/studium/n9fgfnBHTk63vJN6caNang/formaty-souboru/csv)
 - [Minula lekce, repo](https://github.com/Bralor/python_academy/tree/master/lesson11)

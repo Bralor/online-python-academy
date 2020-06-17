@@ -1,8 +1,4 @@
-# Python academy, lesson 04
-
-    Matous Holinka <bralor92@email.cz>
-    +420 776 857 619
-
+# Python academy, lekce 04
 # Important links
 
 - [Python Academy](https://engeto.com/cs/kurz/online-python-akademie/studium/m6kdssUZTVCpXcA6W3zkBQ/rozsireni-sekvenci-smycka-while/profik-pres-sekvence/opakovani-sekvenci)
