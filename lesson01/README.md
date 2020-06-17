@@ -1,22 +1,21 @@
-# Python academy, lesson 01
+[VRATIT NA UVOD](https://github.com/Bralor/python-academy/blob/master/README.md)
 
-    Matous Holinka <bralor92@email.cz>
-    +420 776 857 619
+<p align="center">
+  <img src="https://engeto.cz/wp-content/uploads/2019/01/engeto-square.png" width="300" height="300">
+</p>
 
-# Important links
+# Python academy, lekce 01
+## Dulezite odkazy
+- [Python Academy, lekce](https://engeto.com/cs/kurz/online-python-akademie/lekce)
+- [Python Academy, cviceni](https://engeto.com/cs/kurz/online-python-akademie/praxe)
+- [Python Academy, Git](https://engeto.com/cs/kurz/git-zaklady-pro-uzivatele/lekce)
+- [Python Academy, zaciname!](https://engeto.com/cs/kurz/python-academy/studium/SpmtH-mVRY6zPL9alhruMQ/home-set-up/basics-of-command-line)
+- [Repl.it](https://repl.it/)
 
-- [Python Academy](https://engeto.com/cs/kurz/online-python-akademie/lekce)
+## Co nas dnes ceka?
+Vytvorime jednoduchy skript pojmenovany "Destinatio". Tento program bude komunikovat s uzivatelem. Komunikaci rozumejme nejake predavani vstupu a vystupu s nasim programem. Jelikoz jde o nasi prvni spolecnou hodinu, vsechno se budeme snazit resit pomoci vzdaleneho online [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment)(integrated development enviroment). Prejdeme tedy na [repl.it](#-dulezite-odkazy)!
 
-# Our first project
-We will create simple script named "Destinatio". This program will communicate with the user (note: input/ouput)
-
-#### CZ
-Vytvorime jednoduchy skript pojmenovany "Destinatio". Tento program bude komunikovat s uzivatelem (pozn:vstup/vystup)
-
-# Requirements:
-After running the script, the communication should look like this.
-
-#### CZ
+## Co bude vysledkem?
 Po spusteni by mela komunikace vypadat nasledovne:
 ```
 ===================================
@@ -44,95 +43,72 @@ CENA(cil:Olomouc): 120
 Jizdenku posleme na Vasi emailovou adresu: matous@nic.cz
 ```
 
-# Procedure
-Open your working directory and then create new python file (destinatio1.py). Then copy the text below and follow the individual steps in the text.
-
-#### CZ
-Otevrete vas pracovni adresar a vytvorte novy soubor (destinatio1.py) a zkopirujeme nasledujici text a postupujeme podle jednotlivych kroku v textu.
+## Jak zacit?
+Pojdme vsichni na tuto __adresu__:
 ```
-#!/usr/bin/env python3
-""" Lekce #1 - Uvod do programovani, 1/2 Destinatio """
-
-# I. KROK: 
-# Zadame promenne, se kterymi chceme pracovat
-
-# II. KROK:
-# Pozdravime uzivatele, oddelime text
-# Zobrazit uzivateli nasi nabidkou - <cislo> - <lokalita> | <cena>
-
-# III. KROK:
-# Vyzadame si od uzivatele jednotlive vstupy
-# cislo destinace, jmeno, prijmeni, vek, email, heslo
-
-# IV. KROK:
-# Modifikujeme tyto hodnoty
-
-# VI. KROK:
-# Vystupni sekce, vypisujeme konkretni udaje
-# Jmeno, destinaci, cenu, email
+https://repl.it/
+```
+Muzeme se prihlasit pomoci _Google uctu_ a otevreme si _novy projekt_:
+```
+python
 ```
 
-# Prerequisites
-## Integers
-We write [values](https://engeto.com/cs/kurz/python-academy/studium/91lewpELSZaQ6CI_vGz9ng/1-intro-to-programming/basics/data-types-overview) using integers
-
-#### CZ
-Hodnoty zapisujeme pomoci celych cisel
+Pripadne moznost vpravo nahore primo pouzit tlacitko a ihned psat kod:
 ```
+<> start coding
+```
+
+## Upozorneni!
+S kodem, ktery dneska zapiseme pomoci [repl.it](#-dulezite-odkazy) budeme opet pracovat ve druhe hodine. Vysledek si proto muzete bud ulozit, nebo stahnout potom ode me.
+
+## Nas prvni kod
+Zadame promenne, se kterymi chceme pracovat. Ale jake?
+
+<p align="center">
+  <img src="https://media.giphy.com/media/64aBc1uYI7asXZH28O/source.gif" width="300" height="300">
+</p>
+
+## Prvne cisla
+### Cela cisla, integers
+Hodnoty zapisujeme pomoci [celych cisel](https://engeto.com/cs/kurz/python-academy/studium/91lewpELSZaQ6CI_vGz9ng/1-intro-to-programming/basics/data-types-overview).
+```bash
 # zapis pomoci Python interpretru
 >>> type(1100)
-<class 'int'>
+<class 'int'>  # -> zkratka pro integer
 >>> 1100 + 100
 1200
+>>> 5 - 2
+3
 ```
 
-## Floats
-We write values as decimal number. The separator is dot! Decimal point is used for other purposes.
-
-#### CZ
-Hodnoty zapisujeme jako desetinna cisla. Oddelovac je tecka! Carka slouzi k jinym ucelum.
-
-```
+### Desetinna cisla, floats
+Hodnoty zapisujeme jako desetinna cisla. Oddelovac je __tecka__! Carka slouzi k jinym ucelum.
+```bash
 >>> type(3.1415926536)
 >>> 10/3; type(10/3)
 3.3333333333333335
 <class 'float'>
 ```
 
-## Numerical operations
-In Python we use basic [mathematical operations](https://engeto.com/cs/kurz/python-academy/studium/3mDYjEkEQJi0yNIwGTyMBw/1-intro-to-programming/numeric-data-types/arithmetic-operations). That is addition, subtraction, multiplication and division. We also have three other operations: floor division, remainder, negation and power.
+### Co jeste muzeme s cisly provadet?
+## Zakladni operatory
+V Pythonu pouzivame [zakladni matematicke operace](https://engeto.com/cs/kurz/python-academy/studium/3mDYjEkEQJi0yNIwGTyMBw/1-intro-to-programming/numeric-data-types/arithmetic-operations). Tedy scitani, odcitani, nasobeni a deleni. Dale mame tri dalsi operace: celociselne deleni, zbytek po deleni, negace a umocnovani.
 
-#### CZ
-V Pythonu pouzivame zakladni matematicke operace. Tedy scitani, odcitani, nasobeni a deleni. Dale mame tri dalsi operace: celociselne deleni, zbytek po deleni, negace a umocnovani.
-
-```
->>> num1 = 5  # prvni promenna
->>> num2 = 4  # druha promenna
->>> num1 + num2
-9
->>> num1 - num2
-1
->>> num1 * num2
-20
->>> num1 / num2
-1.25
->>> num1 // num2  # celociselne deleni
-1
->>> num1 % num2  # ziskani zbytku po deleni
-1
->>> -num1  # negace
--5
->>> num1 ** num2  # umocnovani
-625
+Zkousime jednotlive __operatory__:
+```bash
+>>> 10 + 5          # 15
+>>> 10 - 5          # 5
+>>> 10 * 5          # 50
+>>> 10 / 5          # 2.0 (?)
+>>> 10 // 3         # celociselne deleni
+>>> 10 % 3          # ziskani zbytku po deleni
+>>> -10             # negace
+>>> 10 ** 3         # umocnovani
 ```
 
-## Strings
-These are various long groupings of characters (numbers, letters, special symbols, ..), enclosed in quotation marks.
-
-#### CZ
-Jde o ruzne dlouhe uskupeni znaku (cisla, pismena, specialni symboly,..), ohranicenych uvozovkami.
-
-```
+## Je libo i text? Retezce, strings!
+Jde o ruzne dlouhe uskupeni [znaku](https://engeto.com/cs/kurz/python-academy/studium/p1_xjnimSui6cpwn2nISBQ/1-intro-to-programming/sequence-data-types/strings) (cisla, pismena, specialni symboly,..), ohranicenych uvozovkami.
+```bash
 >>> "Matous Holinka"; type("Matous Holinka")
 'Matous Holinka'
 <class 'str'>
@@ -144,75 +120,222 @@ Jde o ruzne dlouhe uskupeni znaku (cisla, pismena, specialni symboly,..), ohrani
 <class 'str'>
 ```
 
-## Variables
-[Variables](https://engeto.com/cs/kurz/python-academy/studium/0ujrbVm0T_uX6LlvMP1D1g/1-intro-to-programming/data/variable) in Python are just symbolic names that are pointers to an object in physical memory.
+## Jak tedy hodnotu uchovat a vyhledat? Promenne...
+[Promenne](https://engeto.com/cs/kurz/python-academy/studium/0ujrbVm0T_uX6LlvMP1D1g/1-intro-to-programming/data/variable) v Pythonu jsou je symbolickymi odkazy, ktere odkazuji na objekt v pameti.
 
-#### CZ
-Promenne v Pythonu jsou je symbolickymi odkazy, ktere odkazuji na objekt v pameti.
-
-<jmeno_promenne> = <hodnota> (retezec, cele_cislo, desetinne_cislo)
-```
-mesto = 'Praha' # retezec
-mnozstvi = 2    # cele_cislo
-cena = 1000.5   # desetinne_cislo
+__Predpis/syntaxe__ vypada nasledovne:
+```python
+<jmeno_promenne> = <hodnota> (retezec, cele_cislo, desetinne_cislo, aj.)
 ```
 
-## List
-A list is a mutable element sequence. The individual elements can be changed, we can work with any part of the list, we can extend or delete it.
+__Priklad__:
+```python
+MESTO = 'Praha'     # retezec, konstanta
+MNOZSTVI = 2        # cele_cislo, konstanta
+CENA = 1000.5       # desetinne_cislo, konstanta
+```
 
-#### CZ
+## Promenne obsahujici vice udaju
+### Seznam, list
 List neboli seznam je zmenitelna posloupnost prvku. Tzn. jednotlive prvku muzeme menit, muzeme pracovat s libovolnou casti seznamu, muzeme jej rozsirovat nebo promazavat.
 
-## Tuple
-A tuple, on the other hand, is an immutable sequence of elements. Although we can use individual data, we cannot change it.
+__Obecne__:
+```python
+<jmeno_seznamu> = <[>"udaj_1"<,> "udaj_2"<,> "udaj_3"<,> "udaj_4"<]>
+```
+__Priklad__:
+```python
+JMENA = ["Matous", "Marek", "Lukas", "Jan"]; type(JMENA)  # seznam s retezci
+```
 
-#### CZ
+## N-tice, tuple
 Tuple neboli n-tice je naopak nezmenitelna posloupnost prvku. Muzeme sice pouzivat jednotlive data, ale nemuzeme je menit.
 
-```
->>> names = ["Matous", "Marek", "Lukas", "Jan"]; type(names)  # list of strings
-<class 'list'>
-numbers = ("11", 11, "eleven"); type(numbers)  # list of strings
-<class 'tuple'>
+__Obecne__:
+```python
+<jmeno_ntice> = <(>"udaj_1"<,> "udaj_2"<,> "udaj_3"<,> "udaj_4"<)>
 ```
 
-## print()
-It's a built-in Python [feature](https://engeto.com/cs/kurz/python-academy/studium/GzlxQFyiSSuTLjE_B99htw/1-intro-to-programming/basics/input-output-data) (installed with Python, we don't have to create one). The purpose of this function is to list the information that we put in the round tabs.
-
-#### CZ
-Je to vestavena funkce Pythonu (s Pythonem nainstalovana, neni nutne ji tvorit). Ucelem teto funkce je vypsat informace, ktere ji vlozime do kulatych zavorek.
-
-```
->>> print("Matous")
-Matous
->>> name = 'Matous'; print(name)
-Matous
-```
-## input()
-This is again a built-in function in Python. This function expects some input information from the user.
-
-#### CZ
-Jde opet o vestavenou funkci v Pythonu. Tato funkce ocekava od uzivatele nejakou vstupni informaci.
-
-```
->>> email = input("Your email address: "); print(email)  # matous@nic.cz
-matous@nic.cz
+__Priklad__:
+```python
+CISLICE = ("Biscuit", "in", "the", "basket"); type(numbers)  # n-tice s retezci
 ```
 
-## Indexing
-It is just a [number](https://engeto.com/cs/kurz/python-academy/studium/ahOxRKnuRB2NB2HCqIqRKA/1-intro-to-programming/sequence-data-types/indexing) in square brackets written immediately after the variable name. It returns the object at the designed position. Remember the first item position's index is 0 (the last --> -1).
+## Uz doopravdy muzeme zacit...
+<p align="center">
+  <img src="https://media.giphy.com/media/7XZEvQlmM3DJm/giphy.gif" width="300" height="300">
+</p>
 
-#### CZ
+## Promenne na uvod
+Zadame promenne, se kterymi chceme pracovat. Musime nekde uchovat jmena mest, cen a vizualni oddelovac.
+```python
+"""Lekce #1 - Uvod do programovani, 1/2 Destinatio"""
+MESTA = ("Praha", "Viden", "Olomouc", "Svitavy", "Zlin", "Ostrava")
+CENY = (150, 200, 120, 120, 100, 180)
+ODDELOVAC = '==================================='
+```
+
+## Nas prvni vypis z programu
+Chceme oficialne uvitat uzivatele, oznamit mu nase umysly a ukazat aktualni nabidku. Jak to provedeme?
+
+### Funce print()
+Je to [vestavena funkce](https://engeto.com/cs/kurz/python-academy/studium/GzlxQFyiSSuTLjE_B99htw/1-intro-to-programming/basics/input-output-data) Pythonu (s Pythonem nainstalovana, neni nutne ji tvorit). Ucelem teto funkce je vypsat informace, ktere ji vlozime do kulatych zavorek.
+
+__Obecne__:
+```python
+<jmeno_funce><(><hodnota_na_vypsani><)>
+```
+
+__Priklad__:
+```python
+print("Jimmy H.")
+JMENO = 'James Marshall "Jimi" Hendrix'; print(JMENO)  # kombinace uvozovek!
+```
+Dopiseme pozdrav a info:
+```python
+print(ODDELOVAC)
+print("Vitejte u nasi aplikace Destinatio!")
+print(ODDELOVAC)
+print(
+"""
+1 - Praha   | 150
+2 - Viden   | 200
+3 - Olomouc | 120
+4 - Svitavy | 120
+5 - Zlin    | 100
+6 - Ostrava | 180
+"""
+)
+print(ODDELOVAC)
+```
+
+## Vkladame hodnoty pomoci input()
+Jde opet o vestavenou funkci v Pythonu. Tato funkce ocekava od uzivatele nejakou vstupni informaci. Cokoliv do ni vlozime tato vestavena funkce standartne premeni na retezec!
+
+__Priklad__:
+```python
+email = input("Your email address: "); print(email)  # matous@nic.cz
+```
+Od uzivatele chceme tyto vyplnene udaje:
+1. Cislo mesta
+2. Jmeno
+3. Prijmeni
+4. Rok narozeni
+5. E-mail
+6. Heslo
+
+Dopsany kod:
+```python
+por_cislo = int(input("Vyberte cislo lokality: "))
+jmeno = input("JMENO: ")
+prijmeni = input("PRIJMENI: ")
+rok_narozeni = int(input("ROK NAROZENI: "))
+email = input("EMAIL: ")
+heslo = input("HESLO: ")
+print(ODDELOVAC)
+```
+
+## Cisla sedi?
+Nas program vyzkousime a vybereme libovolnou hodnotu pro mesto, ktere pozadujeme:
+```bash
+===================================
+Vitejte u nasi aplikace Destinatio!
+===================================
+
+1 - Praha   | 150
+2 - Viden   | 200
+3 - Olomouc | 120
+4 - Svitavy | 120
+5 - Zlin    | 100
+6 - Ostrava | 180
+
+===================================
+Vyberte cislo lokality: 1
+...
+```
+Jake mesto ale dostaneme?
+
+## Jak vse zachranit?
+### Pomoci _indexovani_
 Jde o [cislo](https://engeto.com/cs/kurz/python-academy/studium/ahOxRKnuRB2NB2HCqIqRKA/1-intro-to-programming/sequence-data-types/indexing) v hranatych zavorkach zapsane ihned za jmenem promenne. Vraci objekt na urcene pozici. Zapamatujte si, ze index pozice prvni polozky je 0 (posledni -1).
 
-## Concatenation
-Its a [process](https://engeto.com/cs/kurz/python-academy/studium/1YyeD7QBTIuqU_BMzkcT_w/1-intro-to-programming/sequence-data-types/concatenation) that works only on some data types (string, list, tuple). It merges two different variables into one (with "+" operator)
+__Obecne__:
+```python
+<jmeno_promenne_kde_mohu_indexovat><[><index><]>
+```
 
-#### CZ
-Je to [proces](https://engeto.com/cs/kurz/python-academy/studium/1YyeD7QBTIuqU_BMzkcT_w/1-intro-to-programming/sequence-data-types/concatenation), ktery funguje jen u nekterych datovych typu (retezec, seznam, n-tice). Spoji dve ruzne promenne do jedne (pomoci "+" operatoru)
+__Priklad__:
+```python
+CISLICE = ("Biscuit", "in", "the", "basket")  # chci ziskat prvni, posledni udaj v ntici
+CISLICE[0]; CISLICE[-1]
+```
+Nyni muzeme udaj opravit. Uzivatel ma totiz k dispozici pouze nas vypis. O indexovani nema ani potuchy. Proto je potreba provest zmeny na pozadi.
 
-## Repetition
-This [process](https://engeto.com/cs/kurz/python-academy/studium/QnEydRFvSu2qmTCPIVEW0Q/1-intro-to-programming/sequence-data-types/repetition) consists of sequence that will be repeated, the multiplication operator "*" and an integer that specifies the number of repetitions.
+Doplnime zmeny s indexovanim:
+```python
+destinace = MESTA[por_cislo - 1]  # --> destiance[0] pokud bude por_cislo = 1
+cena = CENY[por_cislo - 1]
+```
 
-#### CZ
-Tento [proces](https://engeto.com/cs/kurz/python-academy/studium/QnEydRFvSu2qmTCPIVEW0Q/1-intro-to-programming/sequence-data-types/repetition) se sklada ze sekvence, kterou budeme opakovat, operatoru pro opakovani "*" a za nim cele cislo, ktere specifikuje pocet opakovani.
+## Nyni vratime, vypiseme uzivatelem vyplnene hodnoty
+K tomu budeme opet potrebovat funkci _print()_ a nejen ji. Ve vzorovem vystupu vypisuji nejen predepsany text, ale obsah konkretnich promennych. Toho docilime z pravidla tremi postupy:
+
+1. [Konkatenace](#-konkatenace-spojovani)
+2. [Oddelovacem](#-oddelovac)
+3. [f-string formatovani](#f-string-formatovani)
+
+### Konkatenace, spojovani
+Je to [proces](https://engeto.com/cs/kurz/python-academy/studium/1YyeD7QBTIuqU_BMzkcT_w/1-intro-to-programming/sequence-data-types/concatenation), ktery funguje jen u nekterych datovych typu (retezec, seznam, n-tice). Spoji dve ruzne promenne do jedne (pomoci "+" operatoru).
+
+__Priklad__:
+```python
+print("DESTINACE: " + destinace)
+```
+
+## Oddelovac
+Spojeni ruznych datovych typu na vystupu pomoci carky.
+
+__Priklad__:
+```python
+DESTINACE = "Brno"
+CENA = 80
+print("Cestuji do", DESTINACE, "za pouhych", CENA, ",- .")
+```
+
+## F-string formatovani
+Vysvetlime si podrobneji v dalsich lekcich. Zatim staci videt, jak jej pouzivat.
+
+__Priklad__:
+```python
+JMENO = "Matous"
+EMAIL = "matous@matous.cz"
+print(f"{JMENO}, jizdenku posleme na Vasi emailovou adresu *{email}*")
+```
+
+Doplnime chybejici informace:
+```python
+print("UZIVATEL: " + jmeno)
+print("DESTINACE: " + destinace)
+print("CENA(cil:" + destinace + "): " + str(cena))
+print(f"Jizdenku posleme na Vasi emailovou adresu: {email}")
+```
+
+## Malickost zaverem
+Zpusob zapsani oddelovace je malicko nesikovna. Muzeme cely proces vylepsit [opakovanim](https://engeto.com/cs/kurz/python-academy/studium/QnEydRFvSu2qmTCPIVEW0Q/1-intro-to-programming/sequence-data-types/repetition). Tento proces se sklada ze sekvence, kterou budeme opakovat, operatoru pro opakovani "*" a za nim cele cislo, ktere specifikuje pocet opakovani.
+
+__Obecne__:
+```python
+<uvozovky><co_opakovat><uvozovky> <operand> <kolikrat>
+```
+
+__Priklad__:
+```python
+"Matous" * 10
+```
+
+Nahradime hodnotu promenne __ODDELOVAC__:
+```python
+ODDELOVAC = "=" * 35
+```
+
+[POKRACOVAT NA LEKCI#02](https://github.com/Bralor/python-academy/blob/master/README.md)

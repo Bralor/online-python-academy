@@ -1,0 +1,72 @@
+#!/home/mholinka/projects/python_academy/env/bin/python
+"""Lekce #14 - Uvod do programovani, generatory"""
+
+import time
+import random
+
+from gameworld import move
+from gameworld import Animal
+from gameworld import draw_grid
+
+
+def kocky():
+    """Generator pro pozici kocky v mrizce"""
+    kocka = Animal(row=2, col=2)
+
+    while True:
+        mys = yield kocka
+
+        if mys.row > kocka.row:
+            kocka = move(kocka, row=1)
+        elif mys.row < kocka.row:
+            kocka = move(kocka, row=-1)
+
+        if mys.col > kocka.col:
+            kocka = move(kocka, col=1)
+        elif mys.col < kocka.col:
+            kocka = move(kocka, col=-1)
+
+
+def mysi():
+    """Generator pro pozici mysi v mrizce"""
+    mys = Animal(row=0, col=8)
+
+    while True:
+        kocka = yield mys
+
+        if mys.row == kocka.row and mys.col == kocka.col:
+            draw_grid(kocka, mys)
+            raise RuntimeError
+
+        if mys.row > kocka.row:
+            mys = move(mys, row=1)
+        elif mys.row < kocka.row:
+            mys = move(mys, row=-1)
+        else:
+            mys = move(mys, row=random.choice([-1, 1]))
+
+        if mys.col > kocka.col:
+            mys = move(mys, col=1)
+        elif mys.col < kocka.col:
+            mys = move(mys, col=-1)
+        else:
+            mys = move(mys, col=random.choice([-1, 1]))
+
+
+iterator_kocky = kocky()
+iterator_mysi = mysi()
+
+kocka = iterator_kocky.send(None)
+mys = iterator_mysi.send(None)
+
+while True:
+    draw_grid(kocka, mys)
+    time.sleep(0.4)
+
+    try:
+        kocka = iterator_kocky.send(mys)
+        mys = iterator_mysi.send(kocka)
+    except StopIteration:
+        break
+    except RuntimeError:
+        break
