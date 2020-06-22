@@ -1,4 +1,4 @@
-Minula [lekce#01](https://github.com/Bralor/python-academy/tree/lekce01)
+Minula [lekce#01](https://github.com/Bralor/online-python-academy/tree/master/lesson01)
 
 <p align="center">
   <img src="https://engeto.cz/wp-content/uploads/2019/01/engeto-square.png" width="300" height="300">
@@ -352,4 +352,4 @@ VEK = 12
 stav = "mladi" if VEK < 18 else "dospelost"  # mlady  
 ```
 
-Pokracovat na [Lekci#02](https://github.com/Bralor/python-academy/tree/lekce01)
+Pokracovat na [lekci#03](https://github.com/Bralor/online-python-academy/tree/master/lesson03)
