@@ -1,4 +1,4 @@
-Minula lekce[lekce#01](https://github.com/Bralor/python-academy/tree/lekce01)
+Minula [lekce#01](https://github.com/Bralor/online-python-academy/tree/master/lesson01)
 
 <p align="center">
   <img src="https://engeto.cz/wp-content/uploads/2019/01/engeto-square.png" width="300" height="300">
@@ -14,11 +14,11 @@ Minula lekce[lekce#01](https://github.com/Bralor/python-academy/tree/lekce01)
 V navaznosti na minulou lekci se budeme snazit nas program (_Destinatio_) zdokonalit. Soucasti naseho vylepsovani bude patrit teorie k boolean hodnotam, logickym operatorum a zaklady k podminkovemu zapisu.
 
 ## Co bude vysledkem?
-Po spusteni by mel program vypadat nasledovne (nebo viz. demo):
+Po spusteni by mel program vypadat nasledovne (prip. ukazka):
 ```bash
 $ ./destinatio
 ```
-Komunikace s programem:
+__Komunikace s programem__:
 ```bash
 ===================================
 Vitejte u nasi aplikace Destinatio!
@@ -349,7 +349,7 @@ __Obecne__:
 __Priklad__:
 ```python
 VEK = 12
-stav = "mladi" if VEK < 18 else "dospelost"  # mlady  
+stav = "mladi" if VEK < 18 else "dospelost"  # mladi
 ```
 
-Pokracovat na [Lekci#02](https://github.com/Bralor/python-academy/tree/lekce01)
+Pokracovat na [lekci#03](https://github.com/Bralor/online-python-academy/tree/master/lesson03)
