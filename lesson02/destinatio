@@ -1,7 +1,6 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3.8
 """ Lekce #2 - Uvod do programovani, 2/2 Destinatio """
 
-# ~~~~~~~~~~~~~~~~~~~ZAPIS Z LEKCE #01~~~~~~~~~~~~~~~~~~~
 SEZNAM_MEST = ("Praha", "Viden", "Olomouc", "Svitavy", "Zlin", "Ostrava")
 SEZNAM_CEN = (150, 200, 120, 120, 100, 180)
 ODDELOVAC = "=" * 35
@@ -22,7 +21,6 @@ print(
 
 print(ODDELOVAC)
 
-# ~~~~~~~~~~~~~~~~~~~KONEC ZAPISU Z LEKCE #01~~~~~~~~~~~~~~~~~~~
 # I. KROK:
 # Update/doplnit zadani
 SLEVY = ("Olomouc", "Ostrava")
@@ -31,9 +29,9 @@ SLEVY = ("Olomouc", "Ostrava")
 # Spravne cislo lokality! 1 < x < 6
 por_cislo = int(input("Vyberte cislo lokality: "))
 
-if por_cislo < 1 or por_cislo > 6:  # logical operators + conditions
+if por_cislo < 1 or por_cislo > 6:
     print("Vami vybrane cislo neni v nabidce, ukoncuji")
-    exit()  # exit()
+    exit()
 else:
     destinace = SEZNAM_MEST[por_cislo - 1]
     cena = SEZNAM_CEN[por_cislo - 1]
@@ -42,7 +40,7 @@ else:
 
 # III. KROK:
 # Vyresime pouziti slevy --> ANO/NE
-if destinace in SLEVY:  # membership testing
+if destinace in SLEVY:
     cena_po_sleve = 0.75 * cena
 else:
     cena_po_sleve = cena
@@ -52,7 +50,7 @@ else:
 jmeno = input("JMENO: ")
 prijmeni = input("PRIJMENI: ")
 
-if jmeno.isalpha() and prijmeni.isalpha():  # metody stringu
+if jmeno.isalpha() and prijmeni.isalpha():
     print(f"JMENO: {jmeno}, PRIJMENI: {prijmeni}")
     print(ODDELOVAC)
 else:
@@ -94,8 +92,10 @@ if len(heslo) >= 8 and not heslo.isalpha() and not heslo.isnumeric():
     print(f"Jizdenku posleme na Vasi emailovou adresu: {email}")
 else:
     print(
-        """Tvoje heslo je spatne zadane:
-	1. Musi obsahovat jak pismena, tak cislice,
-	2. Alespon 8 znaku dlouhe,
+        """
+    Tvoje heslo je spatne zadane:
+	1. Musi obsahovat alespon 8 znaku,
+	2. Musi obsahovat pismena,
+    3. Musi obsahovat cislice
     """
     )
