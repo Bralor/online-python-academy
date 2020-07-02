@@ -1,0 +1,162 @@
+#!/usr/bin/python3
+""" Lekce #3 - Uvod do programovani, Movies """
+from pprint import pprint
+
+# I. KROK
+# Vytvorim novy (prazdny) slovnik
+film = {}
+
+# II. KROK
+# Vlozim novy klice
+film["JMENO"] = ""
+film["HODNOCENI"] = ""
+film["ROK"] = None
+film["REZISER"] = ""
+film["STOPAZ"] = None
+film["HRAJI"] = ()
+
+# III. KROK
+# Vlozim hodnoty klicum
+film["JMENO"] = "Shawshank Redemption"
+film["HODNOCENI"] = "93/100"
+film["ROK"] = 1994
+film["REZISER"] = "Frank Darabont"
+film["STOPAZ"] = 144
+film["HRAJI"] = (
+    "Tim Robbins",
+    "Morgan Freeman",
+    "Bob Gunton",
+    "William Sadler",
+    "Clancy Brown",
+    "Gil Bellows",
+    "Mark Rolston",
+    "James Whitmore",
+    "Jeffrey DeMunn",
+    "Larry Brandenburg"
+)
+
+# IV. KROK
+# Aktualizujeme klic metodou .update()
+film.update({"JMENO": "Shawnshak Redemption"})
+
+# V. KROK
+# Smazene klic JMENO
+film.pop("JMENO")
+film["JMENO"] = "Shawshank Redemption"
+
+# VI. KROK
+# Nestujeme slovniky
+film2 = {
+    "JMENO": "The Godfather",
+    "HODNOCENI": "92/100",
+    "ROK": 1972,
+    "REZISER": "Francis Ford Coppola",
+    "STOPAZ": 175,
+    "HRAJI": (
+        "Marlon Brando",
+        "Al Pacino",
+        "James Caan",
+        "Richard S. Castellano",
+        "Robert Duvall",
+        "Sterling Hayden",
+        "John Marley",
+        "Richard Conte"
+    ),
+}
+
+film3 = {
+    "JMENO": "The Dark Knight",
+    "HODNOCENI": "90/100",
+    "ROK": 2008,
+    "REZISER": "Christopher Nolan",
+    "STOPAZ": 152,
+    "HRAJI": (
+        "Christian Bale",
+        "Heath Ledger",
+        "Aaron Eckhart",
+        "Michael Caine",
+        "Maggie Gyllenhaal",
+        "Gary Oldman",
+        "Morgan Freeman",
+        "Monique Gabriela",
+        "Ron Dean",
+        "Cillian Murphy"
+    ),
+}
+
+film4 = {
+    "JMENO": "The Prestige",
+    "HODNOCENI": "85/100",
+    "ROK": 2006,
+    "REZISER": "Christopher Nolan",
+    "STOPAZ": 130,
+    "HRAJI": (
+        "Hugh Jackman",
+        "Christian Bale",
+        "Michael Caine",
+        "Piper Perabo",
+        "Rebecca Hall",
+        "Scarlett Johansson",
+        "Samantha Mahurin",
+        "David Bowie"
+    )
+}
+filmovy_seznam = {}
+filmovy_seznam[film["JMENO"]] = film
+filmovy_seznam[film2["JMENO"]] = film2
+filmovy_seznam[film3["JMENO"]] = film3
+filmovy_seznam[film4["JMENO"]] = film4
+
+# VII. KROK
+# Vytvorime pomyslneho interpreta naseho slovniku
+ODDELOVAC = '=' * 76
+
+print(ODDELOVAC)
+print("Vitejte v nasi skromne filmove databazi".center(76, " "))
+print(
+f"""{ODDELOVAC}
+Mame v nabidce tyto snimky:
+{list(filmovy_seznam.keys())}
+{ODDELOVAC}
+VYBERTE KATEGORII:
+{ODDELOVAC}
+{'DETAILY FILMU | SPOLECNE | PODMNOZINA | ROZDILNE'.center(76, " ")}
+{ODDELOVAC}""")
+
+vyber = input("VYBERTE MOZNOST: ")
+
+# VIII. KROK
+# Pouzijeme metodu .get()
+if vyber == "DETAILY FILMU".lower():
+    print(ODDELOVAC)
+    vyber_filmu = input("VYBERTE FILM: ")
+    print(ODDELOVAC)
+    pprint(filmovy_seznam.get(vyber_filmu, "Vami zadany film neni v db"))
+
+# IX. KROK
+# Vytvorime set z klice herci u slovniku Shawshank Redemption
+elif vyber == "SPOLECNE".lower():
+    print(ODDELOVAC)
+    film1 = input("VYBERTE I. FILM: ")
+    film2 = input("VYBERTE II. FILM: ")
+    herci_film1 = set(filmovy_seznam[film1]["HRAJI"])
+    herci_film2 = set(filmovy_seznam[film2]["HRAJI"])
+
+    prunik = herci_film1 & herci_film2
+    print(f"SPOLECNI HERCI PRO *{filmovy_seznam[film1]['JMENO']}* A *{filmovy_seznam[film2]['JMENO']}*: {prunik}")
+
+# X. KROK
+# Podmnozina
+elif vyber == "PODMNOZINA".lower():
+    print(ODDELOVAC)
+    film1 = input("VYBERTE FILM: ")
+    vzorek = input("ZADEJTE JMENA: ")
+    print(set(vzorek.split(", ")).issubset(set(filmovy_seznam[film1]["HRAJI"])))
+
+# XI. KROK
+# Rozdilnost
+elif vyber == "ROZDILNE".lower():
+    print(ODDELOVAC)
+    film1 = input("VYBERTE FILM: ")
+    vzorek = input("ZADEJTE JMENA: ")
+    print(set(vzorek.split(", ")).isdisjoint(set(filmovy_seznam[film1]["HRAJI"])))
