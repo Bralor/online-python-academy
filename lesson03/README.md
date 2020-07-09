@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-# Python academy, lekce 03
-# Important links
-
-- [Python Academy](https://engeto.com/cs/kurz/online-python-akademie/studium/O6aWKNU3QmWpnO5PKd1orw/slovniky-a-mnoziny/co-te-ceka-v-teto-lekci)
-=======
+Minula [lekce#02](https://github.com/Bralor/online-python-academy/tree/master/lesson022)
 
 <p align="center">
   <img src="https://engeto.cz/wp-content/uploads/2019/01/engeto-square.png" width="300" height="300">
@@ -11,7 +6,6 @@
 
 # Online Python academy, lekce 03
 ## Dulezite odkazy
->>>>>>> mh-lesson03
 - [The Shawshank Redemption](https://www.imdb.com/title/tt0111161/?ref_=fn_al_tt_1)
 - [The Godfather](https://www.imdb.com/title/tt0068646/?ref_=fn_al_tt_1)
 - [The Dark Knight](https://www.imdb.com/title/tt0468569/?ref_=fn_al_tt_1)
@@ -485,7 +479,6 @@ elif vyber == "ROZDILNE".lower():
     vzorek = input("ZADEJTE JMENA: ")
     print(set(vzorek.split(", ")).isdisjoint(set(filmovy_seznam[film1]["HRAJI"])))
 ```
-<<<<<<< HEAD
 
 ## Disjunkce
 Opet vracena hodnota je boolean hodnota. True znamena odpoved PRAVDA, [pokud](https://engeto.com/cs/kurz/online-python-akademie/studium/VmUzGLdlR_CBIOO75Yfduw/slovniky-a-mnoziny/mnoziny/souhrn-kombinaci-setu) dva sety (a jejich hodnoty) nemaji zadnou spolecnou hodnotu.
@@ -500,5 +493,5 @@ True
 False
 
 ```
-=======
->>>>>>> mh-lesson03
+
+Pokracovat na [Lekci#04](https://github.com/Bralor/online-python-academy/tree/master/lesson04)
