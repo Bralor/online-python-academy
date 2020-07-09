@@ -1,4 +1,4 @@
-Minula [lekce#02](https://github.com/Bralor/online-python-academy/tree/master/lesson022)
+Minula [lekce#02](https://github.com/Bralor/online-python-academy/tree/master/lesson02)
 
 <p align="center">
   <img src="https://engeto.cz/wp-content/uploads/2019/01/engeto-square.png" width="300" height="300">
