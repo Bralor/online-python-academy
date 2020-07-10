@@ -1,18 +1,24 @@
+Minula [lekce#04](https://github.com/Bralor/online-python-academy/tree/master/lesson04)
+
+<p align="center">
+  <img src="https://engeto.cz/wp-content/uploads/2019/01/engeto-square.png" width="300" height="300">
+</p>
+
 ![](../images/engeto.png)
-# Python academy, lesson 05
+# Online Python academy, lesson 05
+## Dulezite odkazy
+- Portal [Engeto.com](https://engeto.com/)
+- Python Academy [repozitar](https://github.com/Bralor/python-academy)
+- Funkce [Sorted()](https://docs.python.org/3/library/functions.html#sorted)
+- Seznamova [komprehence](http://howto.py.cz/cap08.htm#10)
 
-# Important links
-- [Python Academy](https://engeto.com/cs/kurz/online-python-akademie/studium/jZRrTgDlSMyRKeVTUD6vDA/range-a-smycka-for/obsah-a-prerekvizity)
-- [Sorted()](https://docs.python.org/3/library/functions.html#sorted)
-- [Seznamova komprehence](http://howto.py.cz/cap08.htm#10)
-
-# Dnesni ukol
+## Co nas dneska ceka
 V ramci dnesni lekce budeme chtit dokoncit teorii o smyckach v Pythonu. Rekneme si obecne o jejich pouziti, doplnujici zpusob prace s nimi. Nakonec bychom si jeste ve zkratce ukazali praci s gitem.
 
-# Hledani nejcastejsich slov
+## Hledani nejcastejsich slov
 Spolecne si zadame nahodny text, s nimz dnes budeme pracovat. Cilem bude zjistit pet nejcastejsich slov, ktere se v textu vyskytuji.
 
-# Nas cil
+## Ukazka na uvod
 Vystup by na konci lekce mohl vypadat nasledovne:
 ```
 ==========================
@@ -26,14 +32,10 @@ Vystup by na konci lekce mohl vypadat nasledovne:
 ==========================
 5, SLOVO: *ye*, VYSKYT: 3x
 ```
-# Prerequisites
-- python 3.6.9+
+## Co budeme potrebovat?
+- python 3.6+
 - text. editor
-- [while cyklus](https://github.com/Bralor/python_academy/tree/master/lesson04#while-cyklus)
-- [slovnik](https://github.com/Bralor/python_academy/tree/master/lesson03#slovnik)
-- [podminky](https://github.com/Bralor/python_academy/tree/master/lesson02#podminkovy-zapis)
-
-Pomocne promenne:
+- pomocny text:
 ```
 TEXT = """
 Affronting imprudence do he he everything. Sex lasted dinner wanted indeed
@@ -60,7 +62,7 @@ directly reserved packages you. Winter an silent favour of am tended mutual.
 """
 ```
 
-# Postup
+## Jdeme na to!
 Opet si otevreme novy soubor *.py* a nakopirujeme sablonu nize:
 ```
 #!/usr/bin/env python3
