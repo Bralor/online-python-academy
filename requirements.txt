@@ -6,7 +6,7 @@ chardet==3.0.4
 google-auth==1.16.1
 google-auth-oauthlib==0.4.1
 gspread==3.6.0
-httplib2==0.18.1
+httplib2==0.19.0
 idna==2.9
 memory-profiler==0.57.0
 more-itertools==8.3.0
